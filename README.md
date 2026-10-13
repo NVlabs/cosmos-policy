@@ -72,7 +72,7 @@ Memory 只提供**选哪一段**和**目标位姿**；接管动作由规划器�
 | **基础 policy checkpoint** | 3.7 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`（见 `LIBERO.md`） |
 | **`libero_t5_embeddings.pkl`** + `libero_dataset_statistics.json` | 109 MB | 🤗 `nvidia/LIBERO-Cosmos-Policy`：`hf download nvidia/LIBERO-Cosmos-Policy --repo-type dataset --local-dir LIBERO-Cosmos-Policy` |
 | **language T5 增量缓存** | 375 MB（374 条） | **无下载源**。这是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**后才完整（`run_libero_plus_batch.py:187-190`）。仓库里没有生成它的脚本；`scripts/libero_pro/precompute_t5.py` 是通用工具，可按 suite 枚举指令并补算缺失项（需加载 9 GB T5 编码器，未实测） |
-| **成功 demo（P95 参考）** | 76 GB | `LIBERO-Cosmos-Policy/success_only/libero_10_regen/`（每个 base task 一个 `*_demo.hdf5`） |
+| **成功 demo（P95 参考）** | 3.6 GB | 🤗 `nvidia/LIBERO-Cosmos-Policy` 下的 `success_only/libero_10_regen/`（每个 base task 一个 `*_demo.hdf5`），即 `select_libero_plus_success_p95.py` 的 `--demo-dir` 默认值。同目录的 `dataset_statistics*.json` 也在 SFT 阶段被链接。整个数据集约 80 GB，但只需要这一部分 |
 | **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，均需自己重跑生成 |
 | **cuRobo** | — | 未列入 `pyproject.toml` / `uv.lock`，需单独安装 |
 
