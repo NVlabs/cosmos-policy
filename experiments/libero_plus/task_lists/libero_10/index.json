@@ -1,0 +1,52 @@
+{
+  "suite": "libero_10",
+  "total_tasks": 2519,
+  "groups": [
+    {
+      "file": "camera_viewpoints.json",
+      "category": "Camera Viewpoints",
+      "num_tasks": 419,
+      "sha256": "35893d14bfbb17aeb57f9b8ce18ef671731ea6936a03634e97e530141368f990"
+    },
+    {
+      "file": "robot_initial_states.json",
+      "category": "Robot Initial States",
+      "num_tasks": 393,
+      "sha256": "a4f6b382f721939173de319b065388095317b14f029056e106cd399ec905670d"
+    },
+    {
+      "file": "language_instructions.json",
+      "category": "Language Instructions",
+      "num_tasks": 383,
+      "sha256": "75493768f5205888d253aedb110d7cd0edaaeb65313efc92001f8bb58ccb3fac"
+    },
+    {
+      "file": "light_conditions.json",
+      "category": "Light Conditions",
+      "num_tasks": 274,
+      "sha256": "f7c487bec761c18c5c09460704938fe71c7f989144e1b80449a4c13951b55f84"
+    },
+    {
+      "file": "background_textures.json",
+      "category": "Background Textures",
+      "num_tasks": 289,
+      "sha256": "fedc101b4fcb5f812377eef2d39fcf6787a1752ff851f684a56d28198d9732ab"
+    },
+    {
+      "file": "sensor_noise.json",
+      "category": "Sensor Noise",
+      "num_tasks": 449,
+      "sha256": "0c9527a3b41c17a393ff7c00faf6a34c7056ed947b6e95bb2ff591311f6670dd"
+    },
+    {
+      "file": "objects_layout.json",
+      "category": "Objects Layout",
+      "num_tasks": 312,
+      "sha256": "0c66d8c63af25fe89d8c32390ec2061694562416390c4cb7987f3b7f1356d32c"
+    }
+  ],
+  "source": "/data1/liu/exp/counterfactual/external/LIBERO-plus/libero/libero/benchmark/task_classification.json",
+  "source_sha256": "faa87cce3e3ba434da01df7c77523a391b5f2912e4774330b0aa1be5f6a999e6",
+  "reference_commit": "4976dc30028e805ff8094b55501d532c48fec182",
+  "note": "Task data only; no evaluations have been launched. task_id is the original 0-based global suite ID."
+}

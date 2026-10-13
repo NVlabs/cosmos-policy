@@ -1,0 +1,2193 @@
+{
+  "suite": "libero_10",
+  "category": "Objects Layout",
+  "num_tasks": 312,
+  "num_trials_per_task": 1,
+  "init_state_index": 0,
+  "tasks": [
+    {
+      "task_id": 1933,
+      "source_id": 1934,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_14",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1934,
+      "source_id": 1935,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1935,
+      "source_id": 1936,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1936,
+      "source_id": 1937,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1937,
+      "source_id": 1938,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1938,
+      "source_id": 1939,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1939,
+      "source_id": 1940,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1940,
+      "source_id": 1941,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1941,
+      "source_id": 1942,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1942,
+      "source_id": 1943,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1943,
+      "source_id": 1944,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1944,
+      "source_id": 1945,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1945,
+      "source_id": 1946,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_add_7",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1946,
+      "source_id": 1947,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1947,
+      "source_id": 1948,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level2_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1948,
+      "source_id": 1949,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1949,
+      "source_id": 1950,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1950,
+      "source_id": 1951,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1951,
+      "source_id": 1952,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1952,
+      "source_id": 1953,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1953,
+      "source_id": 1954,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1954,
+      "source_id": 1955,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1955,
+      "source_id": 1956,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1956,
+      "source_id": 1957,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1957,
+      "source_id": 1958,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1958,
+      "source_id": 1959,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1959,
+      "source_id": 1960,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_10",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1960,
+      "source_id": 1961,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_11",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1961,
+      "source_id": 1962,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1962,
+      "source_id": 1963,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1963,
+      "source_id": 1964,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1964,
+      "source_id": 1965,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1965,
+      "source_id": 1966,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1966,
+      "source_id": 1967,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1967,
+      "source_id": 1968,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1968,
+      "source_id": 1969,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1969,
+      "source_id": 1970,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1970,
+      "source_id": 1971,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1971,
+      "source_id": 1972,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_add_9",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1972,
+      "source_id": 1973,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level2_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1973,
+      "source_id": 1974,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1974,
+      "source_id": 1975,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1975,
+      "source_id": 1976,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1976,
+      "source_id": 1977,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1977,
+      "source_id": 1978,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1978,
+      "source_id": 1979,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1979,
+      "source_id": 1980,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1980,
+      "source_id": 1981,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1981,
+      "source_id": 1982,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1982,
+      "source_id": 1983,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_10",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1983,
+      "source_id": 1984,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_12",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1984,
+      "source_id": 1985,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_14",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1985,
+      "source_id": 1986,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1986,
+      "source_id": 1987,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1987,
+      "source_id": 1988,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1988,
+      "source_id": 1989,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1989,
+      "source_id": 1990,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_19",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1990,
+      "source_id": 1991,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1991,
+      "source_id": 1992,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1992,
+      "source_id": 1993,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1993,
+      "source_id": 1994,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1994,
+      "source_id": 1995,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1995,
+      "source_id": 1996,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1996,
+      "source_id": 1997,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1997,
+      "source_id": 1998,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1998,
+      "source_id": 1999,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_5",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1999,
+      "source_id": 2000,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_6",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2000,
+      "source_id": 2001,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_7",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2001,
+      "source_id": 2002,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_8",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2002,
+      "source_id": 2003,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_add_9",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2003,
+      "source_id": 2004,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level1_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2004,
+      "source_id": 2005,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level1_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2005,
+      "source_id": 2006,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level1_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2006,
+      "source_id": 2007,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2007,
+      "source_id": 2008,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level2_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2008,
+      "source_id": 2009,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2009,
+      "source_id": 2010,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level2_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2010,
+      "source_id": 2011,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2011,
+      "source_id": 2012,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2012,
+      "source_id": 2013,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2013,
+      "source_id": 2014,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level3_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2014,
+      "source_id": 2015,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2015,
+      "source_id": 2016,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2016,
+      "source_id": 2017,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2017,
+      "source_id": 2018,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2018,
+      "source_id": 2019,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2019,
+      "source_id": 2020,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2020,
+      "source_id": 2021,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2021,
+      "source_id": 2022,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_12",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2022,
+      "source_id": 2023,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_14",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2023,
+      "source_id": 2024,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2024,
+      "source_id": 2025,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_19",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2025,
+      "source_id": 2026,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2026,
+      "source_id": 2027,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2027,
+      "source_id": 2028,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_23",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2028,
+      "source_id": 2029,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2029,
+      "source_id": 2030,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2030,
+      "source_id": 2031,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2031,
+      "source_id": 2032,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2032,
+      "source_id": 2033,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_29",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2033,
+      "source_id": 2034,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2034,
+      "source_id": 2035,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_8",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2035,
+      "source_id": 2036,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2036,
+      "source_id": 2037,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2037,
+      "source_id": 2038,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2038,
+      "source_id": 2039,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2039,
+      "source_id": 2040,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2040,
+      "source_id": 2041,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2041,
+      "source_id": 2042,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2042,
+      "source_id": 2043,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2043,
+      "source_id": 2044,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2044,
+      "source_id": 2045,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2045,
+      "source_id": 2046,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2046,
+      "source_id": 2047,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2047,
+      "source_id": 2048,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2048,
+      "source_id": 2049,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2049,
+      "source_id": 2050,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2050,
+      "source_id": 2051,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2051,
+      "source_id": 2052,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2052,
+      "source_id": 2053,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2053,
+      "source_id": 2054,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2054,
+      "source_id": 2055,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2055,
+      "source_id": 2056,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2056,
+      "source_id": 2057,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2057,
+      "source_id": 2058,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2058,
+      "source_id": 2059,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2059,
+      "source_id": 2060,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_1",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2060,
+      "source_id": 2061,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_10",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2061,
+      "source_id": 2062,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_11",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2062,
+      "source_id": 2063,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_13",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2063,
+      "source_id": 2064,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2064,
+      "source_id": 2065,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2065,
+      "source_id": 2066,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2066,
+      "source_id": 2067,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2067,
+      "source_id": 2068,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_19",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2068,
+      "source_id": 2069,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2069,
+      "source_id": 2070,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2070,
+      "source_id": 2071,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_23",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2071,
+      "source_id": 2072,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2072,
+      "source_id": 2073,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2073,
+      "source_id": 2074,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2074,
+      "source_id": 2075,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2075,
+      "source_id": 2076,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2076,
+      "source_id": 2077,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_29",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2077,
+      "source_id": 2078,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2078,
+      "source_id": 2079,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level1_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2079,
+      "source_id": 2080,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2080,
+      "source_id": 2081,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2081,
+      "source_id": 2082,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level2_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2082,
+      "source_id": 2083,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2083,
+      "source_id": 2084,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2084,
+      "source_id": 2085,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2085,
+      "source_id": 2086,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level3_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2086,
+      "source_id": 2087,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2087,
+      "source_id": 2088,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2088,
+      "source_id": 2089,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2089,
+      "source_id": 2090,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2090,
+      "source_id": 2091,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2091,
+      "source_id": 2092,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2092,
+      "source_id": 2093,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2093,
+      "source_id": 2094,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_10",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2094,
+      "source_id": 2095,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_11",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2095,
+      "source_id": 2096,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_13",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2096,
+      "source_id": 2097,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_14",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2097,
+      "source_id": 2098,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2098,
+      "source_id": 2099,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2099,
+      "source_id": 2100,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2100,
+      "source_id": 2101,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2101,
+      "source_id": 2102,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2102,
+      "source_id": 2103,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2103,
+      "source_id": 2104,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_23",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2104,
+      "source_id": 2105,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2105,
+      "source_id": 2106,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2106,
+      "source_id": 2107,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2107,
+      "source_id": 2108,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2108,
+      "source_id": 2109,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_29",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2109,
+      "source_id": 2110,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2110,
+      "source_id": 2111,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2111,
+      "source_id": 2112,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_8",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2112,
+      "source_id": 2113,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_9",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2113,
+      "source_id": 2114,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level1_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2114,
+      "source_id": 2115,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level1_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2115,
+      "source_id": 2116,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2116,
+      "source_id": 2117,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level2_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2117,
+      "source_id": 2118,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2118,
+      "source_id": 2119,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level2_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2119,
+      "source_id": 2120,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2120,
+      "source_id": 2121,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2121,
+      "source_id": 2122,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level3_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2122,
+      "source_id": 2123,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2123,
+      "source_id": 2124,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2124,
+      "source_id": 2125,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2125,
+      "source_id": 2126,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2126,
+      "source_id": 2127,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2127,
+      "source_id": 2128,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2128,
+      "source_id": 2129,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_10",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2129,
+      "source_id": 2130,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_11",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2130,
+      "source_id": 2131,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_13",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2131,
+      "source_id": 2132,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2132,
+      "source_id": 2133,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2133,
+      "source_id": 2134,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2134,
+      "source_id": 2135,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_19",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2135,
+      "source_id": 2136,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2136,
+      "source_id": 2137,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2137,
+      "source_id": 2138,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2138,
+      "source_id": 2139,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_23",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2139,
+      "source_id": 2140,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2140,
+      "source_id": 2141,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2141,
+      "source_id": 2142,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2142,
+      "source_id": 2143,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2143,
+      "source_id": 2144,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2144,
+      "source_id": 2145,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_29",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2145,
+      "source_id": 2146,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2146,
+      "source_id": 2147,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2147,
+      "source_id": 2148,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2148,
+      "source_id": 2149,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_7",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2149,
+      "source_id": 2150,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level2_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2150,
+      "source_id": 2151,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2151,
+      "source_id": 2152,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2152,
+      "source_id": 2153,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2153,
+      "source_id": 2154,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level3_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2154,
+      "source_id": 2155,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2155,
+      "source_id": 2156,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2156,
+      "source_id": 2157,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2157,
+      "source_id": 2158,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2158,
+      "source_id": 2159,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2159,
+      "source_id": 2160,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2160,
+      "source_id": 2161,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2161,
+      "source_id": 2162,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2162,
+      "source_id": 2163,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_12",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2163,
+      "source_id": 2164,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_13",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2164,
+      "source_id": 2165,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_14",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2165,
+      "source_id": 2166,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2166,
+      "source_id": 2167,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2167,
+      "source_id": 2168,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2168,
+      "source_id": 2169,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_19",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2169,
+      "source_id": 2170,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2170,
+      "source_id": 2171,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2171,
+      "source_id": 2172,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2172,
+      "source_id": 2173,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2173,
+      "source_id": 2174,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2174,
+      "source_id": 2175,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2175,
+      "source_id": 2176,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_29",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2176,
+      "source_id": 2177,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2177,
+      "source_id": 2178,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_5",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2178,
+      "source_id": 2179,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_7",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2179,
+      "source_id": 2180,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_9",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2180,
+      "source_id": 2181,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level1_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2181,
+      "source_id": 2182,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level1_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2182,
+      "source_id": 2183,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2183,
+      "source_id": 2184,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level2_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2184,
+      "source_id": 2185,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2185,
+      "source_id": 2186,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level2_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2186,
+      "source_id": 2187,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2187,
+      "source_id": 2188,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2188,
+      "source_id": 2189,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2189,
+      "source_id": 2190,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level3_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2190,
+      "source_id": 2191,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2191,
+      "source_id": 2192,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2192,
+      "source_id": 2193,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2193,
+      "source_id": 2194,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2194,
+      "source_id": 2195,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2195,
+      "source_id": 2196,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2196,
+      "source_id": 2197,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2197,
+      "source_id": 2198,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2198,
+      "source_id": 2199,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_10",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2199,
+      "source_id": 2200,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_11",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2200,
+      "source_id": 2201,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_12",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2201,
+      "source_id": 2202,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_13",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2202,
+      "source_id": 2203,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_14",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2203,
+      "source_id": 2204,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_15",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2204,
+      "source_id": 2205,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_16",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2205,
+      "source_id": 2206,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_17",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2206,
+      "source_id": 2207,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_18",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2207,
+      "source_id": 2208,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_19",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2208,
+      "source_id": 2209,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2209,
+      "source_id": 2210,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_20",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2210,
+      "source_id": 2211,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_21",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2211,
+      "source_id": 2212,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_22",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2212,
+      "source_id": 2213,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_23",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2213,
+      "source_id": 2214,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_24",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2214,
+      "source_id": 2215,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_25",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2215,
+      "source_id": 2216,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_26",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2216,
+      "source_id": 2217,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_27",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2217,
+      "source_id": 2218,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_28",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2218,
+      "source_id": 2219,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_29",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2219,
+      "source_id": 2220,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_30",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2220,
+      "source_id": 2221,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_4",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2221,
+      "source_id": 2222,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_5",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2222,
+      "source_id": 2223,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_6",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2223,
+      "source_id": 2224,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_7",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2224,
+      "source_id": 2225,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_8",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2225,
+      "source_id": 2226,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_9",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2226,
+      "source_id": 2227,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level1_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2227,
+      "source_id": 2228,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level1_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2228,
+      "source_id": 2229,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level1_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2229,
+      "source_id": 2230,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level1_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2230,
+      "source_id": 2231,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level2_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2231,
+      "source_id": 2232,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level2_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2232,
+      "source_id": 2233,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level2_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2233,
+      "source_id": 2234,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level3_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2234,
+      "source_id": 2235,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level3_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2235,
+      "source_id": 2236,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level3_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2236,
+      "source_id": 2237,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level3_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2237,
+      "source_id": 2238,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level4_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2238,
+      "source_id": 2239,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level4_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2239,
+      "source_id": 2240,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level4_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2240,
+      "source_id": 2241,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level4_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2241,
+      "source_id": 2242,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level5_sample1",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2242,
+      "source_id": 2243,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level5_sample2",
+      "category": "Objects Layout",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2243,
+      "source_id": 2244,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level5_sample3",
+      "category": "Objects Layout",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2244,
+      "source_id": 2245,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_level5_sample4",
+      "category": "Objects Layout",
+      "difficulty_level": 3
+    }
+  ]
+}

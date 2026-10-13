@@ -1,0 +1,2690 @@
+{
+  "suite": "libero_10",
+  "category": "Language Instructions",
+  "num_tasks": 383,
+  "num_trials_per_task": 1,
+  "init_state_index": 0,
+  "tasks": [
+    {
+      "task_id": 1101,
+      "source_id": 1102,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1102,
+      "source_id": 1103,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1103,
+      "source_id": 1104,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1104,
+      "source_id": 1105,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1105,
+      "source_id": 1106,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1106,
+      "source_id": 1107,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1107,
+      "source_id": 1108,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1108,
+      "source_id": 1109,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1109,
+      "source_id": 1110,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1110,
+      "source_id": 1111,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1111,
+      "source_id": 1112,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1112,
+      "source_id": 1113,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1113,
+      "source_id": 1114,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1114,
+      "source_id": 1115,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1115,
+      "source_id": 1116,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1116,
+      "source_id": 1117,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1117,
+      "source_id": 1118,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1118,
+      "source_id": 1119,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1119,
+      "source_id": 1120,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1120,
+      "source_id": 1121,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1121,
+      "source_id": 1122,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_23_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1122,
+      "source_id": 1123,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1123,
+      "source_id": 1124,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1124,
+      "source_id": 1125,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1125,
+      "source_id": 1126,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1126,
+      "source_id": 1127,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1127,
+      "source_id": 1128,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1128,
+      "source_id": 1129,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1129,
+      "source_id": 1130,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1130,
+      "source_id": 1131,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1131,
+      "source_id": 1132,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1132,
+      "source_id": 1133,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_36_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1133,
+      "source_id": 1134,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1134,
+      "source_id": 1135,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_39_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1135,
+      "source_id": 1136,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1136,
+      "source_id": 1137,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1137,
+      "source_id": 1138,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_42_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1138,
+      "source_id": 1139,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1139,
+      "source_id": 1140,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1140,
+      "source_id": 1141,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_45_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1141,
+      "source_id": 1142,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1142,
+      "source_id": 1143,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1143,
+      "source_id": 1144,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1144,
+      "source_id": 1145,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1145,
+      "source_id": 1146,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1146,
+      "source_id": 1147,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1147,
+      "source_id": 1148,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1148,
+      "source_id": 1149,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1149,
+      "source_id": 1150,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1150,
+      "source_id": 1151,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1151,
+      "source_id": 1152,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1152,
+      "source_id": 1153,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1153,
+      "source_id": 1154,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1154,
+      "source_id": 1155,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1155,
+      "source_id": 1156,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1156,
+      "source_id": 1157,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1157,
+      "source_id": 1158,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1158,
+      "source_id": 1159,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1159,
+      "source_id": 1160,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1160,
+      "source_id": 1161,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_36_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1161,
+      "source_id": 1162,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1162,
+      "source_id": 1163,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1163,
+      "source_id": 1164,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1164,
+      "source_id": 1165,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1165,
+      "source_id": 1166,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1166,
+      "source_id": 1167,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1167,
+      "source_id": 1168,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1168,
+      "source_id": 1169,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1169,
+      "source_id": 1170,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1170,
+      "source_id": 1171,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1171,
+      "source_id": 1172,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1172,
+      "source_id": 1173,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1173,
+      "source_id": 1174,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1174,
+      "source_id": 1175,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1175,
+      "source_id": 1176,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1176,
+      "source_id": 1177,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1177,
+      "source_id": 1178,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1178,
+      "source_id": 1179,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1179,
+      "source_id": 1180,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1180,
+      "source_id": 1181,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_17_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1181,
+      "source_id": 1182,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1182,
+      "source_id": 1183,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1183,
+      "source_id": 1184,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1184,
+      "source_id": 1185,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1185,
+      "source_id": 1186,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_23_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1186,
+      "source_id": 1187,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1187,
+      "source_id": 1188,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1188,
+      "source_id": 1189,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1189,
+      "source_id": 1190,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1190,
+      "source_id": 1191,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1191,
+      "source_id": 1192,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1192,
+      "source_id": 1193,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1193,
+      "source_id": 1194,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1194,
+      "source_id": 1195,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1195,
+      "source_id": 1196,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1196,
+      "source_id": 1197,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1197,
+      "source_id": 1198,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_38_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1198,
+      "source_id": 1199,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_39_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1199,
+      "source_id": 1200,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1200,
+      "source_id": 1201,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1201,
+      "source_id": 1202,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_42_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1202,
+      "source_id": 1203,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1203,
+      "source_id": 1204,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1204,
+      "source_id": 1205,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_45_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1205,
+      "source_id": 1206,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1206,
+      "source_id": 1207,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1207,
+      "source_id": 1208,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1208,
+      "source_id": 1209,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1209,
+      "source_id": 1210,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1210,
+      "source_id": 1211,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1211,
+      "source_id": 1212,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1212,
+      "source_id": 1213,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1213,
+      "source_id": 1214,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1214,
+      "source_id": 1215,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1215,
+      "source_id": 1216,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1216,
+      "source_id": 1217,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1217,
+      "source_id": 1218,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1218,
+      "source_id": 1219,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1219,
+      "source_id": 1220,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1220,
+      "source_id": 1221,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1221,
+      "source_id": 1222,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1222,
+      "source_id": 1223,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1223,
+      "source_id": 1224,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_17_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1224,
+      "source_id": 1225,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1225,
+      "source_id": 1226,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1226,
+      "source_id": 1227,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1227,
+      "source_id": 1228,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1228,
+      "source_id": 1229,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1229,
+      "source_id": 1230,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_23_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1230,
+      "source_id": 1231,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1231,
+      "source_id": 1232,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1232,
+      "source_id": 1233,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1233,
+      "source_id": 1234,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_27_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1234,
+      "source_id": 1235,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1235,
+      "source_id": 1236,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1236,
+      "source_id": 1237,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1237,
+      "source_id": 1238,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1238,
+      "source_id": 1239,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1239,
+      "source_id": 1240,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1240,
+      "source_id": 1241,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1241,
+      "source_id": 1242,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1242,
+      "source_id": 1243,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1243,
+      "source_id": 1244,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_38_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1244,
+      "source_id": 1245,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_39_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1245,
+      "source_id": 1246,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1246,
+      "source_id": 1247,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_42_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1247,
+      "source_id": 1248,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1248,
+      "source_id": 1249,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1249,
+      "source_id": 1250,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_45_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1250,
+      "source_id": 1251,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1251,
+      "source_id": 1252,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1252,
+      "source_id": 1253,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1253,
+      "source_id": 1254,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1254,
+      "source_id": 1255,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1255,
+      "source_id": 1256,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1256,
+      "source_id": 1257,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1257,
+      "source_id": 1258,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1258,
+      "source_id": 1259,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1259,
+      "source_id": 1260,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1260,
+      "source_id": 1261,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1261,
+      "source_id": 1262,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1262,
+      "source_id": 1263,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1263,
+      "source_id": 1264,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1264,
+      "source_id": 1265,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1265,
+      "source_id": 1266,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1266,
+      "source_id": 1267,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1267,
+      "source_id": 1268,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1268,
+      "source_id": 1269,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_17_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1269,
+      "source_id": 1270,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1270,
+      "source_id": 1271,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1271,
+      "source_id": 1272,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1272,
+      "source_id": 1273,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1273,
+      "source_id": 1274,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1274,
+      "source_id": 1275,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1275,
+      "source_id": 1276,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1276,
+      "source_id": 1277,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1277,
+      "source_id": 1278,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1278,
+      "source_id": 1279,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1279,
+      "source_id": 1280,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1280,
+      "source_id": 1281,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1281,
+      "source_id": 1282,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1282,
+      "source_id": 1283,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1283,
+      "source_id": 1284,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1284,
+      "source_id": 1285,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_36_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1285,
+      "source_id": 1286,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1286,
+      "source_id": 1287,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_38_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1287,
+      "source_id": 1288,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_39_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1288,
+      "source_id": 1289,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1289,
+      "source_id": 1290,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1290,
+      "source_id": 1291,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1291,
+      "source_id": 1292,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1292,
+      "source_id": 1293,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_45_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1293,
+      "source_id": 1294,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1294,
+      "source_id": 1295,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1295,
+      "source_id": 1296,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1296,
+      "source_id": 1297,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1297,
+      "source_id": 1298,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1298,
+      "source_id": 1299,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1299,
+      "source_id": 1300,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1300,
+      "source_id": 1301,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1301,
+      "source_id": 1302,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1302,
+      "source_id": 1303,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1303,
+      "source_id": 1304,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1304,
+      "source_id": 1305,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1305,
+      "source_id": 1306,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_15_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1306,
+      "source_id": 1307,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1307,
+      "source_id": 1308,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1308,
+      "source_id": 1309,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1309,
+      "source_id": 1310,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1310,
+      "source_id": 1311,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1311,
+      "source_id": 1312,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1312,
+      "source_id": 1313,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_27_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1313,
+      "source_id": 1314,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1314,
+      "source_id": 1315,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1315,
+      "source_id": 1316,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1316,
+      "source_id": 1317,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1317,
+      "source_id": 1318,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1318,
+      "source_id": 1319,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1319,
+      "source_id": 1320,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1320,
+      "source_id": 1321,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_36_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1321,
+      "source_id": 1322,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1322,
+      "source_id": 1323,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1323,
+      "source_id": 1324,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1324,
+      "source_id": 1325,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1325,
+      "source_id": 1326,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1326,
+      "source_id": 1327,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1327,
+      "source_id": 1328,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1328,
+      "source_id": 1329,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1329,
+      "source_id": 1330,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1330,
+      "source_id": 1331,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1331,
+      "source_id": 1332,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1332,
+      "source_id": 1333,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1333,
+      "source_id": 1334,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1334,
+      "source_id": 1335,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1335,
+      "source_id": 1336,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1336,
+      "source_id": 1337,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1337,
+      "source_id": 1338,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_15_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1338,
+      "source_id": 1339,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1339,
+      "source_id": 1340,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_17_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1340,
+      "source_id": 1341,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1341,
+      "source_id": 1342,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1342,
+      "source_id": 1343,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1343,
+      "source_id": 1344,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1344,
+      "source_id": 1345,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1345,
+      "source_id": 1346,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_23_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1346,
+      "source_id": 1347,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1347,
+      "source_id": 1348,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1348,
+      "source_id": 1349,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1349,
+      "source_id": 1350,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_27_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1350,
+      "source_id": 1351,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1351,
+      "source_id": 1352,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1352,
+      "source_id": 1353,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1353,
+      "source_id": 1354,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1354,
+      "source_id": 1355,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1355,
+      "source_id": 1356,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1356,
+      "source_id": 1357,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1357,
+      "source_id": 1358,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_36_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1358,
+      "source_id": 1359,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1359,
+      "source_id": 1360,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_38_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1360,
+      "source_id": 1361,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_39_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1361,
+      "source_id": 1362,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1362,
+      "source_id": 1363,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1363,
+      "source_id": 1364,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_42_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1364,
+      "source_id": 1365,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1365,
+      "source_id": 1366,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1366,
+      "source_id": 1367,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_45_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1367,
+      "source_id": 1368,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1368,
+      "source_id": 1369,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1369,
+      "source_id": 1370,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1370,
+      "source_id": 1371,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1371,
+      "source_id": 1372,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1372,
+      "source_id": 1373,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1373,
+      "source_id": 1374,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1374,
+      "source_id": 1375,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1375,
+      "source_id": 1376,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1376,
+      "source_id": 1377,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1377,
+      "source_id": 1378,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1378,
+      "source_id": 1379,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1379,
+      "source_id": 1380,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1380,
+      "source_id": 1381,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1381,
+      "source_id": 1382,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1382,
+      "source_id": 1383,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1383,
+      "source_id": 1384,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1384,
+      "source_id": 1385,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1385,
+      "source_id": 1386,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_17_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1386,
+      "source_id": 1387,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1387,
+      "source_id": 1388,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1388,
+      "source_id": 1389,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1389,
+      "source_id": 1390,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1390,
+      "source_id": 1391,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_23_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1391,
+      "source_id": 1392,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1392,
+      "source_id": 1393,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1393,
+      "source_id": 1394,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1394,
+      "source_id": 1395,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1395,
+      "source_id": 1396,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1396,
+      "source_id": 1397,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1397,
+      "source_id": 1398,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1398,
+      "source_id": 1399,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1399,
+      "source_id": 1400,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1400,
+      "source_id": 1401,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_36_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1401,
+      "source_id": 1402,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1402,
+      "source_id": 1403,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_38_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1403,
+      "source_id": 1404,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1404,
+      "source_id": 1405,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_42_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1405,
+      "source_id": 1406,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1406,
+      "source_id": 1407,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1407,
+      "source_id": 1408,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_45_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1408,
+      "source_id": 1409,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1409,
+      "source_id": 1410,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1410,
+      "source_id": 1411,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1411,
+      "source_id": 1412,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1412,
+      "source_id": 1413,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1413,
+      "source_id": 1414,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1414,
+      "source_id": 1415,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1415,
+      "source_id": 1416,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1416,
+      "source_id": 1417,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1417,
+      "source_id": 1418,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1418,
+      "source_id": 1419,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1419,
+      "source_id": 1420,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1420,
+      "source_id": 1421,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1421,
+      "source_id": 1422,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1422,
+      "source_id": 1423,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_17_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1423,
+      "source_id": 1424,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1424,
+      "source_id": 1425,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1425,
+      "source_id": 1426,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1426,
+      "source_id": 1427,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_21_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1427,
+      "source_id": 1428,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1428,
+      "source_id": 1429,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1429,
+      "source_id": 1430,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1430,
+      "source_id": 1431,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1431,
+      "source_id": 1432,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1432,
+      "source_id": 1433,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_33_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1433,
+      "source_id": 1434,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1434,
+      "source_id": 1435,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1435,
+      "source_id": 1436,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1436,
+      "source_id": 1437,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1437,
+      "source_id": 1438,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_43_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1438,
+      "source_id": 1439,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1439,
+      "source_id": 1440,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_47_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1440,
+      "source_id": 1441,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1441,
+      "source_id": 1442,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1442,
+      "source_id": 1443,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_1_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1443,
+      "source_id": 1444,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_2_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1444,
+      "source_id": 1445,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_3_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1445,
+      "source_id": 1446,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_4_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1446,
+      "source_id": 1447,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_5_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1447,
+      "source_id": 1448,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_6_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1448,
+      "source_id": 1449,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_7_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1449,
+      "source_id": 1450,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_8_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1450,
+      "source_id": 1451,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_9_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1451,
+      "source_id": 1452,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_10_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1452,
+      "source_id": 1453,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_11_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1453,
+      "source_id": 1454,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_12_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1454,
+      "source_id": 1455,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_13_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1455,
+      "source_id": 1456,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_14_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1456,
+      "source_id": 1457,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_15_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1457,
+      "source_id": 1458,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_16_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1458,
+      "source_id": 1459,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_18_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1459,
+      "source_id": 1460,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_19_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1460,
+      "source_id": 1461,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_20_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1461,
+      "source_id": 1462,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_22_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1462,
+      "source_id": 1463,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_23_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1463,
+      "source_id": 1464,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_24_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1464,
+      "source_id": 1465,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_25_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1465,
+      "source_id": 1466,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_26_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1466,
+      "source_id": 1467,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_28_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1467,
+      "source_id": 1468,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_29_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1468,
+      "source_id": 1469,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_30_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1469,
+      "source_id": 1470,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_31_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1470,
+      "source_id": 1471,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_32_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1471,
+      "source_id": 1472,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_34_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1472,
+      "source_id": 1473,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_35_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1473,
+      "source_id": 1474,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_37_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1474,
+      "source_id": 1475,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_38_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1475,
+      "source_id": 1476,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_39_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1476,
+      "source_id": 1477,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_40_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1477,
+      "source_id": 1478,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_41_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1478,
+      "source_id": 1479,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_42_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1479,
+      "source_id": 1480,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_44_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1480,
+      "source_id": 1481,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_46_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1481,
+      "source_id": 1482,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_48_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1482,
+      "source_id": 1483,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_49_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1483,
+      "source_id": 1484,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_50_view_0_0_100_0_0_initstate_0",
+      "category": "Language Instructions",
+      "difficulty_level": 4
+    }
+  ]
+}

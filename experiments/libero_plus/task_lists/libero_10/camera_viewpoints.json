@@ -1,0 +1,2942 @@
+{
+  "suite": "libero_10",
+  "category": "Camera Viewpoints",
+  "num_tasks": 419,
+  "num_trials_per_task": 1,
+  "init_state_index": 0,
+  "tasks": [
+    {
+      "task_id": 682,
+      "source_id": 683,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 683,
+      "source_id": 684,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 684,
+      "source_id": 685,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 685,
+      "source_id": 686,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 686,
+      "source_id": 687,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 687,
+      "source_id": 688,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 688,
+      "source_id": 689,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_1_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 689,
+      "source_id": 690,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_2_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 690,
+      "source_id": 691,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_4_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 691,
+      "source_id": 692,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_5_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 692,
+      "source_id": 693,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_6_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 693,
+      "source_id": 694,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_7_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 694,
+      "source_id": 695,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_8_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 695,
+      "source_id": 696,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_9_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 696,
+      "source_id": 697,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_10_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 697,
+      "source_id": 698,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_11_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 698,
+      "source_id": 699,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_12_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 699,
+      "source_id": 700,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_13_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 700,
+      "source_id": 701,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_14_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 701,
+      "source_id": 702,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_15_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 702,
+      "source_id": 703,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_119_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 703,
+      "source_id": 704,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_4_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 704,
+      "source_id": 705,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_4_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 705,
+      "source_id": 706,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_4_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 706,
+      "source_id": 707,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_4_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 707,
+      "source_id": 708,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_4_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 708,
+      "source_id": 709,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_4_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 709,
+      "source_id": 710,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_16_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 710,
+      "source_id": 711,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_17_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 711,
+      "source_id": 712,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_17_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 712,
+      "source_id": 713,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_18_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 713,
+      "source_id": 714,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_18_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 714,
+      "source_id": 715,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_19_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 715,
+      "source_id": 716,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_20_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 716,
+      "source_id": 717,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_21_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 717,
+      "source_id": 718,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_21_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 718,
+      "source_id": 719,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_22_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 719,
+      "source_id": 720,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_22_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 720,
+      "source_id": 721,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_23_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 721,
+      "source_id": 722,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_24_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 722,
+      "source_id": 723,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_25_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 723,
+      "source_id": 724,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_25_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 724,
+      "source_id": 725,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_26_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 725,
+      "source_id": 726,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_26_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 726,
+      "source_id": 727,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_27_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 727,
+      "source_id": 728,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_27_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 728,
+      "source_id": 729,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_28_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 729,
+      "source_id": 730,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_28_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 730,
+      "source_id": 731,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_29_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 731,
+      "source_id": 732,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_29_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 732,
+      "source_id": 733,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_30_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 733,
+      "source_id": 734,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_30_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 734,
+      "source_id": 735,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_121_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 735,
+      "source_id": 736,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_122_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 736,
+      "source_id": 737,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_123_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 737,
+      "source_id": 738,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_124_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 738,
+      "source_id": 739,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_125_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 739,
+      "source_id": 740,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_126_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 740,
+      "source_id": 741,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_127_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 741,
+      "source_id": 742,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_128_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 742,
+      "source_id": 743,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_129_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 743,
+      "source_id": 744,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_130_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 744,
+      "source_id": 745,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_2_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 745,
+      "source_id": 746,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 746,
+      "source_id": 747,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 747,
+      "source_id": 748,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 748,
+      "source_id": 749,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 749,
+      "source_id": 750,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 750,
+      "source_id": 751,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 751,
+      "source_id": 752,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 752,
+      "source_id": 753,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_6_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 753,
+      "source_id": 754,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_31_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 754,
+      "source_id": 755,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_31_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 755,
+      "source_id": 756,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_32_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 756,
+      "source_id": 757,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_32_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 757,
+      "source_id": 758,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_33_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 758,
+      "source_id": 759,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_33_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 759,
+      "source_id": 760,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_34_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 760,
+      "source_id": 761,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_34_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 761,
+      "source_id": 762,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_35_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 762,
+      "source_id": 763,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_35_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 763,
+      "source_id": 764,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_36_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 764,
+      "source_id": 765,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_36_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 765,
+      "source_id": 766,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_37_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 766,
+      "source_id": 767,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_37_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 767,
+      "source_id": 768,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_38_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 768,
+      "source_id": 769,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_38_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 769,
+      "source_id": 770,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_39_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 770,
+      "source_id": 771,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_39_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 771,
+      "source_id": 772,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_40_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 772,
+      "source_id": 773,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_40_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 773,
+      "source_id": 774,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_41_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 774,
+      "source_id": 775,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_41_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 775,
+      "source_id": 776,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_42_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 776,
+      "source_id": 777,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_42_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 777,
+      "source_id": 778,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_43_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 778,
+      "source_id": 779,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_43_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 779,
+      "source_id": 780,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_44_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 780,
+      "source_id": 781,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_45_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 781,
+      "source_id": 782,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_131_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 782,
+      "source_id": 783,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_132_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 783,
+      "source_id": 784,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_133_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 784,
+      "source_id": 785,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_134_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 785,
+      "source_id": 786,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_135_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 786,
+      "source_id": 787,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_136_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 787,
+      "source_id": 788,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_137_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 788,
+      "source_id": 789,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_138_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 789,
+      "source_id": 790,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_139_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 790,
+      "source_id": 791,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_2_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 791,
+      "source_id": 792,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 792,
+      "source_id": 793,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 793,
+      "source_id": 794,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 794,
+      "source_id": 795,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 795,
+      "source_id": 796,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 796,
+      "source_id": 797,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 797,
+      "source_id": 798,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 798,
+      "source_id": 799,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 799,
+      "source_id": 800,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_358_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 800,
+      "source_id": 801,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_46_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 801,
+      "source_id": 802,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_46_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 802,
+      "source_id": 803,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_47_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 803,
+      "source_id": 804,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_47_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 804,
+      "source_id": 805,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_48_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 805,
+      "source_id": 806,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_48_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 806,
+      "source_id": 807,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_49_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 807,
+      "source_id": 808,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_49_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 808,
+      "source_id": 809,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_50_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 809,
+      "source_id": 810,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_50_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 810,
+      "source_id": 811,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_51_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 811,
+      "source_id": 812,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_52_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 812,
+      "source_id": 813,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_52_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 813,
+      "source_id": 814,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_53_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 814,
+      "source_id": 815,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_53_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 815,
+      "source_id": 816,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_54_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 816,
+      "source_id": 817,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_54_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 817,
+      "source_id": 818,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_55_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 818,
+      "source_id": 819,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_55_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 819,
+      "source_id": 820,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_56_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 820,
+      "source_id": 821,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_56_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 821,
+      "source_id": 822,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_57_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 822,
+      "source_id": 823,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_57_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 823,
+      "source_id": 824,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_58_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 824,
+      "source_id": 825,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_58_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 825,
+      "source_id": 826,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_59_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 826,
+      "source_id": 827,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_59_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 827,
+      "source_id": 828,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_60_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 828,
+      "source_id": 829,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_60_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 829,
+      "source_id": 830,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_141_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 830,
+      "source_id": 831,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_142_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 831,
+      "source_id": 832,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_144_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 832,
+      "source_id": 833,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_145_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 833,
+      "source_id": 834,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_146_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 834,
+      "source_id": 835,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_147_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 835,
+      "source_id": 836,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_148_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 836,
+      "source_id": 837,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_149_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 837,
+      "source_id": 838,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_150_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 838,
+      "source_id": 839,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_2_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 839,
+      "source_id": 840,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 840,
+      "source_id": 841,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 841,
+      "source_id": 842,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 842,
+      "source_id": 843,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 843,
+      "source_id": 844,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 844,
+      "source_id": 845,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 845,
+      "source_id": 846,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 846,
+      "source_id": 847,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 847,
+      "source_id": 848,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_10_358_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 848,
+      "source_id": 849,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_61_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 849,
+      "source_id": 850,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_61_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 850,
+      "source_id": 851,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_62_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 851,
+      "source_id": 852,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_62_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 852,
+      "source_id": 853,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_63_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 853,
+      "source_id": 854,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_63_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 854,
+      "source_id": 855,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_64_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 855,
+      "source_id": 856,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_64_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 856,
+      "source_id": 857,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_65_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 857,
+      "source_id": 858,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_65_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 858,
+      "source_id": 859,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_66_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 859,
+      "source_id": 860,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_67_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 860,
+      "source_id": 861,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_68_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 861,
+      "source_id": 862,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_68_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 862,
+      "source_id": 863,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_69_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 863,
+      "source_id": 864,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_69_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 864,
+      "source_id": 865,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_70_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 865,
+      "source_id": 866,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_70_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 866,
+      "source_id": 867,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_71_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 867,
+      "source_id": 868,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_71_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 868,
+      "source_id": 869,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_72_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 869,
+      "source_id": 870,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_72_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 870,
+      "source_id": 871,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_73_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 871,
+      "source_id": 872,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_73_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 872,
+      "source_id": 873,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_74_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 873,
+      "source_id": 874,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_74_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 874,
+      "source_id": 875,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_75_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 875,
+      "source_id": 876,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_75_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 876,
+      "source_id": 877,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_151_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 877,
+      "source_id": 878,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_152_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 878,
+      "source_id": 879,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_153_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 879,
+      "source_id": 880,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_154_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 880,
+      "source_id": 881,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_155_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 881,
+      "source_id": 882,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_156_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 882,
+      "source_id": 883,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_157_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 883,
+      "source_id": 884,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_158_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 884,
+      "source_id": 885,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_159_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 885,
+      "source_id": 886,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_160_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 886,
+      "source_id": 887,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 887,
+      "source_id": 888,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 888,
+      "source_id": 889,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 889,
+      "source_id": 890,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 890,
+      "source_id": 891,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 891,
+      "source_id": 892,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 892,
+      "source_id": 893,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 893,
+      "source_id": 894,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 894,
+      "source_id": 895,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_350_358_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 895,
+      "source_id": 896,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_285_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 896,
+      "source_id": 897,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_285_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 897,
+      "source_id": 898,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_286_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 898,
+      "source_id": 899,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_286_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 899,
+      "source_id": 900,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_287_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 900,
+      "source_id": 901,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_287_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 901,
+      "source_id": 902,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_288_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 902,
+      "source_id": 903,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_288_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 903,
+      "source_id": 904,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_289_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 904,
+      "source_id": 905,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_289_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 905,
+      "source_id": 906,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_290_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 906,
+      "source_id": 907,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_290_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 907,
+      "source_id": 908,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_291_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 908,
+      "source_id": 909,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_292_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 909,
+      "source_id": 910,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_293_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 910,
+      "source_id": 911,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_293_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 911,
+      "source_id": 912,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_294_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 912,
+      "source_id": 913,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_294_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 913,
+      "source_id": 914,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_295_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 914,
+      "source_id": 915,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_295_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 915,
+      "source_id": 916,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_296_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 916,
+      "source_id": 917,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_296_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 917,
+      "source_id": 918,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_297_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 918,
+      "source_id": 919,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_297_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 919,
+      "source_id": 920,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_298_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 920,
+      "source_id": 921,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_298_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 921,
+      "source_id": 922,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_299_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 922,
+      "source_id": 923,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_161_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 923,
+      "source_id": 924,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_162_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 924,
+      "source_id": 925,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_163_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 925,
+      "source_id": 926,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_164_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 926,
+      "source_id": 927,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_165_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 927,
+      "source_id": 928,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_166_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 928,
+      "source_id": 929,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_167_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 929,
+      "source_id": 930,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_168_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 930,
+      "source_id": 931,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_170_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 931,
+      "source_id": 932,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 932,
+      "source_id": 933,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 933,
+      "source_id": 934,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 934,
+      "source_id": 935,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 935,
+      "source_id": 936,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 936,
+      "source_id": 937,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 937,
+      "source_id": 938,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_352_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 938,
+      "source_id": 939,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_300_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 939,
+      "source_id": 940,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_300_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 940,
+      "source_id": 941,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_301_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 941,
+      "source_id": 942,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_301_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 942,
+      "source_id": 943,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_302_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 943,
+      "source_id": 944,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_302_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 944,
+      "source_id": 945,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_303_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 945,
+      "source_id": 946,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_303_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 946,
+      "source_id": 947,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_304_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 947,
+      "source_id": 948,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_304_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 948,
+      "source_id": 949,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_305_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 949,
+      "source_id": 950,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_305_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 950,
+      "source_id": 951,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_306_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 951,
+      "source_id": 952,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_306_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 952,
+      "source_id": 953,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_307_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 953,
+      "source_id": 954,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_307_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 954,
+      "source_id": 955,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_308_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 955,
+      "source_id": 956,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_308_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 956,
+      "source_id": 957,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_309_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 957,
+      "source_id": 958,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_309_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 958,
+      "source_id": 959,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_310_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 959,
+      "source_id": 960,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_310_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 960,
+      "source_id": 961,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_311_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 961,
+      "source_id": 962,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_311_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 962,
+      "source_id": 963,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_312_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 963,
+      "source_id": 964,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_312_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 964,
+      "source_id": 965,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_313_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 965,
+      "source_id": 966,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_313_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 966,
+      "source_id": 967,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_314_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 967,
+      "source_id": 968,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_314_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 968,
+      "source_id": 969,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_171_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 969,
+      "source_id": 970,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_172_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 970,
+      "source_id": 971,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_173_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 971,
+      "source_id": 972,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_174_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 972,
+      "source_id": 973,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_175_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 973,
+      "source_id": 974,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_176_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 974,
+      "source_id": 975,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_177_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 975,
+      "source_id": 976,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_178_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 976,
+      "source_id": 977,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_179_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 977,
+      "source_id": 978,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_180_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 978,
+      "source_id": 979,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_2_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 979,
+      "source_id": 980,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 980,
+      "source_id": 981,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 981,
+      "source_id": 982,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 982,
+      "source_id": 983,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 983,
+      "source_id": 984,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 984,
+      "source_id": 985,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 985,
+      "source_id": 986,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 986,
+      "source_id": 987,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 987,
+      "source_id": 988,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_358_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 988,
+      "source_id": 989,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_315_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 989,
+      "source_id": 990,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_315_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 990,
+      "source_id": 991,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_316_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 991,
+      "source_id": 992,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_316_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 992,
+      "source_id": 993,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_317_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 993,
+      "source_id": 994,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_317_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 994,
+      "source_id": 995,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_318_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 995,
+      "source_id": 996,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_318_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 996,
+      "source_id": 997,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_319_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 997,
+      "source_id": 998,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_319_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 998,
+      "source_id": 999,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_320_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 999,
+      "source_id": 1000,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_320_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1000,
+      "source_id": 1001,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_321_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1001,
+      "source_id": 1002,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_321_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1002,
+      "source_id": 1003,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_322_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1003,
+      "source_id": 1004,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_322_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1004,
+      "source_id": 1005,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_323_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1005,
+      "source_id": 1006,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_323_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1006,
+      "source_id": 1007,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_324_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1007,
+      "source_id": 1008,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_324_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1008,
+      "source_id": 1009,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_325_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1009,
+      "source_id": 1010,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_325_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1010,
+      "source_id": 1011,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_326_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1011,
+      "source_id": 1012,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_326_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1012,
+      "source_id": 1013,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_327_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1013,
+      "source_id": 1014,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_327_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1014,
+      "source_id": 1015,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_328_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1015,
+      "source_id": 1016,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_328_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1016,
+      "source_id": 1017,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_329_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1017,
+      "source_id": 1018,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_329_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1018,
+      "source_id": 1019,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_181_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1019,
+      "source_id": 1020,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_182_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1020,
+      "source_id": 1021,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_183_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1021,
+      "source_id": 1022,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_184_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1022,
+      "source_id": 1023,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_186_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1023,
+      "source_id": 1024,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_187_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1024,
+      "source_id": 1025,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_188_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1025,
+      "source_id": 1026,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_189_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1026,
+      "source_id": 1027,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_190_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1027,
+      "source_id": 1028,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1028,
+      "source_id": 1029,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1029,
+      "source_id": 1030,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1030,
+      "source_id": 1031,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1031,
+      "source_id": 1032,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1032,
+      "source_id": 1033,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1033,
+      "source_id": 1034,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1034,
+      "source_id": 1035,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_330_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1035,
+      "source_id": 1036,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_330_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1036,
+      "source_id": 1037,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_331_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1037,
+      "source_id": 1038,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_331_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1038,
+      "source_id": 1039,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_332_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1039,
+      "source_id": 1040,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_332_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1040,
+      "source_id": 1041,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_333_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1041,
+      "source_id": 1042,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_333_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1042,
+      "source_id": 1043,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_334_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1043,
+      "source_id": 1044,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_334_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1044,
+      "source_id": 1045,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_335_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1045,
+      "source_id": 1046,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_336_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1046,
+      "source_id": 1047,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_336_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1047,
+      "source_id": 1048,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_337_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1048,
+      "source_id": 1049,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_338_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1049,
+      "source_id": 1050,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_338_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1050,
+      "source_id": 1051,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_339_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1051,
+      "source_id": 1052,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_339_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1052,
+      "source_id": 1053,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_340_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1053,
+      "source_id": 1054,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_340_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1054,
+      "source_id": 1055,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_341_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1055,
+      "source_id": 1056,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_341_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1056,
+      "source_id": 1057,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_342_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1057,
+      "source_id": 1058,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_343_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1058,
+      "source_id": 1059,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_343_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1059,
+      "source_id": 1060,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_344_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1060,
+      "source_id": 1061,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_344_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1061,
+      "source_id": 1062,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_191_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1062,
+      "source_id": 1063,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_192_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1063,
+      "source_id": 1064,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_193_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1064,
+      "source_id": 1065,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_194_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1065,
+      "source_id": 1066,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_195_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1066,
+      "source_id": 1067,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_196_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1067,
+      "source_id": 1068,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_197_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1068,
+      "source_id": 1069,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_198_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1069,
+      "source_id": 1070,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_199_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1070,
+      "source_id": 1071,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_200_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1071,
+      "source_id": 1072,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_2_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1072,
+      "source_id": 1073,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_4_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1073,
+      "source_id": 1074,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_6_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1074,
+      "source_id": 1075,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_8_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1075,
+      "source_id": 1076,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_10_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1076,
+      "source_id": 1077,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_350_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1077,
+      "source_id": 1078,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_352_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1078,
+      "source_id": 1079,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_354_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1079,
+      "source_id": 1080,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_356_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1080,
+      "source_id": 1081,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_358_358_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1081,
+      "source_id": 1082,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_345_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1082,
+      "source_id": 1083,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_346_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1083,
+      "source_id": 1084,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_346_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1084,
+      "source_id": 1085,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_347_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1085,
+      "source_id": 1086,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_348_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1086,
+      "source_id": 1087,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_348_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1087,
+      "source_id": 1088,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_349_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1088,
+      "source_id": 1089,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_349_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1089,
+      "source_id": 1090,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_350_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1090,
+      "source_id": 1091,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_351_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1091,
+      "source_id": 1092,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_351_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1092,
+      "source_id": 1093,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_352_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1093,
+      "source_id": 1094,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_352_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1094,
+      "source_id": 1095,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_353_0_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1095,
+      "source_id": 1096,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_354_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1096,
+      "source_id": 1097,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_355_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1097,
+      "source_id": 1098,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_356_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1098,
+      "source_id": 1099,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_357_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1099,
+      "source_id": 1100,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_358_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1100,
+      "source_id": 1101,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_359_15_100_0_0_initstate_0",
+      "category": "Camera Viewpoints",
+      "difficulty_level": 4
+    }
+  ]
+}

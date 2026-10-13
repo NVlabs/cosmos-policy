@@ -1,0 +1,2032 @@
+{
+  "suite": "libero_10",
+  "category": "Background Textures",
+  "num_tasks": 289,
+  "num_trials_per_task": 1,
+  "init_state_index": 0,
+  "tasks": [
+    {
+      "task_id": 0,
+      "source_id": 1,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1,
+      "source_id": 2,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_10",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2,
+      "source_id": 3,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 3,
+      "source_id": 4,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_13",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 4,
+      "source_id": 5,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_14",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 5,
+      "source_id": 6,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_15",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 6,
+      "source_id": 7,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_16",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 7,
+      "source_id": 8,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_17",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 8,
+      "source_id": 9,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_18",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 9,
+      "source_id": 10,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 10,
+      "source_id": 11,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 11,
+      "source_id": 12,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_20",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 12,
+      "source_id": 13,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_21",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 13,
+      "source_id": 14,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_22",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 14,
+      "source_id": 15,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 15,
+      "source_id": 16,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 16,
+      "source_id": 17,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 17,
+      "source_id": 18,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_4",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 18,
+      "source_id": 19,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 19,
+      "source_id": 20,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_8",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 20,
+      "source_id": 21,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 21,
+      "source_id": 22,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_10",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 22,
+      "source_id": 23,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 23,
+      "source_id": 24,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 24,
+      "source_id": 25,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 25,
+      "source_id": 26,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 26,
+      "source_id": 27,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 27,
+      "source_id": 28,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_22",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 28,
+      "source_id": 29,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_5",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 29,
+      "source_id": 30,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_6",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 30,
+      "source_id": 31,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_7",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 31,
+      "source_id": 32,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_8",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 32,
+      "source_id": 33,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 33,
+      "source_id": 34,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 34,
+      "source_id": 35,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_11",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 35,
+      "source_id": 36,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 36,
+      "source_id": 37,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_13",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 37,
+      "source_id": 38,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_14",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 38,
+      "source_id": 39,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_15",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 39,
+      "source_id": 40,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_16",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 40,
+      "source_id": 41,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_17",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 41,
+      "source_id": 42,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_18",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 42,
+      "source_id": 43,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 43,
+      "source_id": 44,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 44,
+      "source_id": 45,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_20",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 45,
+      "source_id": 46,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_22",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 46,
+      "source_id": 47,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 47,
+      "source_id": 48,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 48,
+      "source_id": 49,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_25",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 49,
+      "source_id": 50,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_26",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 50,
+      "source_id": 51,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 51,
+      "source_id": 52,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 52,
+      "source_id": 53,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 53,
+      "source_id": 54,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_4",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 54,
+      "source_id": 55,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 55,
+      "source_id": 56,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_6",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 56,
+      "source_id": 57,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 57,
+      "source_id": 58,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_10",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 58,
+      "source_id": 59,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_11",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 59,
+      "source_id": 60,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 60,
+      "source_id": 61,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_13",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 61,
+      "source_id": 62,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_14",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 62,
+      "source_id": 63,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_15",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 63,
+      "source_id": 64,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_16",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 64,
+      "source_id": 65,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_17",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 65,
+      "source_id": 66,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 66,
+      "source_id": 67,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_19",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 67,
+      "source_id": 68,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_2",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 68,
+      "source_id": 69,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 69,
+      "source_id": 70,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 70,
+      "source_id": 71,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_22",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 71,
+      "source_id": 72,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_3",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 72,
+      "source_id": 73,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_4",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 73,
+      "source_id": 74,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_5",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 74,
+      "source_id": 75,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_6",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 75,
+      "source_id": 76,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_7",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 76,
+      "source_id": 77,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_8",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 77,
+      "source_id": 78,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 78,
+      "source_id": 79,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 79,
+      "source_id": 80,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_14",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 80,
+      "source_id": 81,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_15",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 81,
+      "source_id": 82,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_17",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 82,
+      "source_id": 83,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 83,
+      "source_id": 84,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 84,
+      "source_id": 85,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_22",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 85,
+      "source_id": 86,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 86,
+      "source_id": 87,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 87,
+      "source_id": 88,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_25",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 88,
+      "source_id": 89,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_26",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 89,
+      "source_id": 90,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 90,
+      "source_id": 91,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 91,
+      "source_id": 92,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 92,
+      "source_id": 93,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_4",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 93,
+      "source_id": 94,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 94,
+      "source_id": 95,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_6",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 95,
+      "source_id": 96,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_7",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 96,
+      "source_id": 97,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_8",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 97,
+      "source_id": 98,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 98,
+      "source_id": 99,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_11",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 99,
+      "source_id": 100,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_15",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 100,
+      "source_id": 101,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_16",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 101,
+      "source_id": 102,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 102,
+      "source_id": 103,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 103,
+      "source_id": 104,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 104,
+      "source_id": 105,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_7",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 105,
+      "source_id": 106,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 106,
+      "source_id": 107,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 107,
+      "source_id": 108,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_10",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 108,
+      "source_id": 109,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 109,
+      "source_id": 110,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_13",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 110,
+      "source_id": 111,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_15",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 111,
+      "source_id": 112,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_16",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 112,
+      "source_id": 113,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_17",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 113,
+      "source_id": 114,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 114,
+      "source_id": 115,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 115,
+      "source_id": 116,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_21",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 116,
+      "source_id": 117,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_22",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 117,
+      "source_id": 118,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 118,
+      "source_id": 119,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 119,
+      "source_id": 120,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 120,
+      "source_id": 121,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 121,
+      "source_id": 122,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 122,
+      "source_id": 123,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 123,
+      "source_id": 124,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_7",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 124,
+      "source_id": 125,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 125,
+      "source_id": 126,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_10",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 126,
+      "source_id": 127,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 127,
+      "source_id": 128,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_14",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 128,
+      "source_id": 129,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_15",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 129,
+      "source_id": 130,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_17",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 130,
+      "source_id": 131,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 131,
+      "source_id": 132,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_19",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 132,
+      "source_id": 133,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 133,
+      "source_id": 134,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 134,
+      "source_id": 135,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 135,
+      "source_id": 136,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_3",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 136,
+      "source_id": 137,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 137,
+      "source_id": 138,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 138,
+      "source_id": 139,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 139,
+      "source_id": 140,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_16",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 140,
+      "source_id": 141,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 141,
+      "source_id": 142,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 142,
+      "source_id": 143,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 143,
+      "source_id": 144,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_4",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 144,
+      "source_id": 145,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_table_6",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 145,
+      "source_id": 146,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 146,
+      "source_id": 147,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_10",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 147,
+      "source_id": 148,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 148,
+      "source_id": 149,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_13",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 149,
+      "source_id": 150,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 150,
+      "source_id": 151,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 151,
+      "source_id": 152,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 152,
+      "source_id": 153,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 153,
+      "source_id": 154,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_19",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 154,
+      "source_id": 155,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_2",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 155,
+      "source_id": 156,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 156,
+      "source_id": 157,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 157,
+      "source_id": 158,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 158,
+      "source_id": 159,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 159,
+      "source_id": 160,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_11",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 160,
+      "source_id": 161,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 161,
+      "source_id": 162,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_13",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 162,
+      "source_id": 163,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_16",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 163,
+      "source_id": 164,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_21",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 164,
+      "source_id": 165,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 165,
+      "source_id": 166,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_25",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 166,
+      "source_id": 167,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_26",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 167,
+      "source_id": 168,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 168,
+      "source_id": 169,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 169,
+      "source_id": 170,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_4",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 170,
+      "source_id": 171,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 171,
+      "source_id": 172,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_7",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 172,
+      "source_id": 173,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_8",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 173,
+      "source_id": 174,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 174,
+      "source_id": 175,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 175,
+      "source_id": 176,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_10",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 176,
+      "source_id": 177,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_11",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 177,
+      "source_id": 178,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 178,
+      "source_id": 179,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_13",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 179,
+      "source_id": 180,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_14",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 180,
+      "source_id": 181,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_15",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 181,
+      "source_id": 182,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_16",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 182,
+      "source_id": 183,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_17",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 183,
+      "source_id": 184,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 184,
+      "source_id": 185,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_19",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 185,
+      "source_id": 186,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 186,
+      "source_id": 187,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 187,
+      "source_id": 188,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_22",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 188,
+      "source_id": 189,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 189,
+      "source_id": 190,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_5",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 190,
+      "source_id": 191,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_6",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 191,
+      "source_id": 192,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_8",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 192,
+      "source_id": 193,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 193,
+      "source_id": 194,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 194,
+      "source_id": 195,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_10",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 195,
+      "source_id": 196,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 196,
+      "source_id": 197,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_13",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 197,
+      "source_id": 198,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_14",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 198,
+      "source_id": 199,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_15",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 199,
+      "source_id": 200,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_16",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 200,
+      "source_id": 201,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_17",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 201,
+      "source_id": 202,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_18",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 202,
+      "source_id": 203,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 203,
+      "source_id": 204,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 204,
+      "source_id": 205,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_22",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 205,
+      "source_id": 206,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 206,
+      "source_id": 207,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 207,
+      "source_id": 208,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_25",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 208,
+      "source_id": 209,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_26",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 209,
+      "source_id": 210,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 210,
+      "source_id": 211,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 211,
+      "source_id": 212,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 212,
+      "source_id": 213,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 213,
+      "source_id": 214,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_6",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 214,
+      "source_id": 215,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_7",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 215,
+      "source_id": 216,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_8",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 216,
+      "source_id": 217,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 217,
+      "source_id": 218,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 218,
+      "source_id": 219,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_10",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 219,
+      "source_id": 220,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_11",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 220,
+      "source_id": 221,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 221,
+      "source_id": 222,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_13",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 222,
+      "source_id": 223,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_14",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 223,
+      "source_id": 224,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_15",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 224,
+      "source_id": 225,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_16",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 225,
+      "source_id": 226,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_17",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 226,
+      "source_id": 227,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 227,
+      "source_id": 228,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_19",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 228,
+      "source_id": 229,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 229,
+      "source_id": 230,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 230,
+      "source_id": 231,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_22",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 231,
+      "source_id": 232,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_3",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 232,
+      "source_id": 233,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_4",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 233,
+      "source_id": 234,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_5",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 234,
+      "source_id": 235,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_6",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 235,
+      "source_id": 236,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_8",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 236,
+      "source_id": 237,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 237,
+      "source_id": 238,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 238,
+      "source_id": 239,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_10",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 239,
+      "source_id": 240,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_12",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 240,
+      "source_id": 241,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_14",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 241,
+      "source_id": 242,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_15",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 242,
+      "source_id": 243,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_18",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 243,
+      "source_id": 244,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_19",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 244,
+      "source_id": 245,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 245,
+      "source_id": 246,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_20",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 246,
+      "source_id": 247,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_21",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 247,
+      "source_id": 248,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_22",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 248,
+      "source_id": 249,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 249,
+      "source_id": 250,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_24",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 250,
+      "source_id": 251,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_25",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 251,
+      "source_id": 252,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_26",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 252,
+      "source_id": 253,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 253,
+      "source_id": 254,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_5",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 254,
+      "source_id": 255,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_6",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 255,
+      "source_id": 256,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_8",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 256,
+      "source_id": 257,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_9",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 257,
+      "source_id": 258,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_1",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 258,
+      "source_id": 259,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_10",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 259,
+      "source_id": 260,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_11",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 260,
+      "source_id": 261,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 261,
+      "source_id": 262,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_15",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 262,
+      "source_id": 263,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_17",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 263,
+      "source_id": 264,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_18",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 264,
+      "source_id": 265,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_19",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 265,
+      "source_id": 266,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 266,
+      "source_id": 267,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_20",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 267,
+      "source_id": 268,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_21",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 268,
+      "source_id": 269,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_22",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 269,
+      "source_id": 270,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_3",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 270,
+      "source_id": 271,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_4",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 271,
+      "source_id": 272,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_5",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 272,
+      "source_id": 273,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_6",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 273,
+      "source_id": 274,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_7",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 274,
+      "source_id": 275,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_8",
+      "category": "Background Textures",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 275,
+      "source_id": 276,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_9",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 276,
+      "source_id": 277,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 277,
+      "source_id": 278,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_14",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 278,
+      "source_id": 279,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_17",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 279,
+      "source_id": 280,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_2",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 280,
+      "source_id": 281,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_23",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 281,
+      "source_id": 282,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_27",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 282,
+      "source_id": 283,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_28",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 283,
+      "source_id": 284,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_3",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 284,
+      "source_id": 285,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_table_4",
+      "category": "Background Textures",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 285,
+      "source_id": 286,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_tb_1",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 286,
+      "source_id": 287,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_tb_12",
+      "category": "Background Textures",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 287,
+      "source_id": 288,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_tb_17",
+      "category": "Background Textures",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 288,
+      "source_id": 289,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_tb_2",
+      "category": "Background Textures",
+      "difficulty_level": 2
+    }
+  ]
+}

@@ -1,0 +1,3152 @@
+{
+  "suite": "libero_10",
+  "category": "Sensor Noise",
+  "num_tasks": 449,
+  "num_trials_per_task": 1,
+  "init_state_index": 0,
+  "tasks": [
+    {
+      "task_id": 1484,
+      "source_id": 1485,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1485,
+      "source_id": 1486,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1486,
+      "source_id": 1487,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1487,
+      "source_id": 1488,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1488,
+      "source_id": 1489,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1489,
+      "source_id": 1490,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1490,
+      "source_id": 1491,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1491,
+      "source_id": 1492,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1492,
+      "source_id": 1493,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1493,
+      "source_id": 1494,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1494,
+      "source_id": 1495,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1495,
+      "source_id": 1496,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1496,
+      "source_id": 1497,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1497,
+      "source_id": 1498,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1498,
+      "source_id": 1499,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1499,
+      "source_id": 1500,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1500,
+      "source_id": 1501,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1501,
+      "source_id": 1502,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1502,
+      "source_id": 1503,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1503,
+      "source_id": 1504,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1504,
+      "source_id": 1505,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1505,
+      "source_id": 1506,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1506,
+      "source_id": 1507,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1507,
+      "source_id": 1508,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1508,
+      "source_id": 1509,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1509,
+      "source_id": 1510,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1510,
+      "source_id": 1511,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1511,
+      "source_id": 1512,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1512,
+      "source_id": 1513,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1513,
+      "source_id": 1514,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1514,
+      "source_id": 1515,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1515,
+      "source_id": 1516,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1516,
+      "source_id": 1517,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1517,
+      "source_id": 1518,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1518,
+      "source_id": 1519,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1519,
+      "source_id": 1520,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1520,
+      "source_id": 1521,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1521,
+      "source_id": 1522,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1522,
+      "source_id": 1523,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1523,
+      "source_id": 1524,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1524,
+      "source_id": 1525,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1525,
+      "source_id": 1526,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1526,
+      "source_id": 1527,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1527,
+      "source_id": 1528,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1528,
+      "source_id": 1529,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1529,
+      "source_id": 1530,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1530,
+      "source_id": 1531,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1531,
+      "source_id": 1532,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1532,
+      "source_id": 1533,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1533,
+      "source_id": 1534,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1534,
+      "source_id": 1535,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1535,
+      "source_id": 1536,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1536,
+      "source_id": 1537,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1537,
+      "source_id": 1538,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1538,
+      "source_id": 1539,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1539,
+      "source_id": 1540,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1540,
+      "source_id": 1541,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1541,
+      "source_id": 1542,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1542,
+      "source_id": 1543,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1543,
+      "source_id": 1544,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1544,
+      "source_id": 1545,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1545,
+      "source_id": 1546,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1546,
+      "source_id": 1547,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1547,
+      "source_id": 1548,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1548,
+      "source_id": 1549,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1549,
+      "source_id": 1550,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1550,
+      "source_id": 1551,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1551,
+      "source_id": 1552,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1552,
+      "source_id": 1553,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1553,
+      "source_id": 1554,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1554,
+      "source_id": 1555,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1555,
+      "source_id": 1556,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1556,
+      "source_id": 1557,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1557,
+      "source_id": 1558,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1558,
+      "source_id": 1559,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1559,
+      "source_id": 1560,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1560,
+      "source_id": 1561,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1561,
+      "source_id": 1562,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1562,
+      "source_id": 1563,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1563,
+      "source_id": 1564,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1564,
+      "source_id": 1565,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1565,
+      "source_id": 1566,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1566,
+      "source_id": 1567,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1567,
+      "source_id": 1568,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1568,
+      "source_id": 1569,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1569,
+      "source_id": 1570,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1570,
+      "source_id": 1571,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1571,
+      "source_id": 1572,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1572,
+      "source_id": 1573,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1573,
+      "source_id": 1574,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1574,
+      "source_id": 1575,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1575,
+      "source_id": 1576,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1576,
+      "source_id": 1577,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1577,
+      "source_id": 1578,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1578,
+      "source_id": 1579,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1579,
+      "source_id": 1580,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1580,
+      "source_id": 1581,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1581,
+      "source_id": 1582,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1582,
+      "source_id": 1583,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1583,
+      "source_id": 1584,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1584,
+      "source_id": 1585,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_22",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1585,
+      "source_id": 1586,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1586,
+      "source_id": 1587,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1587,
+      "source_id": 1588,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1588,
+      "source_id": 1589,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1589,
+      "source_id": 1590,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1590,
+      "source_id": 1591,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1591,
+      "source_id": 1592,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1592,
+      "source_id": 1593,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1593,
+      "source_id": 1594,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1594,
+      "source_id": 1595,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1595,
+      "source_id": 1596,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1596,
+      "source_id": 1597,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1597,
+      "source_id": 1598,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1598,
+      "source_id": 1599,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1599,
+      "source_id": 1600,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1600,
+      "source_id": 1601,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1601,
+      "source_id": 1602,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1602,
+      "source_id": 1603,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1603,
+      "source_id": 1604,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1604,
+      "source_id": 1605,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1605,
+      "source_id": 1606,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1606,
+      "source_id": 1607,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1607,
+      "source_id": 1608,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1608,
+      "source_id": 1609,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1609,
+      "source_id": 1610,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1610,
+      "source_id": 1611,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1611,
+      "source_id": 1612,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1612,
+      "source_id": 1613,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1613,
+      "source_id": 1614,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1614,
+      "source_id": 1615,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1615,
+      "source_id": 1616,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1616,
+      "source_id": 1617,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1617,
+      "source_id": 1618,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1618,
+      "source_id": 1619,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1619,
+      "source_id": 1620,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1620,
+      "source_id": 1621,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1621,
+      "source_id": 1622,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1622,
+      "source_id": 1623,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1623,
+      "source_id": 1624,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1624,
+      "source_id": 1625,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1625,
+      "source_id": 1626,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1626,
+      "source_id": 1627,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1627,
+      "source_id": 1628,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1628,
+      "source_id": 1629,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1629,
+      "source_id": 1630,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1630,
+      "source_id": 1631,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1631,
+      "source_id": 1632,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1632,
+      "source_id": 1633,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1633,
+      "source_id": 1634,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_22",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1634,
+      "source_id": 1635,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1635,
+      "source_id": 1636,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1636,
+      "source_id": 1637,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1637,
+      "source_id": 1638,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1638,
+      "source_id": 1639,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1639,
+      "source_id": 1640,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1640,
+      "source_id": 1641,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1641,
+      "source_id": 1642,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1642,
+      "source_id": 1643,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1643,
+      "source_id": 1644,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1644,
+      "source_id": 1645,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1645,
+      "source_id": 1646,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1646,
+      "source_id": 1647,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1647,
+      "source_id": 1648,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1648,
+      "source_id": 1649,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1649,
+      "source_id": 1650,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1650,
+      "source_id": 1651,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1651,
+      "source_id": 1652,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1652,
+      "source_id": 1653,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1653,
+      "source_id": 1654,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1654,
+      "source_id": 1655,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1655,
+      "source_id": 1656,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1656,
+      "source_id": 1657,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1657,
+      "source_id": 1658,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1658,
+      "source_id": 1659,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1659,
+      "source_id": 1660,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1660,
+      "source_id": 1661,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1661,
+      "source_id": 1662,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1662,
+      "source_id": 1663,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1663,
+      "source_id": 1664,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1664,
+      "source_id": 1665,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1665,
+      "source_id": 1666,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1666,
+      "source_id": 1667,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1667,
+      "source_id": 1668,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1668,
+      "source_id": 1669,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1669,
+      "source_id": 1670,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1670,
+      "source_id": 1671,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1671,
+      "source_id": 1672,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1672,
+      "source_id": 1673,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1673,
+      "source_id": 1674,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1674,
+      "source_id": 1675,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1675,
+      "source_id": 1676,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1676,
+      "source_id": 1677,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1677,
+      "source_id": 1678,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1678,
+      "source_id": 1679,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1679,
+      "source_id": 1680,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1680,
+      "source_id": 1681,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_22",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1681,
+      "source_id": 1682,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1682,
+      "source_id": 1683,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1683,
+      "source_id": 1684,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1684,
+      "source_id": 1685,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1685,
+      "source_id": 1686,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1686,
+      "source_id": 1687,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1687,
+      "source_id": 1688,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1688,
+      "source_id": 1689,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1689,
+      "source_id": 1690,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1690,
+      "source_id": 1691,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1691,
+      "source_id": 1692,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1692,
+      "source_id": 1693,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1693,
+      "source_id": 1694,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1694,
+      "source_id": 1695,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1695,
+      "source_id": 1696,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1696,
+      "source_id": 1697,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1697,
+      "source_id": 1698,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1698,
+      "source_id": 1699,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1699,
+      "source_id": 1700,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1700,
+      "source_id": 1701,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1701,
+      "source_id": 1702,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1702,
+      "source_id": 1703,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1703,
+      "source_id": 1704,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1704,
+      "source_id": 1705,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1705,
+      "source_id": 1706,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1706,
+      "source_id": 1707,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1707,
+      "source_id": 1708,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1708,
+      "source_id": 1709,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1709,
+      "source_id": 1710,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1710,
+      "source_id": 1711,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1711,
+      "source_id": 1712,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1712,
+      "source_id": 1713,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1713,
+      "source_id": 1714,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1714,
+      "source_id": 1715,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1715,
+      "source_id": 1716,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1716,
+      "source_id": 1717,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1717,
+      "source_id": 1718,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1718,
+      "source_id": 1719,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1719,
+      "source_id": 1720,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1720,
+      "source_id": 1721,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1721,
+      "source_id": 1722,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1722,
+      "source_id": 1723,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1723,
+      "source_id": 1724,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1724,
+      "source_id": 1725,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1725,
+      "source_id": 1726,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1726,
+      "source_id": 1727,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1727,
+      "source_id": 1728,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1728,
+      "source_id": 1729,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_22",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1729,
+      "source_id": 1730,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1730,
+      "source_id": 1731,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1731,
+      "source_id": 1732,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1732,
+      "source_id": 1733,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1733,
+      "source_id": 1734,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1734,
+      "source_id": 1735,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1735,
+      "source_id": 1736,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1736,
+      "source_id": 1737,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1737,
+      "source_id": 1738,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1738,
+      "source_id": 1739,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1739,
+      "source_id": 1740,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1740,
+      "source_id": 1741,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1741,
+      "source_id": 1742,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1742,
+      "source_id": 1743,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1743,
+      "source_id": 1744,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1744,
+      "source_id": 1745,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1745,
+      "source_id": 1746,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1746,
+      "source_id": 1747,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1747,
+      "source_id": 1748,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1748,
+      "source_id": 1749,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1749,
+      "source_id": 1750,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1750,
+      "source_id": 1751,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1751,
+      "source_id": 1752,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1752,
+      "source_id": 1753,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1753,
+      "source_id": 1754,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1754,
+      "source_id": 1755,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1755,
+      "source_id": 1756,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1756,
+      "source_id": 1757,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1757,
+      "source_id": 1758,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1758,
+      "source_id": 1759,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1759,
+      "source_id": 1760,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1760,
+      "source_id": 1761,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1761,
+      "source_id": 1762,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1762,
+      "source_id": 1763,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1763,
+      "source_id": 1764,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1764,
+      "source_id": 1765,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1765,
+      "source_id": 1766,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1766,
+      "source_id": 1767,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1767,
+      "source_id": 1768,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1768,
+      "source_id": 1769,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1769,
+      "source_id": 1770,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1770,
+      "source_id": 1771,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1771,
+      "source_id": 1772,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1772,
+      "source_id": 1773,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1773,
+      "source_id": 1774,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1774,
+      "source_id": 1775,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1775,
+      "source_id": 1776,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1776,
+      "source_id": 1777,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1777,
+      "source_id": 1778,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1778,
+      "source_id": 1779,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1779,
+      "source_id": 1780,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1780,
+      "source_id": 1781,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1781,
+      "source_id": 1782,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1782,
+      "source_id": 1783,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1783,
+      "source_id": 1784,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1784,
+      "source_id": 1785,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1785,
+      "source_id": 1786,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1786,
+      "source_id": 1787,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1787,
+      "source_id": 1788,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1788,
+      "source_id": 1789,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1789,
+      "source_id": 1790,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1790,
+      "source_id": 1791,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1791,
+      "source_id": 1792,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1792,
+      "source_id": 1793,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1793,
+      "source_id": 1794,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1794,
+      "source_id": 1795,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1795,
+      "source_id": 1796,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1796,
+      "source_id": 1797,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1797,
+      "source_id": 1798,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1798,
+      "source_id": 1799,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1799,
+      "source_id": 1800,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1800,
+      "source_id": 1801,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1801,
+      "source_id": 1802,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1802,
+      "source_id": 1803,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1803,
+      "source_id": 1804,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1804,
+      "source_id": 1805,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1805,
+      "source_id": 1806,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1806,
+      "source_id": 1807,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1807,
+      "source_id": 1808,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1808,
+      "source_id": 1809,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1809,
+      "source_id": 1810,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1810,
+      "source_id": 1811,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1811,
+      "source_id": 1812,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1812,
+      "source_id": 1813,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1813,
+      "source_id": 1814,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1814,
+      "source_id": 1815,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1815,
+      "source_id": 1816,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1816,
+      "source_id": 1817,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1817,
+      "source_id": 1818,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1818,
+      "source_id": 1819,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1819,
+      "source_id": 1820,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1820,
+      "source_id": 1821,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1821,
+      "source_id": 1822,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1822,
+      "source_id": 1823,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1823,
+      "source_id": 1824,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1824,
+      "source_id": 1825,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1825,
+      "source_id": 1826,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1826,
+      "source_id": 1827,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1827,
+      "source_id": 1828,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1828,
+      "source_id": 1829,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1829,
+      "source_id": 1830,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1830,
+      "source_id": 1831,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1831,
+      "source_id": 1832,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1832,
+      "source_id": 1833,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1833,
+      "source_id": 1834,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1834,
+      "source_id": 1835,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1835,
+      "source_id": 1836,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1836,
+      "source_id": 1837,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1837,
+      "source_id": 1838,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1838,
+      "source_id": 1839,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1839,
+      "source_id": 1840,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1840,
+      "source_id": 1841,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1841,
+      "source_id": 1842,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1842,
+      "source_id": 1843,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1843,
+      "source_id": 1844,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1844,
+      "source_id": 1845,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1845,
+      "source_id": 1846,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1846,
+      "source_id": 1847,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1847,
+      "source_id": 1848,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1848,
+      "source_id": 1849,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1849,
+      "source_id": 1850,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1850,
+      "source_id": 1851,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1851,
+      "source_id": 1852,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1852,
+      "source_id": 1853,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1853,
+      "source_id": 1854,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1854,
+      "source_id": 1855,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1855,
+      "source_id": 1856,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1856,
+      "source_id": 1857,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1857,
+      "source_id": 1858,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_22",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1858,
+      "source_id": 1859,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1859,
+      "source_id": 1860,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1860,
+      "source_id": 1861,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1861,
+      "source_id": 1862,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1862,
+      "source_id": 1863,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1863,
+      "source_id": 1864,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1864,
+      "source_id": 1865,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1865,
+      "source_id": 1866,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1866,
+      "source_id": 1867,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1867,
+      "source_id": 1868,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1868,
+      "source_id": 1869,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1869,
+      "source_id": 1870,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1870,
+      "source_id": 1871,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1871,
+      "source_id": 1872,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1872,
+      "source_id": 1873,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1873,
+      "source_id": 1874,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1874,
+      "source_id": 1875,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1875,
+      "source_id": 1876,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1876,
+      "source_id": 1877,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1877,
+      "source_id": 1878,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_43",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1878,
+      "source_id": 1879,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1879,
+      "source_id": 1880,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1880,
+      "source_id": 1881,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1881,
+      "source_id": 1882,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1882,
+      "source_id": 1883,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1883,
+      "source_id": 1884,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1884,
+      "source_id": 1885,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_1",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1885,
+      "source_id": 1886,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_2",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1886,
+      "source_id": 1887,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_3",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1887,
+      "source_id": 1888,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_4",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1888,
+      "source_id": 1889,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_5",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1889,
+      "source_id": 1890,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_6",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1890,
+      "source_id": 1891,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_7",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1891,
+      "source_id": 1892,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_8",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1892,
+      "source_id": 1893,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_9",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1893,
+      "source_id": 1894,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_10",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1894,
+      "source_id": 1895,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_11",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1895,
+      "source_id": 1896,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_12",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1896,
+      "source_id": 1897,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_13",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1897,
+      "source_id": 1898,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_14",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1898,
+      "source_id": 1899,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_15",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1899,
+      "source_id": 1900,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_16",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1900,
+      "source_id": 1901,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_17",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1901,
+      "source_id": 1902,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_18",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1902,
+      "source_id": 1903,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_19",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1903,
+      "source_id": 1904,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_20",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1904,
+      "source_id": 1905,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_21",
+      "category": "Sensor Noise",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 1905,
+      "source_id": 1906,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_22",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1906,
+      "source_id": 1907,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_23",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1907,
+      "source_id": 1908,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_24",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1908,
+      "source_id": 1909,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_25",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1909,
+      "source_id": 1910,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_26",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1910,
+      "source_id": 1911,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_27",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1911,
+      "source_id": 1912,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_28",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1912,
+      "source_id": 1913,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_29",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1913,
+      "source_id": 1914,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_30",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1914,
+      "source_id": 1915,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_31",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1915,
+      "source_id": 1916,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_32",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1916,
+      "source_id": 1917,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_33",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1917,
+      "source_id": 1918,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_34",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1918,
+      "source_id": 1919,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_35",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1919,
+      "source_id": 1920,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_36",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1920,
+      "source_id": 1921,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_37",
+      "category": "Sensor Noise",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 1921,
+      "source_id": 1922,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_38",
+      "category": "Sensor Noise",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 1922,
+      "source_id": 1923,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_39",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1923,
+      "source_id": 1924,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_40",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1924,
+      "source_id": 1925,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_41",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1925,
+      "source_id": 1926,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_42",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1926,
+      "source_id": 1927,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_44",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1927,
+      "source_id": 1928,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_45",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1928,
+      "source_id": 1929,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_46",
+      "category": "Sensor Noise",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 1929,
+      "source_id": 1930,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_47",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1930,
+      "source_id": 1931,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_48",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1931,
+      "source_id": 1932,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_49",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 1932,
+      "source_id": 1933,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_0_noise_50",
+      "category": "Sensor Noise",
+      "difficulty_level": 5
+    }
+  ]
+}

@@ -1,0 +1,1927 @@
+{
+  "suite": "libero_10",
+  "category": "Light Conditions",
+  "num_tasks": 274,
+  "num_trials_per_task": 1,
+  "init_state_index": 0,
+  "tasks": [
+    {
+      "task_id": 2245,
+      "source_id": 2246,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_1",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2246,
+      "source_id": 2247,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2247,
+      "source_id": 2248,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2248,
+      "source_id": 2249,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_12",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2249,
+      "source_id": 2250,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2250,
+      "source_id": 2251,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_14",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2251,
+      "source_id": 2252,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2252,
+      "source_id": 2253,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_16",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2253,
+      "source_id": 2254,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_17",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2254,
+      "source_id": 2255,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2255,
+      "source_id": 2256,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_19",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2256,
+      "source_id": 2257,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2257,
+      "source_id": 2258,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_20",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2258,
+      "source_id": 2259,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_21",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2259,
+      "source_id": 2260,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2260,
+      "source_id": 2261,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_25",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2261,
+      "source_id": 2262,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_26",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2262,
+      "source_id": 2263,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_27",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2263,
+      "source_id": 2264,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_28",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2264,
+      "source_id": 2265,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_29",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2265,
+      "source_id": 2266,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_3",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2266,
+      "source_id": 2267,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_30",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2267,
+      "source_id": 2268,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_31",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2268,
+      "source_id": 2269,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_33",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2269,
+      "source_id": 2270,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_34",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2270,
+      "source_id": 2271,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_35",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2271,
+      "source_id": 2272,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_36",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2272,
+      "source_id": 2273,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2273,
+      "source_id": 2274,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_4",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2274,
+      "source_id": 2275,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_41",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2275,
+      "source_id": 2276,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_42",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2276,
+      "source_id": 2277,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_43",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2277,
+      "source_id": 2278,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_45",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2278,
+      "source_id": 2279,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_46",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2279,
+      "source_id": 2280,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_47",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2280,
+      "source_id": 2281,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_48",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2281,
+      "source_id": 2282,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_49",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2282,
+      "source_id": 2283,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_5",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2283,
+      "source_id": 2284,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2284,
+      "source_id": 2285,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_7",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2285,
+      "source_id": 2286,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_8",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2286,
+      "source_id": 2287,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_9",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2287,
+      "source_id": 2288,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_1",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2288,
+      "source_id": 2289,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2289,
+      "source_id": 2290,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2290,
+      "source_id": 2291,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_12",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2291,
+      "source_id": 2292,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2292,
+      "source_id": 2293,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_14",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2293,
+      "source_id": 2294,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2294,
+      "source_id": 2295,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_16",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2295,
+      "source_id": 2296,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_17",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2296,
+      "source_id": 2297,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2297,
+      "source_id": 2298,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_19",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2298,
+      "source_id": 2299,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2299,
+      "source_id": 2300,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_20",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2300,
+      "source_id": 2301,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_21",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2301,
+      "source_id": 2302,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_23",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2302,
+      "source_id": 2303,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2303,
+      "source_id": 2304,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_25",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2304,
+      "source_id": 2305,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_26",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2305,
+      "source_id": 2306,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_27",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2306,
+      "source_id": 2307,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_28",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2307,
+      "source_id": 2308,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_29",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2308,
+      "source_id": 2309,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_3",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2309,
+      "source_id": 2310,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_30",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2310,
+      "source_id": 2311,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_31",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2311,
+      "source_id": 2312,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_32",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2312,
+      "source_id": 2313,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_33",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2313,
+      "source_id": 2314,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_34",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2314,
+      "source_id": 2315,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_35",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2315,
+      "source_id": 2316,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_36",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2316,
+      "source_id": 2317,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_37",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2317,
+      "source_id": 2318,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2318,
+      "source_id": 2319,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2319,
+      "source_id": 2320,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_4",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2320,
+      "source_id": 2321,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_40",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2321,
+      "source_id": 2322,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_41",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2322,
+      "source_id": 2323,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_42",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2323,
+      "source_id": 2324,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_43",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2324,
+      "source_id": 2325,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_44",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2325,
+      "source_id": 2326,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_45",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2326,
+      "source_id": 2327,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_46",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2327,
+      "source_id": 2328,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_47",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2328,
+      "source_id": 2329,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_48",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2329,
+      "source_id": 2330,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_49",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2330,
+      "source_id": 2331,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_5",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2331,
+      "source_id": 2332,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2332,
+      "source_id": 2333,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_6",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2333,
+      "source_id": 2334,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_7",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2334,
+      "source_id": 2335,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_8",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2335,
+      "source_id": 2336,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_9",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2336,
+      "source_id": 2337,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_1",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2337,
+      "source_id": 2338,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2338,
+      "source_id": 2339,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2339,
+      "source_id": 2340,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_12",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2340,
+      "source_id": 2341,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2341,
+      "source_id": 2342,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_14",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2342,
+      "source_id": 2343,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2343,
+      "source_id": 2344,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_16",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2344,
+      "source_id": 2345,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_17",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2345,
+      "source_id": 2346,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2346,
+      "source_id": 2347,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_19",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2347,
+      "source_id": 2348,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2348,
+      "source_id": 2349,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_20",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2349,
+      "source_id": 2350,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_23",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2350,
+      "source_id": 2351,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_25",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2351,
+      "source_id": 2352,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_27",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2352,
+      "source_id": 2353,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_28",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2353,
+      "source_id": 2354,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_29",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2354,
+      "source_id": 2355,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_31",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2355,
+      "source_id": 2356,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_34",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2356,
+      "source_id": 2357,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_35",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2357,
+      "source_id": 2358,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_36",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2358,
+      "source_id": 2359,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_37",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2359,
+      "source_id": 2360,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2360,
+      "source_id": 2361,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2361,
+      "source_id": 2362,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_4",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2362,
+      "source_id": 2363,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_40",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2363,
+      "source_id": 2364,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_41",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2364,
+      "source_id": 2365,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_42",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2365,
+      "source_id": 2366,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_43",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2366,
+      "source_id": 2367,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_44",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2367,
+      "source_id": 2368,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_46",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2368,
+      "source_id": 2369,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_48",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2369,
+      "source_id": 2370,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_49",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2370,
+      "source_id": 2371,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_5",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2371,
+      "source_id": 2372,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2372,
+      "source_id": 2373,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_6",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2373,
+      "source_id": 2374,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_9",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2374,
+      "source_id": 2375,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2375,
+      "source_id": 2376,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2376,
+      "source_id": 2377,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2377,
+      "source_id": 2378,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_16",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2378,
+      "source_id": 2379,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2379,
+      "source_id": 2380,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2380,
+      "source_id": 2381,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_20",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2381,
+      "source_id": 2382,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2382,
+      "source_id": 2383,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_26",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2383,
+      "source_id": 2384,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_27",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2384,
+      "source_id": 2385,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_29",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2385,
+      "source_id": 2386,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_30",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2386,
+      "source_id": 2387,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_31",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2387,
+      "source_id": 2388,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_33",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2388,
+      "source_id": 2389,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_34",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2389,
+      "source_id": 2390,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_35",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2390,
+      "source_id": 2391,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2391,
+      "source_id": 2392,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2392,
+      "source_id": 2393,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_4",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2393,
+      "source_id": 2394,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_40",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2394,
+      "source_id": 2395,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_41",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2395,
+      "source_id": 2396,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_42",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2396,
+      "source_id": 2397,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_46",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2397,
+      "source_id": 2398,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_light_49",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2398,
+      "source_id": 2399,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2399,
+      "source_id": 2400,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2400,
+      "source_id": 2401,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2401,
+      "source_id": 2402,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_light_37",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2402,
+      "source_id": 2403,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2403,
+      "source_id": 2404,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2404,
+      "source_id": 2405,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2405,
+      "source_id": 2406,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_21",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2406,
+      "source_id": 2407,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2407,
+      "source_id": 2408,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2408,
+      "source_id": 2409,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2409,
+      "source_id": 2410,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_40",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2410,
+      "source_id": 2411,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_44",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2411,
+      "source_id": 2412,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_45",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2412,
+      "source_id": 2413,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2413,
+      "source_id": 2414,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_6",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2414,
+      "source_id": 2415,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_light_8",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2415,
+      "source_id": 2416,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_1",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2416,
+      "source_id": 2417,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2417,
+      "source_id": 2418,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_14",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2418,
+      "source_id": 2419,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2419,
+      "source_id": 2420,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2420,
+      "source_id": 2421,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_21",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2421,
+      "source_id": 2422,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_22",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2422,
+      "source_id": 2423,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_25",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2423,
+      "source_id": 2424,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_26",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2424,
+      "source_id": 2425,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_30",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2425,
+      "source_id": 2426,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2426,
+      "source_id": 2427,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_44",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2427,
+      "source_id": 2428,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_46",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2428,
+      "source_id": 2429,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_47",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2429,
+      "source_id": 2430,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_48",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2430,
+      "source_id": 2431,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2431,
+      "source_id": 2432,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_6",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2432,
+      "source_id": 2433,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_light_8",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2433,
+      "source_id": 2434,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2434,
+      "source_id": 2435,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2435,
+      "source_id": 2436,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_12",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2436,
+      "source_id": 2437,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2437,
+      "source_id": 2438,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2438,
+      "source_id": 2439,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_16",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2439,
+      "source_id": 2440,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_17",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2440,
+      "source_id": 2441,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2441,
+      "source_id": 2442,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_19",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2442,
+      "source_id": 2443,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2443,
+      "source_id": 2444,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_20",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2444,
+      "source_id": 2445,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_21",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2445,
+      "source_id": 2446,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_22",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2446,
+      "source_id": 2447,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2447,
+      "source_id": 2448,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_25",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2448,
+      "source_id": 2449,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_26",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2449,
+      "source_id": 2450,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_27",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2450,
+      "source_id": 2451,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_28",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2451,
+      "source_id": 2452,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_29",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2452,
+      "source_id": 2453,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_31",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2453,
+      "source_id": 2454,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_33",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2454,
+      "source_id": 2455,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_35",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2455,
+      "source_id": 2456,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_36",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2456,
+      "source_id": 2457,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2457,
+      "source_id": 2458,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_41",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2458,
+      "source_id": 2459,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_43",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2459,
+      "source_id": 2460,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_44",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2460,
+      "source_id": 2461,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_46",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2461,
+      "source_id": 2462,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_49",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2462,
+      "source_id": 2463,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_5",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2463,
+      "source_id": 2464,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2464,
+      "source_id": 2465,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_6",
+      "category": "Light Conditions",
+      "difficulty_level": 1
+    },
+    {
+      "task_id": 2465,
+      "source_id": 2466,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_light_7",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2466,
+      "source_id": 2467,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_10",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2467,
+      "source_id": 2468,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2468,
+      "source_id": 2469,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2469,
+      "source_id": 2470,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_14",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2470,
+      "source_id": 2471,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_15",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2471,
+      "source_id": 2472,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_16",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2472,
+      "source_id": 2473,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_18",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2473,
+      "source_id": 2474,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_19",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2474,
+      "source_id": 2475,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2475,
+      "source_id": 2476,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_21",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2476,
+      "source_id": 2477,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_22",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2477,
+      "source_id": 2478,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_23",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2478,
+      "source_id": 2479,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_3",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2479,
+      "source_id": 2480,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_30",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2480,
+      "source_id": 2481,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_32",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2481,
+      "source_id": 2482,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_33",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2482,
+      "source_id": 2483,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_34",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2483,
+      "source_id": 2484,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_35",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2484,
+      "source_id": 2485,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_36",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2485,
+      "source_id": 2486,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_37",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2486,
+      "source_id": 2487,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2487,
+      "source_id": 2488,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2488,
+      "source_id": 2489,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_4",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2489,
+      "source_id": 2490,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_40",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2490,
+      "source_id": 2491,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_43",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2491,
+      "source_id": 2492,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_44",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2492,
+      "source_id": 2493,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_45",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2493,
+      "source_id": 2494,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_48",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2494,
+      "source_id": 2495,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_49",
+      "category": "Light Conditions",
+      "difficulty_level": 5
+    },
+    {
+      "task_id": 2495,
+      "source_id": 2496,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_5",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2496,
+      "source_id": 2497,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_light_50",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2497,
+      "source_id": 2498,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_1",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2498,
+      "source_id": 2499,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_11",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2499,
+      "source_id": 2500,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_12",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2500,
+      "source_id": 2501,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_13",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    },
+    {
+      "task_id": 2501,
+      "source_id": 2502,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_14",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2502,
+      "source_id": 2503,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_19",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2503,
+      "source_id": 2504,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_2",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2504,
+      "source_id": 2505,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_20",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2505,
+      "source_id": 2506,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_22",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2506,
+      "source_id": 2507,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_23",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2507,
+      "source_id": 2508,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_24",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2508,
+      "source_id": 2509,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_25",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2509,
+      "source_id": 2510,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_28",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2510,
+      "source_id": 2511,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_29",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2511,
+      "source_id": 2512,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_30",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2512,
+      "source_id": 2513,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_31",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2513,
+      "source_id": 2514,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_32",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2514,
+      "source_id": 2515,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_38",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2515,
+      "source_id": 2516,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_39",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2516,
+      "source_id": 2517,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_41",
+      "category": "Light Conditions",
+      "difficulty_level": 2
+    },
+    {
+      "task_id": 2517,
+      "source_id": 2518,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_5",
+      "category": "Light Conditions",
+      "difficulty_level": 3
+    },
+    {
+      "task_id": 2518,
+      "source_id": 2519,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_light_8",
+      "category": "Light Conditions",
+      "difficulty_level": 4
+    }
+  ]
+}
