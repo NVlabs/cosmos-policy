@@ -1,127 +1,208 @@
-# Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning
+# LIBERO-Plus 记忆引导修复 + 七维全参数 SFT
 
-<p align="center">
-  <a href="https://arxiv.org/abs/2601.16163">Paper</a>&nbsp | <a href="https://research.nvidia.com/labs/dir/cosmos-policy/">Project Website</a>&nbsp | 🤗 <a href="https://huggingface.co/collections/nvidia/cosmos-policy">Models & Training Data</a>&nbsp | <a href="https://youtu.be/V2qdFD9n5BM">Summary Video</a>
-</p>
+本分支是 [NVIDIA Cosmos Policy](https://github.com/NVIDIA/cosmos-policy) 的一个 fork，在其上实现了一套在
+**LIBERO-Plus** 上运行的「记忆引导修复 → 全参数 SFT」流水线。
 
-## System Requirements
+仓库存放**代码 + 少量固定的 Memory 产物 + 七维任务清单**。模型权重、仿真资源、运行数据都不在这里，
+获取方式见[第 4 节](#4-仓库外依赖)。
 
-Inference with base Cosmos Policy only (i.e., no model-based planning):
-* 1 GPU with 6.8 GB VRAM for LIBERO sim benchmark tasks
-* 1 GPU with 8.9 GB VRAM for RoboCasa sim benchmark tasks
-* 1 GPU with 6.0 GB VRAM for ALOHA robot tasks
+---
 
-Inference with Cosmos Policy + model-based planning (best-of-N search) on ALOHA robot tasks:
-* Minimum (serial inference): 1 GPU with 10.0 GB VRAM
-* Recommended (parallel inference): N GPUs with 10.0 GB VRAM each
+## 1. 流水线做什么
 
-Training:
-* Generally, it is recommended to have at least 1 node of 8 80GB GPUs. For the experiments in the Cosmos Policy paper, we used 8 80GB GPUs (H100s) for 48 hours for small-scale ALOHA robot data fine-tuning (<200 demos), 32 80GB GPUs (H100s) for 48 hours for RoboCasa training (1200 demos), and 64 80GB GPUs (H100s) for 48 hours for LIBERO training (2000 demos). If you have fewer GPUs, you can use gradient accumulation to increase total batch size, which we found leads to faster convergence than taking more gradient steps with a smaller batch size.
-
-## Quick Start
-
-First, set up a Docker container following the instructions in [SETUP.md](SETUP.md).
-
-Then, inside the Docker container, enter a Python shell via: `uv run --extra cu128 --group libero --python 3.10 python`.
-
-Then, run the Python code below to generate (1) robot actions, (2) predicted future state (represented by robot proprioception and future image observations), and (3) future state value (expected cumulative rewards):
-
-```python
-import pickle
-import torch
-from PIL import Image
-from cosmos_policy.experiments.robot.libero.run_libero_eval import PolicyEvalConfig
-from cosmos_policy.experiments.robot.cosmos_utils import (
-    get_action,
-    get_model,
-    load_dataset_stats,
-    init_t5_text_embeddings_cache,
-    get_t5_embedding_from_cache,
-)
-
-# Instantiate config (see PolicyEvalConfig in cosmos_policy/experiments/robot/libero/run_libero_eval.py for definitions)
-cfg = PolicyEvalConfig(
-    config="cosmos_predict2_2b_480p_libero__inference_only",
-    ckpt_path="nvidia/Cosmos-Policy-LIBERO-Predict2-2B",
-    config_file="cosmos_policy/config/config.py",
-    dataset_stats_path="nvidia/Cosmos-Policy-LIBERO-Predict2-2B/libero_dataset_statistics.json",
-    t5_text_embeddings_path="nvidia/Cosmos-Policy-LIBERO-Predict2-2B/libero_t5_embeddings.pkl",
-    use_wrist_image=True,
-    use_proprio=True,
-    normalize_proprio=True,
-    unnormalize_actions=True,
-    chunk_size=16,
-    num_open_loop_steps=16,
-    trained_with_image_aug=True,
-    use_jpeg_compression=True,
-    flip_images=True,  # Only for LIBERO; images render upside-down
-    num_denoising_steps_action=5,
-    num_denoising_steps_future_state=1,
-    num_denoising_steps_value=1,
-)
-# Load dataset stats for action/proprio scaling
-dataset_stats = load_dataset_stats(cfg.dataset_stats_path)
-# Initialize T5 text embeddings cache
-init_t5_text_embeddings_cache(cfg.t5_text_embeddings_path)
-# Load model
-model, cosmos_config = get_model(cfg)
-# Load sample observation:
-#   observation (dict): {
-#     "primary_image": primary third-person image,
-#     "wrist_image": wrist-mounted camera image,
-#     "proprio": robot proprioceptive state,
-#   }
-with open("cosmos_policy/experiments/robot/libero/sample_libero_10_observation.pkl", "rb") as file:
-    observation = pickle.load(file)
-    task_description = "put both the alphabet soup and the tomato sauce in the basket"
-# Generate robot actions, future state (proprio + images), and value
-action_return_dict = get_action(
-    cfg,
-    model,
-    dataset_stats,
-    observation,
-    task_description,
-    num_denoising_steps_action=cfg.num_denoising_steps_action,
-    generate_future_state_and_value_in_parallel=True,
-)
-# Print actions
-print(f"Generated action chunk: {action_return_dict['actions']}")
-# Save future image predictions (third-person image and wrist image)
-img_path1, img_path2 = "future_image.png", "future_wrist_image.png"
-Image.fromarray(action_return_dict['future_image_predictions']['future_image']).save(img_path1)
-Image.fromarray(action_return_dict['future_image_predictions']['future_wrist_image']).save(img_path2)
-print(f"Saved future image predictions to:\n\t{img_path1}\n\t{img_path2}")
-# Print value
-print(f"Generated value: {action_return_dict['value_prediction']}")
+```
+原始 policy 在 7 个扰动维度上跑基线        →  记录失败 case
+        ↓
+诊断：失败落在哪个技能阶段，以及接管时刻 t*
+        ↓
+回放失败前缀  →  Memory 引导修正（选段 + 目标位姿 + cuRobo 规划执行）  →  交回原 policy 继续
+        ↓
+保存完整成功轨迹  →  按同 base task 的 regenerated 成功 demo 的 P95 长度筛选
+        ↓
+全参数 SFT  →  导出单文件 policy  →  关闭 Memory 重新 rollout 评测
 ```
 
-If you run into runtime errors, you may need to enter the Python shell via `uv run   --extra cu128   --group libero   --python 3.10   python` before running the code above.
+Memory 只提供**选哪一段**和**目标位姿**；接管动作由规划器在线生成，不含 memory 中存储的动作块。
+因此 SFT 学到的是「修正之后如何继续」，而不是「复现控制器输出的动作」。
 
-## Installation
+## 2. 七个扰动维度（suite = libero_10）
 
-See [SETUP.md](SETUP.md) for instructions on setting up the environment.
+| 类别 | key | case 数 |
+|---|---|---:|
+| Sensor Noise | `sensor_noise` | 449 |
+| Camera Viewpoints | `camera_viewpoints` | 419 |
+| Robot Initial States | `robot_initial_states` | 393 |
+| Language Instructions | `language_instructions` | 383 |
+| Objects Layout | `objects_layout` | 312 |
+| Background Textures | `background_textures` | 289 |
+| Light Conditions | `light_conditions` | 274 |
+| **合计** | | **2519** |
 
-## Training and Evaluation
+清单在 `experiments/libero_plus/task_lists/libero_10/`（`index.json` + 7 个类别文件）。
+`scripts/run_libero_plus_batch.py:81` 会逐个校验 sha256；`index.json` 中 `total_tasks == 2519`
+且类别数 `== 7` 是硬编码断言。
 
-See [LIBERO.md](LIBERO.md) for fine-tuning/evaluating on LIBERO simulation benchmark task suites.
+## 3. 仓库内容
 
-See [ROBOCASA.md](ROBOCASA.md) for fine-tuning/evaluating on RoboCasa simulation benchmark tasks.
+| 路径 | 内容 |
+|---|---|
+| `cosmos_policy/` | policy 模型、imaginaire 框架、数据集、训练器、eval 入口 |
+| `memory_system/` | Memory 的构建、检索、规划与控制（`tta/`、`execute/`、`offline/`、`pointcloud_action/`） |
+| `memory/` | 仅 3 个文件：`libero_joint_control.py` 用到的 `densify_joint_path` 及其 `types.py` |
+| `scripts/` | 流水线入口（见第 6 节） |
+| `tests/tta/archived_lorafix/train_tta_sft_fixed.py` | 训练入口按字符串路径动态加载的 `mutate_config` |
+| `skill_memory_test/libero_10/` | 修复路径读取的 3 个 Memory 产物 |
+| `experiments/libero_plus/task_lists/libero_10/` | 七维任务清单（`load_plan()` 的输入） |
+| `configs/libero10_experiment_tasks.json` | base task ↔ 合法扰动变体的映射 |
+| `docs/repair/` | 流水线的协议、失败清单与核对记录 |
 
-See [ALOHA.md](ALOHA.md) for fine-tuning/evaluating on real-world ALOHA robot tasks.
+三条 `.gitignore` 规则会命中本仓库需要的文件，它们是用 `git add -f` 加进来的，**不要重新生成索引**：
 
-## Support
+- `.gitignore:10` 的 `experiments/`（无锚点，误伤 `cosmos_policy/experiments/`）→ `libero_joint_control.py`
+- `.gitignore:13` 的 `skill_memory_test/` → 那 3 个 Memory 产物
+- `.gitignore` 末行 `tests/tta/archived_lorafix/` → `train_tta_sft_fixed.py`
+- `experiments/libero_plus/task_lists/` 同样被 `experiments/` 命中
 
-If you run into any issues, please open a new GitHub issue. For critical blocking issues, please email Moo Jin Kim (moojink@cs.stanford.edu) to bring the issue to his attention.
+## 4. 仓库外依赖
 
-## Citation
+| 依赖 | 大小 | 来源 |
+|---|---:|---|
+| **LIBERO-plus 代码** | 119 MB（不含 assets） | 上游 `https://github.com/sylvestf/LIBERO-plus.git` |
+| **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
+| **基础 policy checkpoint** | 3.7 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`（见 `LIBERO.md`） |
+| **`libero_t5_embeddings.pkl`** + `libero_dataset_statistics.json` | 109 MB | 🤗 `nvidia/LIBERO-Cosmos-Policy`：`hf download nvidia/LIBERO-Cosmos-Policy --repo-type dataset --local-dir LIBERO-Cosmos-Policy` |
+| **language T5 增量缓存** | 375 MB（374 条） | **无下载源**。这是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**后才完整（`run_libero_plus_batch.py:187-190`）。仓库里没有生成它的脚本；`scripts/libero_pro/precompute_t5.py` 是通用工具，可按 suite 枚举指令并补算缺失项（需加载 9 GB T5 编码器，未实测） |
+| **成功 demo（P95 参考）** | 76 GB | `LIBERO-Cosmos-Policy/success_only/libero_10_regen/`（每个 base task 一个 `*_demo.hdf5`） |
+| **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，均需自己重跑生成 |
+| **cuRobo** | — | 未列入 `pyproject.toml` / `uv.lock`，需单独安装 |
 
-If you use our code in your work, please cite [our paper](https://arxiv.org/abs/2601.16163):
+### 版本 pin
 
-```bibtex
-@article{kim2026cosmos,
-  title={Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning},
-  author={Kim, Moo Jin and Gao, Yihuai and Lin, Tsung-Yi and Lin, Yen-Chen and Ge, Yunhao and Lam, Grace and Liang, Percy and Song, Shuran and Liu, Ming-Yu and Finn, Chelsea and Gu, Jinwei},
-  journal={arXiv preprint arXiv:2601.16163},
-  year={2026}
-}
+`run_libero_plus_batch.py:188` 会校验 LIBERO-plus 的 `benchmark/task_classification.json`：
+
 ```
+期望 sha256 = faa87cce3e3ba434da01df7c77523a391b5f2912e4774330b0aa1be5f6a999e6
+```
+
+对不上会直接报 `LIBERO-plus classification differs from the pinned task manifests`。
+本流水线使用的 LIBERO-plus 相对上游还有三处本地修改，需从配套分支获取：
+
+```
+ M libero/libero/benchmark/__init__.py      (+90 行)
+ M libero/libero/envs/env_wrapper.py        (+30 行)
+ ?? libero/libero/bddl_files/libero_10/counterfactual_plusonly_*.bddl   (10 个)
+```
+
+### 目录约定
+
+代码按**相对位置**解析外部资源，仓库必须放在 `<A>/<B>/<repo>`，其中：
+
+```
+<A>/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/     ← run_libero_plus_batch.py 用 root.parents[1]
+<B>/LIBERO-plus/                                       ← 或设置 COSMOS_LIBERO_ROOT 指向别处
+```
+
+`scripts/run_libero_smoke_test.sh` 另外用 `$REPO_ROOT/../../../checkpoints` 定位 checkpoint，
+`${COSMOS_LIBERO_ROOT:-../../LIBERO-plus}` 定位 LIBERO 包，两者都可用环境变量覆盖。
+
+## 5. 环境准备
+
+```bash
+# 1) LIBERO-plus 及其 assets 就位后，生成 libero 配置。
+#    注意：config.yaml 缺失时 libero 会交互式提问，无人应答会 EOFError。
+export LIBERO_CONFIG_PATH=$PWD/libero_config
+mkdir -p $LIBERO_CONFIG_PATH
+echo N | python -c "import libero.libero"     # 生成指向本机 LIBERO-plus 的绝对路径配置
+
+# 2) 环境变量
+export COSMOS_LIBERO_ROOT=$PWD/../LIBERO-plus
+export PYTHONPATH=$COSMOS_LIBERO_ROOT:$PWD:$PWD/scripts
+```
+
+`~/.libero/config.yaml` 可能被其他 LIBERO 分支的实验改写，**每次运行前显式设置 `LIBERO_CONFIG_PATH`**
+比依赖全局配置可靠。
+
+## 6. 运行
+
+```bash
+# 阶段 0：自检（CPU，不需要 GPU）
+python scripts/run_libero_plus_batch.py --dry-run        # 校验任务清单并打印计划
+python scripts/run_libero_plus_batch.py --validate-only  # 校验 2519 个 case 的 BDDL、初始状态、T5 覆盖
+
+# 阶段 1：基线 rollout（7 维 2519 case）
+python scripts/run_libero_plus_batch.py --gpus 0 1 2 3 4 5 6 7
+
+# 阶段 2：收集失败清单 → experiments/tta/repair_libero_plus_435/inputs/failed_435.json
+python scripts/collect_libero_plus_failures.py
+
+# 阶段 3：Memory 引导修复
+#   默认只跑 4 个 smoke case；全量要显式指定工作目录并排除已完成的：
+python scripts/run_libero_plus_repair.py \
+    --work-dir          experiments/tta/repair_libero_plus_435/smoke_4 \
+    --gpus 0 1 2 3 4 5 6 7
+python scripts/run_libero_plus_repair.py --all-cases \
+    --work-dir          experiments/tta/repair_libero_plus_435/remaining_431 \
+    --exclude-completed-from experiments/tta/repair_libero_plus_435/smoke_4 \
+    --gpus 0 1 2 3 4 5 6 7
+
+# 阶段 4：P95 筛选 → success_task_p95/
+python scripts/select_libero_plus_success_p95.py
+
+# 阶段 5：SFT 训练 → 导出 → 评测（一条龙，含 smoke、checkpoint 校验、逐 epoch 评测）
+python scripts/run_libero_plus_sft190_pipeline.py \
+    --job-name <name> --full-finetune --epochs 8 --gpus 0 1 2 3 4 5 6 7
+```
+
+`run_libero_plus_repair.py` 也支持 `--task-ids` 选单个 case，以及 `--resume` / `--retry-errors`。
+
+### 已知限制
+
+`run_libero_plus_sft190_pipeline.py:171` 的 `--evaluation-scope` 目前只覆盖
+`robotinit-failures`、`robotinit-heldout-failures`、`camera-failures`、`camera-memory-failures`、
+`background-heldout-failures`、`sensor-noise-failures`。**Background 全量、Light、Language、Objects
+四类当时是用 `scripts/experiments/libero_plus_sft190/_plans/<job>/` 下的局部 pipeline 跑的**，
+那些文件没有带进本分支。要在这些维度上评测，需要先把对应的 scope 补进公共 pipeline。
+
+## 7. 协议常量
+
+| 项 | 值 |
+|---|---|
+| `action_seed` | 42 |
+| `environment_seed` | 10000 |
+| `settle_steps` | 30（不计入保存的轨迹长度） |
+| `max_steps` | 700（含前缀回放与 Memory 干预） |
+| `num_trials_per_task` | 1 |
+| `init_state_index` | 0 |
+| `rng_mode` | `openwam` |
+| P95 规则 | 成功 **且** `full action_steps <= 同 base task 的 regenerated 成功 demo 的 P95`（numpy linear） |
+
+轨迹长度定义为完整的 `actions`（基线前缀 + Memory 干预 + policy 续跑），不含 30 步 settling。
+
+## 8. 不在仓库里的东西
+
+- **全部运行产物**：`experiments/libero_plus/cosmospolicy_full_7dims/`（2519 条基线结果）、
+  `experiments/tta/repair_libero_plus_435/`（435 个修复 case）、`experiments/libero_plus/sft190_p95/`（逐 case 评测）
+- **SFT 训练集**：`training/`。注意其中的 HDF5 用 `h5py.ExternalLink` **以绝对路径**指向原始修复产物，
+  只拷贝 `training/<data_dir>` 不会得到独立可用的数据。
+- **导出权重**：`training/<job>_iter<N>_full.pt`
+- **上游未采用的模块**：`scripts_memory/`、`memory/` 重构树的其余部分、
+  `memory_system/pointcloud_action/` 与 `memory_system/offline/`（`scripts/libero_pro/` 只保留了 `precompute_t5.py`）。它们唯一的静态入口是
+  `scripts/libero_pro/oracle_ready_eval.py`，而该模块只在 `run_libero_eval.py:390` 的一个环境变量门
+  （`COSMOS_SKILL_READY_MEMORY`）之后被导入，本流水线不会走到。
+
+## 9. 已有的实验结果
+
+以下数字由本分支的代码在原作者机器上产生，**产物未包含在本仓库**。评测集是该维度全部基线失败 case
+（即基线成功率在这些 case 上恒为 0），因此不反映在基线已通过的 case 上是否发生遗忘。
+
+| 维度 | 训练轨迹 | 评测 case | 训练集成功率(e8) | heldout 成功率(e1 → e8) | heldout n |
+|---|---:|---:|---:|---|---:|
+| Robot Initial | 90 | 119 | 76.7% | 58.6% → 55.2% | 29 |
+| Camera | 24 | 167 | 79.2% | 24.5% → 32.9% | 143 |
+| Background | 29 | 70 | 75.9% | 19.5% → 24.4% | 41 |
+| Sensor Noise | 22 | 27 | 59.1% | 40% → 60% | 5 |
+| Light | 14 | 16 | 78.6% | 50% → 50% | 2 |
+| Language | — | — | 未训练 | — | — |
+| Objects | — | — | 未训练 | — | — |
+
+七个维度中只有五类跑过 SFT；Language 与 Objects 从未训练（它们通过 P95 筛选的轨迹分别只有 8 条和 3 条）。
