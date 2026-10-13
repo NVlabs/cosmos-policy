@@ -1,5 +1,0 @@
-episode,init_state_index,success,method,robot_total,robot_removed,robot_remaining,robot_recall,nonrobot_total,environment_removed,removed_total,removal_precision
-1,0,True,curobo_spheres,4042,3475,567,0.8597229094507669,61494,12,3487,0.9965586464009177
-1,0,True,urdf_depth,4042,3802,240,0.9406234537357744,61494,12,3814,0.9968536969061353
-2,1,False,curobo_spheres,4007,3369,638,0.840778637384577,61529,14,3383,0.9958616612474135
-2,1,False,urdf_depth,4007,3758,249,0.9378587471924132,61529,15,3773,0.9960243837794858

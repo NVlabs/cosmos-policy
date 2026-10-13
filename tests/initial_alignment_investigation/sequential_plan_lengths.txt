@@ -1,5 +1,0 @@
-init=0 waypoints=48 path_length=0.4415 straight=0.2790 last_dpos=0.0000
-init=1 waypoints=48 path_length=0.4205 straight=0.2748 last_dpos=0.0010
-init=2 waypoints=48 path_length=0.4140 straight=0.2767 last_dpos=0.0000
-init=3 waypoints=48 path_length=0.4268 straight=0.2794 last_dpos=0.0010
-init=4 waypoints=48 path_length=0.4106 straight=0.2845 last_dpos=0.0000
