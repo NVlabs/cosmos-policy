@@ -41,7 +41,7 @@
 |---|---|
 | `cosmos_policy/` | 原本cosmospolicy的框架，其中对于训练和评估有部分修改（e.g., LoRA） |
 | `memory_system/` | Memory 的构建、检索、规划与控制（`tta/`、`execute/`、`offline/`、`pointcloud_action/`） |
-| `memory/` | 仅 3 个文件：`libero_joint_control.py` 用到的 `densify_joint_path` 及其 `types.py` |
+| `memory/` | **原本实现libero-pro的memory guided correction，现在和libero-plus没有合并**。libero-pro的分支暂未迁移到当前fork....|
 | `scripts/` | 脚本（见第 6 节） |
 | `tests/tta/archived_lorafix/train_tta_sft_fixed.py` | 训练入口按字符串路径动态加载的 `mutate_config` |
 | `skill_memory_test/libero_10/` | 修复路径读取的 3 个 Memory 产物 |
@@ -55,8 +55,8 @@
 |---|---:|---|
 | **LIBERO-plus 代码** | 119 MB（不含 assets） | 上游 `https://github.com/sylvestf/LIBERO-plus.git` |
 | **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
-| **基础 policy**（`.pt` + `libero_dataset_statistics.json` + `libero_t5_embeddings.pkl`） | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir <A>/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
-| **language T5 增量缓存** | 375 MB（374 条） | **无下载源**。这是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**后才完整（`run_libero_plus_batch.py:187-190`）。仓库里没有生成它的脚本；`scripts/libero_pro/precompute_t5.py` 是通用工具，可按 suite 枚举指令并补算缺失项（需加载 9 GB T5 编码器，未实测） |
+| **基础 policy** | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir ../checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
+| **language T5 增量缓存** | 375 MB（374 条） | language分支所需要的text embedding。这是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**后才完整（`run_libero_plus_batch.py:187-190`）。**可重建**：`bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`。它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383 个 task，去重后正好 374 条指令），用 `CosmosT5TextEncoder` 编码，需要 t5-11b（`--model-path`，脚本里的默认值是原作者的本地路径，需改） |
 | **成功 demo（P95 参考）** | 3.6 GB | 🤗 `nvidia/LIBERO-Cosmos-Policy` 下的 `success_only/libero_10_regen/`（每个 base task 一个 `*_demo.hdf5`），即 `select_libero_plus_success_p95.py` 的 `--demo-dir` 默认值。同目录的 `dataset_statistics*.json` 也在 SFT 阶段被链接。整个数据集约 80 GB，但只需要这一部分 |
 | **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，均需自己重跑生成 |
 | **cuRobo** | — | 未列入 `pyproject.toml` / `uv.lock`，需单独安装 |
@@ -69,7 +69,7 @@
 期望 sha256 = faa87cce3e3ba434da01df7c77523a391b5f2912e4774330b0aa1be5f6a999e6
 ```
 
-对不上会直接报 `LIBERO-plus classification differs from the pinned task manifests`。
+对不上会报 `LIBERO-plus classification differs from the pinned task manifests`。
 本流水线使用的 LIBERO-plus 相对上游还有三处本地修改，需从配套分支获取：
 
 ```
@@ -146,14 +146,6 @@ python scripts/run_libero_plus_sft190_pipeline.py \
 
 `run_libero_plus_repair.py` 也支持 `--task-ids` 选单个 case，以及 `--resume` / `--retry-errors`。
 
-### 已知限制
-
-`run_libero_plus_sft190_pipeline.py:171` 的 `--evaluation-scope` 目前只覆盖
-`robotinit-failures`、`robotinit-heldout-failures`、`camera-failures`、`camera-memory-failures`、
-`background-heldout-failures`、`sensor-noise-failures`。**Background 全量、Light、Language、Objects
-四类当时是用 `scripts/experiments/libero_plus_sft190/_plans/<job>/` 下的局部 pipeline 跑的**，
-那些文件没有带进本分支。要在这些维度上评测，需要先把对应的 scope 补进公共 pipeline。
-
 ## 7. 协议常量
 
 | 项 | 值 |
@@ -161,7 +153,7 @@ python scripts/run_libero_plus_sft190_pipeline.py \
 | `action_seed` | 42 |
 | `environment_seed` | 10000 |
 | `settle_steps` | 30（不计入保存的轨迹长度） |
-| `max_steps` | 700（含前缀回放与 Memory 干预） |
+| `max_steps` | 700（含前缀回放与 Memory 干预，但是经过长度筛选后的训练样本均会回到原本libero设定的520 steps以内） |
 | `num_trials_per_task` | 1 |
 | `init_state_index` | 0 |
 | `rng_mode` | `openwam` |
