@@ -70,7 +70,7 @@ git clone --branch memory_guided_ttt --single-branch \
     https://github.com/Constructor-Sun/cosmos-policy.git <A>/<B>/<repo>
 ```
 
-代码全部按**相对位置**找外部资源，所以配套资源的位置由仓库位置唯一确定：
+代码全部按**相对位置**找外部目录，所以配套资源的位置由仓库位置唯一确定：
 
 ```
 <A>/
@@ -97,11 +97,8 @@ git clone --branch memory_guided_ttt --single-branch \
 ```bash
 # ① 装 cosmos-policy 的依赖（Python >= 3.10）
 uv sync --extra cu128 --group libero
-#   cu128 / cu130 二选一（互斥）；libero / aloha / robocasa 三组互斥。
-#   之后激活该环境即可 —— 流水线用裸 `python` 起子进程（run_libero_smoke_test.sh:136），
-#   所以 `python` 必须指向它。
 
-# ② cuRobo —— 不在 pyproject.toml / uv.lock 里，只能单独装
+# ② cuRobo —— 单独装
 git clone https://github.com/NVlabs/curobo && cd curobo && pip install -e .
 
 # ③ LIBERO-plus 不安装，靠 PYTHONPATH 盖过 pip 装的那个 libero 0.1.1
@@ -114,14 +111,13 @@ mkdir -p $LIBERO_CONFIG_PATH
 echo N | python -c "import libero.libero"
 ```
 
-原作者的实跑环境是仓库外的一个 conda 环境 `cosmospolicy`（不是 `.venv`）。
-`~/.libero/config.yaml` 容易被别的 LIBERO 项目改写，每次运行前显式设 `LIBERO_CONFIG_PATH` 更可靠。
+本人实跑环境是仓库外的一个 conda 环境 `cosmospolicy`（不是 `.venv`）。
+`~/.libero/config.yaml` 容易被别的 LIBERO 项目改写，每次运行前或许应显式设置 `LIBERO_CONFIG_PATH`。
 
 ## 6. 运行
 
 ```bash
 # 阶段 0：自检（CPU，不需要 GPU）
-python scripts/run_libero_plus_batch.py --dry-run        # 校验任务清单并打印计划
 python scripts/run_libero_plus_batch.py --validate-only  # 校验 2519 个 case 的 BDDL、初始状态、T5 覆盖
 
 # 阶段 1：基线 rollout（7 维 2519 case）
@@ -161,9 +157,8 @@ python scripts/run_libero_plus_sft190_pipeline.py \
 | `num_trials_per_task` | 1 |
 | `init_state_index` | 0 |
 | `rng_mode` | `openwam` |
-| P95 规则 | 成功 **且** `full action_steps <= 同 base task 的 regenerated 成功 demo 的 P95`（numpy linear） |
 
-轨迹长度定义为完整的 `actions`（基线前缀 + Memory 干预 + policy 续跑），不含 30 步 settling。
+轨迹长度定义为完整的 `actions`，不含前 30 步全 0的settling。
 
 ## 8. 不在仓库里的东西
 
@@ -182,17 +177,39 @@ python scripts/run_libero_plus_sft190_pipeline.py \
 
 ## 9. 已有的实验结果
 
-以下数字由本分支的代码在原作者机器上产生，**产物未包含在本仓库**。评测集是该维度全部基线失败 case
-（即基线成功率在这些 case 上恒为 0），因此不反映在基线已通过的 case 上是否发生遗忘。
+以下数字由本分支的代码在原作者机器上产生，**产物未包含在本仓库**。
 
-| 维度 | 训练轨迹 | 评测 case | 训练集成功率(e8) | heldout 成功率(e1 → e8) | heldout n |
-|---|---:|---:|---:|---|---:|
-| Robot Initial | 90 | 119 | 76.7% | 58.6% → 55.2% | 29 |
-| Camera | 24 | 167 | 79.2% | 24.5% → 32.9% | 143 |
-| Background | 29 | 70 | 75.9% | 19.5% → 24.4% | 41 |
-| Sensor Noise | 22 | 27 | 59.1% | 40% → 60% | 5 |
-| Light | 14 | 16 | 78.6% | 50% → 50% | 2 |
-| Language | — | — | 未训练 | — | — |
-| Objects | — | — | 未训练 | — | — |
+评测集是该维度**全部基线失败 case**（基线在这些 case 上恒为 0），所以这些数字只说明"修复了多少"，
+**不反映在基线已通过的 2084 个 case 上是否发生遗忘** —— 那些 case 从未在微调后的模型上跑过。
 
-七个维度中只有五类跑过 SFT；Language 与 Objects 从未训练（它们通过 P95 筛选的轨迹分别只有 8 条和 3 条）。
+五个已训维度统一取 **epoch 2**：
+
+| 维度 | 训练轨迹 | 训练集（模型见过） | heldout（没见过） | 合计 |
+|---|---:|---|---|---|
+| Robot Initial | 90 | 68.9% (62/90) | 62.1% (18/29) | 67.2% (80/119) |
+| Camera | 24 | 79.2% (19/24) | 32.9% (47/143) | 39.5% (66/167) |
+| Background | 29 | 69.0% (20/29) | 22.0% (9/41) | 41.4% (29/70) |
+| Sensor Noise | 22 | 63.6% (14/22) | 20.0% (1/5) | 55.6% (15/27) |
+| Light | 14 | 85.7% (12/14) | 0.0% (0/2) | 75.0% (12/16) |
+| **合计** | **179** | **70.9% (127/179)** | **34.1% (75/220)** | **50.6% (202/399)** |
+
+"训练集" = 喂给 SFT 的修复轨迹；"heldout" = 同一维度的其余基线失败 case。
+
+各 epoch 的合计（取自 5 个 job 的 `evaluation_curve.csv`）：
+
+| epoch | 训练集 | heldout | 合计 |
+|---|---:|---:|---:|
+| 1 | 74.9% (134/179) | 28.6% (63/220) | 49.4% (197/399) |
+| **2** | **70.9% (127/179)** | **34.1% (75/220)** | 50.6% (202/399) |
+| 4 | 76.5% (137/179) | 32.7% (72/220) | 52.4% (209/399) |
+| 8 | 74.9% (134/179) | 35.0% (77/220) | 52.9% (211/399) |
+
+七个维度里只有五类跑过 SFT。**Language 与 Objects 从未训练**（它们通过 P95 筛选的轨迹分别只有 8 条和 3 条）。
+
+读表注意：
+
+- **Light（heldout n=2）和 Sensor Noise（n=5）的 heldout 列没有统计意义**；
+  能单独解读的是 Camera / Robot Initial / Background 三行和合计行。
+- 训练集成功率**不是 100%** —— 模型重新 rollout 自己见过的 case 也会失败一部分。
+- 训练集成功率低不代表更差：epoch 2 在训练集上最低但 heldout 最高之一，说明它过拟合最轻。
+  选 epoch 看 heldout 和合计，不看训练集。
