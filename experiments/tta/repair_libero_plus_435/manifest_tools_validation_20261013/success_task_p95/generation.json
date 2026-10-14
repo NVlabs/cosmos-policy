@@ -1,0 +1,79 @@
+{
+  "failure_manifest": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/manifest_tools_validation_20261013/inputs/failed_435.json",
+  "failure_manifest_sha256": "ad9761a7d7144f23f8a19e7e909756ff4c2ae76891aa6176c7e9f624a5f53dea",
+  "source_config_sha256": "0df8f8ae22075839a79bcd701d05cd6c0aa5c070a7ea33eae7cff1962508f30e",
+  "repair_runs": [
+    "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4",
+    "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431"
+  ],
+  "baseline_failures": 435,
+  "completed_repairs": 435,
+  "memory_successes": 229,
+  "memory_failures": 206,
+  "selected": 190,
+  "p95_excluded": 39,
+  "complete": true,
+  "incomplete_repairs": [],
+  "demo_thresholds": {
+    "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_demo.hdf5",
+      "training_episodes": 39,
+      "p95": 307.5,
+      "max_integer_steps": 307
+    },
+    "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_demo.hdf5",
+      "training_episodes": 30,
+      "p95": 285.65,
+      "max_integer_steps": 285
+    },
+    "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_demo.hdf5",
+      "training_episodes": 35,
+      "p95": 366.7,
+      "max_integer_steps": 366
+    },
+    "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5",
+      "training_episodes": 31,
+      "p95": 462.0,
+      "max_integer_steps": 462
+    },
+    "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_demo.hdf5",
+      "training_episodes": 45,
+      "p95": 304.4,
+      "max_integer_steps": 304
+    },
+    "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5",
+      "training_episodes": 38,
+      "p95": 346.59999999999997,
+      "max_integer_steps": 346
+    },
+    "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_demo.hdf5",
+      "training_episodes": 46,
+      "p95": 308.25,
+      "max_integer_steps": 308
+    },
+    "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_demo.hdf5",
+      "training_episodes": 37,
+      "p95": 288.79999999999995,
+      "max_integer_steps": 288
+    },
+    "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_demo.hdf5",
+      "training_episodes": 39,
+      "p95": 290.20000000000005,
+      "max_integer_steps": 290
+    },
+    "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy": {
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_demo.hdf5",
+      "training_episodes": 36,
+      "p95": 236.5,
+      "max_integer_steps": 236
+    }
+  }
+}

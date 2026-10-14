@@ -1,0 +1,71 @@
+{
+  "task_id": 310,
+  "case_id": "task0310",
+  "group": "robot_initial_states",
+  "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_291",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0310/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0310/actions.npy",
+  "status": "completed",
+  "success": false,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 123,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "alphabet_soup_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 123,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "alphabet_soup_1"
+      }
+    },
+    "demos": [
+      "demo_8",
+      "demo_5",
+      "demo_7"
+    ],
+    "target": [
+      -0.0526227243244648,
+      -0.15935252606868744,
+      0.5607109069824219,
+      -3.1271557807922363,
+      -0.07226426154375076,
+      -0.008075978606939316
+    ],
+    "similarity": 0.24738451838493347,
+    "final_ee": [
+      0.0417405404150486,
+      -0.1364976465702057,
+      0.5361501574516296,
+      -3.052809238433838,
+      0.12396644800901413,
+      0.023039791733026505
+    ],
+    "duration_steps": 96,
+    "finish_status": "GOAL_NOT_CONVERGED",
+    "task_success": false
+  },
+  "action_steps": 700,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0310/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0310/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0310/rollout_data/episode_data--task0310--suite=libero_10--2026_10_03-15_30_05--task=310--ep=1--success=False--task0310.hdf5",
+  "elapsed_seconds": 106.038
+}

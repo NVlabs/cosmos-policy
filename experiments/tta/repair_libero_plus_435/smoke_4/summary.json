@@ -1,0 +1,297 @@
+{
+  "planned": 4,
+  "completed": 4,
+  "successes": 3,
+  "failures": 1,
+  "errors": 0,
+  "cases": [
+    {
+      "task_id": 193,
+      "case_id": "task0193",
+      "group": "background_textures",
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_1",
+      "baseline_success": false,
+      "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/background_textures/episodes/task0193/video.mp4",
+      "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/background_textures/episodes/task0193/actions.npy",
+      "status": "completed",
+      "success": false,
+      "protocol": {
+        "action_seed": 42,
+        "environment_seed": 10000,
+        "settle_steps": 30,
+        "max_steps": 700,
+        "rng_mode": "openwam"
+      },
+      "t_star": 10,
+      "phase": {
+        "phase_index": 0,
+        "planner_step_id": 1,
+        "skill": "Pick",
+        "arguments": {
+          "item": "porcelain_mug_1"
+        }
+      },
+      "elapsed_seconds": 112.14,
+      "memory_status": "reached",
+      "memory_result": {
+        "status": "reached",
+        "t_star": 10,
+        "phase": {
+          "phase_index": 0,
+          "planner_step_id": 1,
+          "skill": "Pick",
+          "arguments": {
+            "item": "porcelain_mug_1"
+          }
+        },
+        "demos": [
+          "demo_2",
+          "demo_14",
+          "demo_5"
+        ],
+        "target": [
+          -0.10032975673675537,
+          -0.13398241996765137,
+          0.5546882152557373,
+          3.0639376640319824,
+          0.3999839127063751,
+          -0.06634236872196198
+        ],
+        "similarity": 0.29533302783966064,
+        "final_ee": [
+          -0.09926664084196091,
+          -0.13276036083698273,
+          0.5563540458679199,
+          3.0648040771484375,
+          0.39556869864463806,
+          -0.06277678906917572
+        ],
+        "duration_steps": 29,
+        "finish_status": "CONVERGED",
+        "task_success": false
+      },
+      "action_steps": 700,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/background_textures/task0193/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/background_textures/task0193/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/background_textures/task0193/rollout_data/episode_data--task0193--suite=libero_10--2026_10_03-14_53_58--task=193--ep=1--success=False--task0193.hdf5",
+      "baseline_prefix_max_precision_delta": 2.2351741790771484e-08,
+      "legacy_float32_prefix_verified": true
+    },
+    {
+      "task_id": 848,
+      "case_id": "task0848",
+      "group": "camera_viewpoints",
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_61_0_100_0_0_initstate_0",
+      "baseline_success": false,
+      "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/camera_viewpoints/episodes/task0848/video.mp4",
+      "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/camera_viewpoints/episodes/task0848/actions.npy",
+      "status": "completed",
+      "success": true,
+      "protocol": {
+        "action_seed": 42,
+        "environment_seed": 10000,
+        "settle_steps": 30,
+        "max_steps": 700,
+        "rng_mode": "openwam"
+      },
+      "t_star": 10,
+      "phase": {
+        "phase_index": 0,
+        "planner_step_id": 1,
+        "skill": "Pick",
+        "arguments": {
+          "item": "porcelain_mug_1"
+        }
+      },
+      "elapsed_seconds": 84.875,
+      "memory_status": "reached",
+      "memory_result": {
+        "status": "reached",
+        "t_star": 10,
+        "phase": {
+          "phase_index": 0,
+          "planner_step_id": 1,
+          "skill": "Pick",
+          "arguments": {
+            "item": "porcelain_mug_1"
+          }
+        },
+        "demos": [
+          "demo_11",
+          "demo_3",
+          "demo_9"
+        ],
+        "target": [
+          -0.13142108917236328,
+          -0.10878675431013107,
+          0.5561515688896179,
+          3.0814900398254395,
+          0.3315645754337311,
+          -0.127817764878273
+        ],
+        "similarity": 0.36282315850257874,
+        "final_ee": [
+          -0.13114869594573975,
+          -0.10868825018405914,
+          0.5664919018745422,
+          3.081899881362915,
+          0.326882541179657,
+          -0.12294099479913712
+        ],
+        "duration_steps": 29,
+        "finish_status": "CONVERGED",
+        "task_success": true
+      },
+      "action_steps": 304,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/camera_viewpoints/task0848/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/camera_viewpoints/task0848/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/camera_viewpoints/task0848/rollout_data/episode_data--task0848--suite=libero_10--2026_10_03-14_53_57--task=848--ep=1--success=True--task0848.hdf5",
+      "baseline_prefix_max_precision_delta": 1.4901161193847656e-08,
+      "legacy_float32_prefix_verified": true
+    },
+    {
+      "task_id": 1149,
+      "case_id": "task1149",
+      "group": "language_instructions",
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+      "baseline_success": false,
+      "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/language_instructions/episodes/task1149/video.mp4",
+      "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/language_instructions/episodes/task1149/actions.npy",
+      "status": "completed",
+      "success": true,
+      "protocol": {
+        "action_seed": 42,
+        "environment_seed": 10000,
+        "settle_steps": 30,
+        "max_steps": 700,
+        "rng_mode": "openwam"
+      },
+      "t_star": 41,
+      "phase": {
+        "phase_index": 0,
+        "planner_step_id": 1,
+        "skill": "Pick",
+        "arguments": {
+          "item": "cream_cheese_1"
+        }
+      },
+      "elapsed_seconds": 82.828,
+      "memory_status": "reached",
+      "memory_result": {
+        "status": "reached",
+        "t_star": 41,
+        "phase": {
+          "phase_index": 0,
+          "planner_step_id": 1,
+          "skill": "Pick",
+          "arguments": {
+            "item": "cream_cheese_1"
+          }
+        },
+        "demos": [
+          "demo_8",
+          "demo_2",
+          "demo_6"
+        ],
+        "target": [
+          0.10316190123558044,
+          -0.18461742997169495,
+          0.5384679436683655,
+          -3.0541279315948486,
+          0.22204908728599548,
+          0.027950840070843697
+        ],
+        "similarity": 0.2665925920009613,
+        "final_ee": [
+          0.10418498516082764,
+          -0.18581444025039673,
+          0.5389108061790466,
+          -3.0526983737945557,
+          0.21969404816627502,
+          0.03455386310815811
+        ],
+        "duration_steps": 64,
+        "finish_status": "CONVERGED",
+        "task_success": true
+      },
+      "action_steps": 316,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/language_instructions/task1149/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/language_instructions/task1149/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/language_instructions/task1149/rollout_data/episode_data--task1149--suite=libero_10--2026_10_03-14_53_58--task=1149--ep=1--success=True--task1149.hdf5",
+      "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+      "legacy_float32_prefix_verified": true
+    },
+    {
+      "task_id": 459,
+      "case_id": "task0459",
+      "group": "robot_initial_states",
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_135",
+      "baseline_success": false,
+      "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0459/video.mp4",
+      "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0459/actions.npy",
+      "status": "completed",
+      "success": true,
+      "protocol": {
+        "action_seed": 42,
+        "environment_seed": 10000,
+        "settle_steps": 30,
+        "max_steps": 700,
+        "rng_mode": "openwam"
+      },
+      "t_star": 10,
+      "phase": {
+        "phase_index": 0,
+        "planner_step_id": 1,
+        "skill": "Pick",
+        "arguments": {
+          "item": "porcelain_mug_1"
+        }
+      },
+      "elapsed_seconds": 75.381,
+      "memory_status": "reached",
+      "memory_result": {
+        "status": "reached",
+        "t_star": 10,
+        "phase": {
+          "phase_index": 0,
+          "planner_step_id": 1,
+          "skill": "Pick",
+          "arguments": {
+            "item": "porcelain_mug_1"
+          }
+        },
+        "demos": [
+          "demo_2",
+          "demo_14",
+          "demo_5"
+        ],
+        "target": [
+          -0.10032975673675537,
+          -0.13398241996765137,
+          0.5546882152557373,
+          3.0639376640319824,
+          0.3999839127063751,
+          -0.06634236872196198
+        ],
+        "similarity": 0.3023983836174011,
+        "final_ee": [
+          -0.09966916590929031,
+          -0.13335902988910675,
+          0.5558403134346008,
+          3.064842939376831,
+          0.3935929238796234,
+          -0.06186966225504875
+        ],
+        "duration_steps": 29,
+        "finish_status": "CONVERGED",
+        "task_success": true
+      },
+      "action_steps": 233,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/robot_initial_states/task0459/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/robot_initial_states/task0459/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/robot_initial_states/task0459/rollout_data/episode_data--task0459--suite=libero_10--2026_10_03-14_53_58--task=459--ep=1--success=True--task0459.hdf5",
+      "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+      "legacy_float32_prefix_verified": true
+    }
+  ]
+}

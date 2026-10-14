@@ -1,0 +1,1343 @@
+{
+  "evaluation_scope": "camera-failures",
+  "task_ids": [
+    685,
+    734,
+    736,
+    737,
+    738,
+    739,
+    740,
+    741,
+    742,
+    743,
+    783,
+    784,
+    785,
+    786,
+    787,
+    788,
+    789,
+    790,
+    791,
+    794,
+    798,
+    800,
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    809,
+    810,
+    812,
+    814,
+    815,
+    816,
+    818,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    828,
+    848,
+    849,
+    850,
+    851,
+    852,
+    853,
+    854,
+    855,
+    856,
+    857,
+    858,
+    859,
+    860,
+    861,
+    862,
+    863,
+    864,
+    865,
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    872,
+    873,
+    874,
+    875,
+    876,
+    877,
+    878,
+    879,
+    880,
+    881,
+    882,
+    883,
+    884,
+    885,
+    938,
+    939,
+    940,
+    941,
+    942,
+    943,
+    944,
+    945,
+    946,
+    947,
+    948,
+    949,
+    950,
+    951,
+    952,
+    953,
+    954,
+    955,
+    956,
+    957,
+    958,
+    959,
+    960,
+    961,
+    962,
+    963,
+    964,
+    965,
+    966,
+    967,
+    983,
+    988,
+    989,
+    990,
+    991,
+    992,
+    993,
+    994,
+    995,
+    996,
+    997,
+    998,
+    999,
+    1001,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1009,
+    1011,
+    1013,
+    1017,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1029,
+    1031,
+    1035,
+    1037,
+    1039,
+    1041,
+    1043,
+    1044,
+    1046,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059,
+    1060,
+    1068,
+    1088,
+    1096
+  ],
+  "cases": [
+    {
+      "task_id": 685,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_2_350_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 734,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_121_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 736,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_123_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 737,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_124_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 738,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_125_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 739,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_126_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 740,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_127_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 741,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_128_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 742,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_129_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 743,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_130_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 783,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_133_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 784,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_134_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 785,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_135_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 786,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_136_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 787,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_137_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 788,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_138_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 789,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_139_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 790,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_2_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 791,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_4_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 794,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_10_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 798,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_8_356_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 800,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_46_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 801,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_46_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 802,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_47_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 803,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_47_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 804,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_48_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 805,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_48_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 806,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_49_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 807,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_49_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 808,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_50_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 809,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_50_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 810,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_51_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 812,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_52_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 814,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_53_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 815,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_54_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 816,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_54_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 818,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_55_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 819,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_56_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 820,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_56_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 821,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_57_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 822,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_57_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 823,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_58_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 824,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_58_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 828,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_60_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 848,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_61_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 849,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_61_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 850,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_62_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 851,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_62_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 852,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_63_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 853,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_63_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 854,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_64_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 855,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_64_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 856,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_65_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 857,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_65_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 858,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_66_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 859,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_67_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 860,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_68_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 861,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_68_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 862,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_69_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 863,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_69_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 864,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_70_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 865,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_70_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 866,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_71_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 867,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_71_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 868,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_72_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 869,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_72_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 870,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_73_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 871,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_73_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 872,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_74_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 873,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_74_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 874,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_75_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 875,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_75_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 876,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_151_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 877,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_152_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 878,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_153_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 879,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_154_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 880,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_155_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 881,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_156_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 882,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_157_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 883,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_158_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 884,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_159_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 885,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_160_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 938,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_300_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 939,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_300_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 940,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_301_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 941,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_301_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 942,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_302_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 943,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_302_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 944,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_303_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 945,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_303_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 946,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_304_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 947,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_304_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 948,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_305_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 949,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_305_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 950,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_306_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 951,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_306_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 952,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_307_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 953,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_307_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 954,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_308_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 955,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_308_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 956,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_309_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 957,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_309_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 958,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_310_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 959,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_310_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 960,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_311_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 961,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_311_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 962,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_312_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 963,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_312_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 964,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_313_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 965,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_313_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 966,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_314_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 967,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_314_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 983,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_354_350_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 988,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_315_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 989,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_315_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 990,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_316_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 991,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_316_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 992,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_317_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 993,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_317_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 994,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_318_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 995,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_318_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 996,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_319_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 997,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_319_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 998,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_320_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 999,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_320_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1001,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_321_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1003,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_322_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1004,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_323_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1005,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_323_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1006,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_324_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1007,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_324_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1009,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_325_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1011,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_326_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1013,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_327_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1017,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_329_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1019,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_182_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1020,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_183_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1021,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_184_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1022,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_186_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1023,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_187_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1024,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_188_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1025,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_189_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1026,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_190_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1029,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_8_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1031,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_356_350_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1035,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_330_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1037,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_331_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1039,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_332_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1041,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_333_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1043,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_334_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1044,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_335_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1046,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_336_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1049,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_338_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1050,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_339_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1051,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_339_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1052,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_340_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1053,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_340_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1054,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_341_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1055,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_341_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1056,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_342_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1057,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_343_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1058,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_343_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1059,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_344_0_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1060,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_344_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1068,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_198_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1088,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_349_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1096,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_355_15_100_0_0_initstate_0",
+      "group": "camera_viewpoints",
+      "baseline_success": false,
+      "in_training": false
+    }
+  ]
+}

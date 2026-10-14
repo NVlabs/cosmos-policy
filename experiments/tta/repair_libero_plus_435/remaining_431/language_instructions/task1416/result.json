@@ -1,0 +1,71 @@
+{
+  "task_id": 1416,
+  "case_id": "task1416",
+  "group": "language_instructions",
+  "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_7_view_0_0_100_0_0_initstate_0",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/language_instructions/episodes/task1416/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/language_instructions/episodes/task1416/actions.npy",
+  "status": "completed",
+  "success": false,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "moka_pot_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "moka_pot_1"
+      }
+    },
+    "demos": [
+      "demo_9",
+      "demo_12",
+      "demo_6"
+    ],
+    "target": [
+      -0.06719288975000381,
+      0.19560883939266205,
+      1.0438743829727173,
+      -1.770994782447815,
+      2.0144786834716797,
+      0.388182133436203
+    ],
+    "similarity": 0.035898834466934204,
+    "final_ee": [
+      -0.06755474954843521,
+      0.195633202791214,
+      1.0426918268203735,
+      -1.7658767700195312,
+      2.018129825592041,
+      0.39022335410118103
+    ],
+    "duration_steps": 68,
+    "finish_status": "CONVERGED",
+    "task_success": false
+  },
+  "action_steps": 700,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/language_instructions/task1416/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/language_instructions/task1416/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/language_instructions/task1416/rollout_data/episode_data--task1416--suite=libero_10--2026_10_03-15_30_05--task=1416--ep=1--success=False--task1416.hdf5",
+  "elapsed_seconds": 90.428
+}

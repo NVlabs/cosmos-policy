@@ -1,0 +1,36 @@
+{
+  "status": "reached",
+  "t_star": 143,
+  "phase": {
+    "phase_index": 1,
+    "planner_step_id": 3,
+    "skill": "PlaceIn",
+    "arguments": {
+      "item": "white_yellow_mug_1",
+      "target": "microwave_1_heating_region"
+    }
+  },
+  "demos": [
+    "demo_8"
+  ],
+  "target": [
+    -0.09413471817970276,
+    0.1946515589952469,
+    1.0587788820266724,
+    2.3730928897857666,
+    -2.1648223400115967,
+    -0.9066103100776672
+  ],
+  "similarity": -0.019873427227139473,
+  "final_ee": [
+    -0.07643507421016693,
+    0.16259916126728058,
+    1.1142590045928955,
+    -2.091257333755493,
+    1.9107967615127563,
+    0.7916542887687683
+  ],
+  "duration_steps": 30,
+  "finish_status": "CONVERGED",
+  "task_success": false
+}

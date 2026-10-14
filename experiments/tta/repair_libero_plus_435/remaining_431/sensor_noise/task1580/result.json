@@ -1,0 +1,69 @@
+{
+  "task_id": 1580,
+  "case_id": "task1580",
+  "group": "sensor_noise",
+  "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_18",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/sensor_noise/episodes/task1580/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/sensor_noise/episodes/task1580/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 25,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "TurnOn",
+    "arguments": {
+      "target": "flat_stove_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 25,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "TurnOn",
+      "arguments": {
+        "target": "flat_stove_1"
+      }
+    },
+    "demos": [
+      "demo_4"
+    ],
+    "target": [
+      -0.19550900161266327,
+      0.20727531611919403,
+      0.9505529403686523,
+      3.0512092113494873,
+      -0.022747624665498734,
+      0.40640318393707275
+    ],
+    "similarity": 0.1425391137599945,
+    "final_ee": [
+      -0.26131293177604675,
+      0.1614890694618225,
+      0.9756263494491577,
+      2.9192543029785156,
+      0.030790435150265694,
+      -0.13032378256320953
+    ],
+    "duration_steps": 96,
+    "finish_status": "GOAL_NOT_CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 295,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/sensor_noise/task1580/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/sensor_noise/task1580/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/sensor_noise/task1580/rollout_data/episode_data--task1580--suite=libero_10--2026_10_03-15_30_05--task=1580--ep=1--success=True--task1580.hdf5",
+  "elapsed_seconds": 60.466
+}

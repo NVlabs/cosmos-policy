@@ -1,0 +1,71 @@
+{
+  "task_id": 814,
+  "case_id": "task0814",
+  "group": "camera_viewpoints",
+  "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_53_15_100_0_0_initstate_0",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/camera_viewpoints/episodes/task0814/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/camera_viewpoints/episodes/task0814/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 2,
+    "skill": "Pick",
+    "arguments": {
+      "item": "akita_black_bowl_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 1.4901161193847656e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 2,
+      "skill": "Pick",
+      "arguments": {
+        "item": "akita_black_bowl_1"
+      }
+    },
+    "demos": [
+      "demo_14",
+      "demo_11",
+      "demo_9"
+    ],
+    "target": [
+      -0.013520121574401855,
+      -0.07876238226890564,
+      0.9741312265396118,
+      -2.402926445007324,
+      1.7994952201843262,
+      -0.18368937075138092
+    ],
+    "similarity": 0.1579589992761612,
+    "final_ee": [
+      -0.013857404701411724,
+      -0.07978931069374084,
+      0.9738293290138245,
+      -2.4006741046905518,
+      1.8020989894866943,
+      -0.1832769513130188
+    ],
+    "duration_steps": 61,
+    "finish_status": "CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 587,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/camera_viewpoints/task0814/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/camera_viewpoints/task0814/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/camera_viewpoints/task0814/rollout_data/episode_data--task0814--suite=libero_10--2026_10_03-15_30_05--task=814--ep=1--success=True--task0814.hdf5",
+  "elapsed_seconds": 83.653
+}

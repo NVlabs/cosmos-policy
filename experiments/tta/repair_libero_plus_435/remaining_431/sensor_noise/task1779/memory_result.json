@@ -1,0 +1,36 @@
+{
+  "status": "reached",
+  "t_star": 95,
+  "phase": {
+    "phase_index": 1,
+    "planner_step_id": 2,
+    "skill": "PlaceOn",
+    "arguments": {
+      "item": "porcelain_mug_1",
+      "target": "plate_1"
+    }
+  },
+  "demos": [
+    "demo_3"
+  ],
+  "target": [
+    0.17270514369010925,
+    0.054937899112701416,
+    0.5659582018852234,
+    3.135596990585327,
+    0.28675326704978943,
+    -0.26302164793014526
+  ],
+  "similarity": 0.3481486141681671,
+  "final_ee": [
+    0.1851978302001953,
+    0.0553562305867672,
+    0.632817268371582,
+    -3.0960307121276855,
+    -0.2854808270931244,
+    0.2682824432849884
+  ],
+  "duration_steps": 31,
+  "finish_status": "CONVERGED",
+  "task_success": true
+}

@@ -1,0 +1,2537 @@
+{
+  "task_success": false,
+  "total_action_steps": 700,
+  "gripper_cmd_convention": {
+    "close": "action[-1] >= 0.5",
+    "open": "action[-1] <= -0.5",
+    "neutral": "otherwise; preserves previous state"
+  },
+  "recording_contract": {
+    "action_index": "action[k] is the k-th executed pending action",
+    "proprio_index": "proprio[k] is the state before action[k]",
+    "replay": "reset, settle, then actions[:k]",
+    "cut_in_window_steps": 16
+  },
+  "phases": [
+    {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "porcelain_mug_1"
+      },
+      "start_step": 0,
+      "end_step": 60,
+      "holding_before": false,
+      "holding_after": true,
+      "first_flip_step": 38,
+      "flip_direction": "0->1",
+      "first_close_event_step": 38,
+      "first_open_event_step": null,
+      "close_event_gap": 0.0789859148058052,
+      "close_event_confirmed_step": 38,
+      "inherited_close_event_step": null,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "porcelain_mug_1",
+        "distance": 0.05980626664705003,
+        "point_count": 1372,
+        "center": [
+          -0.056012643243430804,
+          -0.1269911749147613,
+          0.5556036417345218
+        ],
+        "aliases": [
+          "porcelain_mug_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.05980626664705003,
+          "point_count": 1372,
+          "center": [
+            -0.056012643243430804,
+            -0.1269911749147613,
+            0.5556036417345218
+          ],
+          "aliases": [
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.22308080082392628,
+          "point_count": 523,
+          "center": [
+            -0.01932875315243754,
+            0.1139680779075027,
+            0.46382730857116583
+          ],
+          "aliases": [
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "memory_phase_index_at_event": 0,
+      "decisions": [
+        {
+          "step": 0,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 1,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 2,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 3,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 4,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 5,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 6,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 7,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 8,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 9,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 10,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 11,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 12,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 13,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 14,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 15,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 15,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 16,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 17,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 18,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 19,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 20,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 21,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 22,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 23,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 24,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 25,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 26,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 27,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 28,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 29,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 30,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 31,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 31,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 32,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 33,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 34,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 35,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 36,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 37,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 38,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 39,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 40,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 41,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 42,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 43,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 44,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 45,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 46,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 47,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 47,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 48,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 49,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 50,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 51,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 52,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 53,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 54,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 55,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 56,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 57,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 58,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 59,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 60,
+          "advance": true,
+          "reason": "rule",
+          "semantic_completed": true,
+          "action_chunks": 3
+        }
+      ]
+    },
+    {
+      "phase_index": 1,
+      "planner_step_id": 2,
+      "skill": "PlaceOn",
+      "arguments": {
+        "item": "porcelain_mug_1",
+        "target": "plate_1"
+      },
+      "start_step": 61,
+      "end_step": 116,
+      "holding_before": true,
+      "holding_after": false,
+      "first_flip_step": 109,
+      "flip_direction": "1->0",
+      "first_close_event_step": null,
+      "first_open_event_step": 109,
+      "close_event_gap": null,
+      "close_event_confirmed_step": 109,
+      "inherited_close_event_step": 38,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "porcelain_mug_1",
+        "distance": 0.05878746628914833,
+        "point_count": 1950,
+        "center": [
+          0.18157889192766702,
+          0.013285412446987756,
+          0.515500450992263
+        ],
+        "aliases": [
+          "plate_1",
+          "porcelain_mug_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.05878746628914833,
+          "point_count": 1950,
+          "center": [
+            0.18157889192766702,
+            0.013285412446987756,
+            0.515500450992263
+          ],
+          "aliases": [
+            "plate_1",
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.15544301655132767,
+          "point_count": 13,
+          "center": [
+            0.002058300935488311,
+            0.13013901986790274,
+            0.4390339347848018
+          ],
+          "aliases": [
+            "plate_1",
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "memory_phase_index_at_event": 1,
+      "decisions": [
+        {
+          "step": 61,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 62,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 63,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 63,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 64,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 65,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 66,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 67,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 68,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 69,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 70,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 71,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 72,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 73,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 74,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 75,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 76,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 77,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 78,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 79,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 79,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 80,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 81,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 82,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 83,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 84,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 85,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 86,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 87,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 88,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 89,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 90,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 91,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 92,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 93,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 94,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 95,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 95,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 96,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 97,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 98,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 99,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 100,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 101,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 102,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 103,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 104,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 105,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 106,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 107,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 108,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 109,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 110,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 111,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 111,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 112,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 113,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 114,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 115,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 116,
+          "advance": true,
+          "reason": "rule",
+          "semantic_completed": true,
+          "action_chunks": 4
+        }
+      ]
+    },
+    {
+      "phase_index": 2,
+      "planner_step_id": 3,
+      "skill": "Pick",
+      "arguments": {
+        "item": "chocolate_pudding_1"
+      },
+      "start_step": 117,
+      "end_step": 189,
+      "holding_before": false,
+      "holding_after": true,
+      "first_flip_step": 169,
+      "flip_direction": "0->1",
+      "first_close_event_step": 169,
+      "first_open_event_step": null,
+      "close_event_gap": 0.07986727970087634,
+      "close_event_confirmed_step": 169,
+      "inherited_close_event_step": null,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "chocolate_pudding_1",
+        "distance": 0.053915458765180745,
+        "point_count": 657,
+        "center": [
+          0.04815683736121423,
+          0.13765421399485758,
+          0.4891135333605949
+        ],
+        "aliases": [
+          "chocolate_pudding_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.053915458765180745,
+          "point_count": 657,
+          "center": [
+            0.04815683736121423,
+            0.13765421399485758,
+            0.4891135333605949
+          ],
+          "aliases": [
+            "chocolate_pudding_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.22212133259058156,
+          "point_count": 2888,
+          "center": [
+            0.17480371191858066,
+            0.014666031093365669,
+            0.522299738629844
+          ],
+          "aliases": [
+            "chocolate_pudding_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "memory_phase_index_at_event": 2,
+      "decisions": [
+        {
+          "step": 117,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 118,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 119,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 120,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 121,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 122,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 123,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 124,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 125,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 126,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 127,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 127,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 128,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 129,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 130,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 131,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 132,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 133,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 134,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 135,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 136,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 137,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 138,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 139,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 140,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 141,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 142,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 143,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 143,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 144,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 145,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 146,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 147,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 148,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 149,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 150,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 151,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 152,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 153,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 154,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 155,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 156,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 157,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 158,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 159,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 159,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 160,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 161,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 162,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 163,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 164,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 165,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 166,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 167,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 168,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 169,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 170,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 171,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 172,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 173,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 174,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 175,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 175,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 176,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 177,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 178,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 179,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 180,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 181,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 182,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 183,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 184,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 185,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 186,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 187,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 188,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 189,
+          "advance": true,
+          "reason": "rule",
+          "semantic_completed": true,
+          "action_chunks": 4
+        }
+      ]
+    },
+    {
+      "phase_index": 3,
+      "planner_step_id": 4,
+      "skill": "PlaceOn",
+      "arguments": {
+        "item": "chocolate_pudding_1",
+        "target": "living_room_table_plate_right_region"
+      },
+      "start_step": 190,
+      "end_step": 255,
+      "holding_before": true,
+      "holding_after": true,
+      "first_flip_step": 207,
+      "flip_direction": "1->0",
+      "first_close_event_step": 208,
+      "first_open_event_step": 207,
+      "close_event_gap": 0.04614855080451208,
+      "close_event_confirmed_step": 207,
+      "inherited_close_event_step": 169,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "chocolate_pudding_1",
+        "distance": 0.055839254323396814,
+        "point_count": 727,
+        "center": [
+          0.11092465405122726,
+          0.1351164223262959,
+          0.4641596713354006
+        ],
+        "aliases": [
+          "chocolate_pudding_1",
+          "plate_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.055839254323396814,
+          "point_count": 727,
+          "center": [
+            0.11092465405122726,
+            0.1351164223262959,
+            0.4641596713354006
+          ],
+          "aliases": [
+            "chocolate_pudding_1",
+            "plate_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.17678226499144373,
+          "point_count": 2892,
+          "center": [
+            0.1747467177895172,
+            0.014693071221325795,
+            0.5222165435112661
+          ],
+          "aliases": [
+            "chocolate_pudding_1",
+            "plate_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "memory_phase_index_at_event": 3,
+      "decisions": [
+        {
+          "step": 190,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 191,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 191,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 192,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 193,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 194,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 195,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 196,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 197,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 198,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 199,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 200,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 201,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 202,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 203,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 204,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 205,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 206,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 207,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 207,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 208,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 209,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 210,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 211,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 212,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 213,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 214,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 215,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 216,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 217,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 218,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 219,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 220,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 221,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 222,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 223,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 223,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 224,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 225,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 226,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 227,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 228,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 229,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 230,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 231,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 232,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 233,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 234,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 235,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 236,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 237,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 238,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 239,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 239,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 240,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 241,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 242,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 243,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 244,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 245,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 246,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 247,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 248,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 249,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 250,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 251,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 252,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 253,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 254,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 255,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 255,
+          "advance": true,
+          "reason": "timeout",
+          "semantic_completed": false,
+          "action_chunks": 5
+        }
+      ]
+    }
+  ],
+  "memory_phases": [
+    {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "porcelain_mug_1"
+      },
+      "start_step": 0,
+      "end_step": 60,
+      "first_close_event_step": 38,
+      "first_open_event_step": null,
+      "first_interaction_event_step": 38,
+      "interaction_direction": "0->1",
+      "close_event_gap": 0.009193397601904504,
+      "close_event_confirmed_step": 60,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "porcelain_mug_1",
+        "distance": 0.05980626664705003,
+        "point_count": 1372,
+        "center": [
+          -0.056012643243430804,
+          -0.1269911749147613,
+          0.5556036417345218
+        ],
+        "aliases": [
+          "porcelain_mug_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.05980626664705003,
+          "point_count": 1372,
+          "center": [
+            -0.056012643243430804,
+            -0.1269911749147613,
+            0.5556036417345218
+          ],
+          "aliases": [
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.22308080082392628,
+          "point_count": 523,
+          "center": [
+            -0.01932875315243754,
+            0.1139680779075027,
+            0.46382730857116583
+          ],
+          "aliases": [
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "runtime_phase_index_at_event": 0,
+      "runtime_phase": {
+        "phase_index": 0,
+        "planner_step_id": 1,
+        "skill": "Pick",
+        "arguments": {
+          "item": "porcelain_mug_1"
+        }
+      },
+      "semantic_completed": true,
+      "completion_reason": "rule",
+      "completion_step": 60
+    },
+    {
+      "phase_index": 1,
+      "planner_step_id": 2,
+      "skill": "PlaceOn",
+      "arguments": {
+        "item": "porcelain_mug_1",
+        "target": "plate_1"
+      },
+      "start_step": 61,
+      "end_step": 116,
+      "first_close_event_step": null,
+      "first_open_event_step": 109,
+      "first_interaction_event_step": 109,
+      "interaction_direction": "1->0",
+      "close_event_gap": null,
+      "close_event_confirmed_step": 109,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "porcelain_mug_1",
+        "distance": 0.05878746628914833,
+        "point_count": 1950,
+        "center": [
+          0.18157889192766702,
+          0.013285412446987756,
+          0.515500450992263
+        ],
+        "aliases": [
+          "plate_1",
+          "porcelain_mug_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.05878746628914833,
+          "point_count": 1950,
+          "center": [
+            0.18157889192766702,
+            0.013285412446987756,
+            0.515500450992263
+          ],
+          "aliases": [
+            "plate_1",
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.15544301655132767,
+          "point_count": 13,
+          "center": [
+            0.002058300935488311,
+            0.13013901986790274,
+            0.4390339347848018
+          ],
+          "aliases": [
+            "plate_1",
+            "porcelain_mug_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "runtime_phase_index_at_event": 1,
+      "runtime_phase": {
+        "phase_index": 1,
+        "planner_step_id": 2,
+        "skill": "PlaceOn",
+        "arguments": {
+          "item": "porcelain_mug_1",
+          "target": "plate_1"
+        }
+      },
+      "semantic_completed": true,
+      "completion_reason": "rule",
+      "completion_step": 116
+    },
+    {
+      "phase_index": 2,
+      "planner_step_id": 3,
+      "skill": "Pick",
+      "arguments": {
+        "item": "chocolate_pudding_1"
+      },
+      "start_step": 117,
+      "end_step": 189,
+      "first_close_event_step": 169,
+      "first_open_event_step": null,
+      "first_interaction_event_step": 169,
+      "interaction_direction": "0->1",
+      "close_event_gap": 0.046293596668715964,
+      "close_event_confirmed_step": 189,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "chocolate_pudding_1",
+        "distance": 0.053915458765180745,
+        "point_count": 657,
+        "center": [
+          0.04815683736121423,
+          0.13765421399485758,
+          0.4891135333605949
+        ],
+        "aliases": [
+          "chocolate_pudding_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.053915458765180745,
+          "point_count": 657,
+          "center": [
+            0.04815683736121423,
+            0.13765421399485758,
+            0.4891135333605949
+          ],
+          "aliases": [
+            "chocolate_pudding_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.22212133259058156,
+          "point_count": 2888,
+          "center": [
+            0.17480371191858066,
+            0.014666031093365669,
+            0.522299738629844
+          ],
+          "aliases": [
+            "chocolate_pudding_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "runtime_phase_index_at_event": 2,
+      "runtime_phase": {
+        "phase_index": 2,
+        "planner_step_id": 3,
+        "skill": "Pick",
+        "arguments": {
+          "item": "chocolate_pudding_1"
+        }
+      },
+      "semantic_completed": true,
+      "completion_reason": "rule",
+      "completion_step": 189
+    },
+    {
+      "phase_index": 3,
+      "planner_step_id": 4,
+      "skill": "PlaceOn",
+      "arguments": {
+        "item": "chocolate_pudding_1",
+        "target": "living_room_table_plate_right_region"
+      },
+      "start_step": 190,
+      "end_step": 255,
+      "first_close_event_step": null,
+      "first_open_event_step": 207,
+      "first_interaction_event_step": 207,
+      "interaction_direction": "1->0",
+      "close_event_gap": null,
+      "close_event_confirmed_step": 207,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "chocolate_pudding_1",
+        "distance": 0.055839254323396814,
+        "point_count": 727,
+        "center": [
+          0.11092465405122726,
+          0.1351164223262959,
+          0.4641596713354006
+        ],
+        "aliases": [
+          "chocolate_pudding_1",
+          "plate_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "chocolate_pudding_1",
+          "distance": 0.055839254323396814,
+          "point_count": 727,
+          "center": [
+            0.11092465405122726,
+            0.1351164223262959,
+            0.4641596713354006
+          ],
+          "aliases": [
+            "chocolate_pudding_1",
+            "plate_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        },
+        {
+          "name": "porcelain_mug_1",
+          "distance": 0.17678226499144373,
+          "point_count": 2892,
+          "center": [
+            0.1747467177895172,
+            0.014693071221325795,
+            0.5222165435112661
+          ],
+          "aliases": [
+            "chocolate_pudding_1",
+            "plate_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "runtime_phase_index_at_event": 3,
+      "runtime_phase": {
+        "phase_index": 3,
+        "planner_step_id": 4,
+        "skill": "PlaceOn",
+        "arguments": {
+          "item": "chocolate_pudding_1",
+          "target": "living_room_table_plate_right_region"
+        }
+      },
+      "semantic_completed": false,
+      "completion_reason": "timeout",
+      "completion_step": 255
+    }
+  ],
+  "diagnosis_stopped": true,
+  "candidate": {
+    "span": {
+      "phase_index": 3,
+      "memory_phase_index": 3,
+      "planner_step_id": 4,
+      "skill": "PlaceOn",
+      "arguments": {
+        "item": "chocolate_pudding_1",
+        "target": "living_room_table_plate_right_region"
+      },
+      "start_step": 190
+    },
+    "status": "never_released",
+    "reason": "execution_failure",
+    "event_step": 207,
+    "close_event_step": 207
+  },
+  "pending": null,
+  "census_abs_init": 0,
+  "task_name_perturbed": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_18",
+  "suite_task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_18",
+  "base_task": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+  "suite": "libero_10",
+  "perturbation_category": "Background Textures",
+  "t_star": 191,
+  "numeric_t_star": 191,
+  "event_step": 207
+}

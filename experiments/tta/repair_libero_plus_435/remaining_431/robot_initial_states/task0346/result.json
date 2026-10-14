@@ -1,0 +1,71 @@
+{
+  "task_id": 346,
+  "case_id": "task0346",
+  "group": "robot_initial_states",
+  "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_302",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0346/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0346/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "cream_cheese_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.2351741790771484e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "cream_cheese_1"
+      }
+    },
+    "demos": [
+      "demo_8",
+      "demo_2",
+      "demo_6"
+    ],
+    "target": [
+      0.10316190123558044,
+      -0.18461742997169495,
+      0.5384679436683655,
+      -3.0541279315948486,
+      0.22204908728599548,
+      0.027950840070843697
+    ],
+    "similarity": 0.316558301448822,
+    "final_ee": [
+      0.10333143919706345,
+      -0.1850305050611496,
+      0.5378791689872742,
+      -3.053312063217163,
+      0.22118617594242096,
+      0.02968835085630417
+    ],
+    "duration_steps": 77,
+    "finish_status": "CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 289,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0346/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0346/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0346/rollout_data/episode_data--task0346--suite=libero_10--2026_10_03-15_30_05--task=346--ep=1--success=True--task0346.hdf5",
+  "elapsed_seconds": 83.137
+}

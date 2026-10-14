@@ -1,0 +1,72 @@
+{
+  "task_id": 459,
+  "case_id": "task0459",
+  "group": "robot_initial_states",
+  "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_135",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0459/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0459/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "porcelain_mug_1"
+    }
+  },
+  "elapsed_seconds": 75.381,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "porcelain_mug_1"
+      }
+    },
+    "demos": [
+      "demo_2",
+      "demo_14",
+      "demo_5"
+    ],
+    "target": [
+      -0.10032975673675537,
+      -0.13398241996765137,
+      0.5546882152557373,
+      3.0639376640319824,
+      0.3999839127063751,
+      -0.06634236872196198
+    ],
+    "similarity": 0.3023983836174011,
+    "final_ee": [
+      -0.09966916590929031,
+      -0.13335902988910675,
+      0.5558403134346008,
+      3.064842939376831,
+      0.3935929238796234,
+      -0.06186966225504875
+    ],
+    "duration_steps": 29,
+    "finish_status": "CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 233,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/robot_initial_states/task0459/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/robot_initial_states/task0459/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/smoke_4/robot_initial_states/task0459/rollout_data/episode_data--task0459--suite=libero_10--2026_10_03-14_53_58--task=459--ep=1--success=True--task0459.hdf5",
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "legacy_float32_prefix_verified": true
+}

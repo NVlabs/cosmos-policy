@@ -1,0 +1,71 @@
+{
+  "task_id": 253,
+  "case_id": "task0253",
+  "group": "background_textures",
+  "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_5",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/background_textures/episodes/task0253/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/background_textures/episodes/task0253/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "porcelain_mug_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "porcelain_mug_1"
+      }
+    },
+    "demos": [
+      "demo_9",
+      "demo_10",
+      "demo_11"
+    ],
+    "target": [
+      -0.12082071602344513,
+      -0.10439260303974152,
+      0.5526173114776611,
+      -3.120913028717041,
+      0.0036469914484769106,
+      0.0012924819020554423
+    ],
+    "similarity": 0.24964766204357147,
+    "final_ee": [
+      -0.1212024986743927,
+      -0.10416291654109955,
+      0.552429735660553,
+      -3.121555805206299,
+      0.003103735391050577,
+      -0.0030591427348554134
+    ],
+    "duration_steps": 31,
+    "finish_status": "CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 213,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/background_textures/task0253/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/background_textures/task0253/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/background_textures/task0253/rollout_data/episode_data--task0253--suite=libero_10--2026_10_03-15_30_06--task=253--ep=1--success=True--task0253.hdf5",
+  "elapsed_seconds": 60.368
+}

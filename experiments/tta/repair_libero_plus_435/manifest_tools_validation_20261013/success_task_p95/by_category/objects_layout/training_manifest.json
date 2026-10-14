@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "rule": "completed and success == true and full action_steps <= P95 of regenerated success demonstrations for the same base task",
+  "percentile_method": "numpy linear",
+  "length_definition": "full saved actions; baseline prefix + Memory intervention + policy continuation; excludes 30 settling actions",
+  "training_data": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen",
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam",
+    "init_state_index": 0,
+    "num_trials_per_task": 1
+  },
+  "selection_scope": "objects_layout",
+  "partition": "training",
+  "source_selection_manifest": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/manifest_tools_validation_20261013/success_task_p95/selected_manifest.json",
+  "source_selection_manifest_sha256": "08c0d4aad70b82b218a3f1dbae8d6e3b2ec9100fe4f4ee7fb5797a4b5f28d805",
+  "num_cases": 3,
+  "cases": [
+    {
+      "task_id": 2007,
+      "case_id": "task2007",
+      "base_task": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it",
+      "group": "objects_layout",
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level2_sample1",
+      "success": true,
+      "action_steps": 322,
+      "training_p95": 366.7,
+      "max_integer_steps": 366,
+      "t_star": 150,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/rollout_data/episode_data--task2007--suite=libero_10--2026_10_03-15_30_05--task=2007--ep=1--success=True--task2007.hdf5",
+      "repair_result": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/result.json"
+    },
+    {
+      "task_id": 2112,
+      "case_id": "task2112",
+      "base_task": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket",
+      "group": "objects_layout",
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_9",
+      "success": true,
+      "action_steps": 263,
+      "training_p95": 308.25,
+      "max_integer_steps": 308,
+      "t_star": 10,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2112/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2112/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2112/rollout_data/episode_data--task2112--suite=libero_10--2026_10_03-15_30_05--task=2112--ep=1--success=True--task2112.hdf5",
+      "repair_result": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2112/result.json"
+    },
+    {
+      "task_id": 2172,
+      "case_id": "task2172",
+      "base_task": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate",
+      "group": "objects_layout",
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_24",
+      "success": true,
+      "action_steps": 272,
+      "training_p95": 290.20000000000005,
+      "max_integer_steps": 290,
+      "t_star": 108,
+      "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2172/video.mp4",
+      "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2172/actions.npy",
+      "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2172/rollout_data/episode_data--task2172--suite=libero_10--2026_10_03-15_30_06--task=2172--ep=1--success=True--task2172.hdf5",
+      "repair_result": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2172/result.json"
+    }
+  ],
+  "num_action_steps": 857
+}

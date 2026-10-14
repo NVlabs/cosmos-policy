@@ -1,0 +1,71 @@
+{
+  "task_id": 1157,
+  "case_id": "task1157",
+  "group": "language_instructions",
+  "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_28_view_0_0_100_0_0_initstate_0",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/language_instructions/episodes/task1157/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/language_instructions/episodes/task1157/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "cream_cheese_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 1.862645149230957e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "cream_cheese_1"
+      }
+    },
+    "demos": [
+      "demo_8",
+      "demo_2",
+      "demo_6"
+    ],
+    "target": [
+      0.10316190123558044,
+      -0.18461742997169495,
+      0.5384679436683655,
+      -3.0541279315948486,
+      0.22204908728599548,
+      0.027950840070843697
+    ],
+    "similarity": 0.2917286157608032,
+    "final_ee": [
+      0.10413620620965958,
+      -0.18531233072280884,
+      0.5386844873428345,
+      -3.052107810974121,
+      0.22130654752254486,
+      0.027511322870850563
+    ],
+    "duration_steps": 43,
+    "finish_status": "CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 256,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/language_instructions/task1157/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/language_instructions/task1157/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/language_instructions/task1157/rollout_data/episode_data--task1157--suite=libero_10--2026_10_03-15_30_05--task=1157--ep=1--success=True--task1157.hdf5",
+  "elapsed_seconds": 79.8
+}

@@ -1,0 +1,71 @@
+{
+  "historical_comparison": {
+    "selected_manifest.json": {
+      "json_equal": true,
+      "byte_equal": true
+    },
+    "excluded_manifest.json": {
+      "json_equal": true,
+      "byte_equal": true
+    },
+    "summary.json": {
+      "json_equal": true,
+      "byte_equal": false
+    },
+    "failed_435.json": {
+      "json_equal": true,
+      "byte_equal": true,
+      "old_sha256": "ad9761a7d7144f23f8a19e7e909756ff4c2ae76891aa6176c7e9f624a5f53dea",
+      "new_sha256": "ad9761a7d7144f23f8a19e7e909756ff4c2ae76891aa6176c7e9f624a5f53dea"
+    },
+    "task_summary.csv": {
+      "byte_equal": true
+    }
+  },
+  "partitions": {
+    "background_textures": {
+      "training": 29,
+      "heldout": 41,
+      "memory_failed": 40,
+      "evaluation": 70
+    },
+    "camera_viewpoints": {
+      "training": 24,
+      "heldout": 143,
+      "memory_failed": 116,
+      "evaluation": 167
+    },
+    "language_instructions": {
+      "training": 8,
+      "heldout": 7,
+      "memory_failed": 5,
+      "evaluation": 15
+    },
+    "light_conditions": {
+      "training": 14,
+      "heldout": 2,
+      "memory_failed": 2,
+      "evaluation": 16
+    },
+    "objects_layout": {
+      "training": 3,
+      "heldout": 18,
+      "memory_failed": 16,
+      "evaluation": 21
+    },
+    "robot_initial_states": {
+      "training": 90,
+      "heldout": 29,
+      "memory_failed": 23,
+      "evaluation": 119
+    },
+    "sensor_noise": {
+      "training": 22,
+      "heldout": 5,
+      "memory_failed": 4,
+      "evaluation": 27
+    }
+  },
+  "default_output_conflicts": [],
+  "unit_tests_passed": 12
+}

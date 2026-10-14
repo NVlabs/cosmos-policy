@@ -1,0 +1,71 @@
+{
+  "task_id": 2213,
+  "case_id": "task2213",
+  "group": "objects_layout",
+  "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_24",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/objects_layout/episodes/task2213/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/objects_layout/episodes/task2213/actions.npy",
+  "status": "completed",
+  "success": false,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "black_book_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 1.4901161193847656e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "black_book_1"
+      }
+    },
+    "demos": [
+      "demo_0",
+      "demo_8",
+      "demo_10"
+    ],
+    "target": [
+      -0.21614480018615723,
+      0.15459506213665009,
+      1.0418537855148315,
+      -3.095179319381714,
+      0.3960498869419098,
+      0.14565011858940125
+    ],
+    "similarity": 0.049508027732372284,
+    "final_ee": [
+      -0.22195830941200256,
+      0.16941110789775848,
+      1.110334873199463,
+      -3.0854413509368896,
+      0.3682042956352234,
+      0.027323609218001366
+    ],
+    "duration_steps": 96,
+    "finish_status": "GOAL_NOT_CONVERGED",
+    "task_success": false
+  },
+  "action_steps": 700,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2213/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2213/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2213/rollout_data/episode_data--task2213--suite=libero_10--2026_10_03-15_30_05--task=2213--ep=1--success=False--task2213.hdf5",
+  "elapsed_seconds": 122.309
+}

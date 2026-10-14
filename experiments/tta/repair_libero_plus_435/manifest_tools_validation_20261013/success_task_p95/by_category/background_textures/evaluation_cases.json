@@ -1,0 +1,567 @@
+{
+  "evaluation_scope": "background-failures",
+  "task_ids": [
+    1,
+    20,
+    23,
+    25,
+    26,
+    27,
+    33,
+    36,
+    39,
+    42,
+    43,
+    49,
+    50,
+    52,
+    53,
+    54,
+    57,
+    65,
+    71,
+    73,
+    74,
+    75,
+    76,
+    80,
+    82,
+    86,
+    97,
+    113,
+    115,
+    118,
+    119,
+    120,
+    153,
+    193,
+    194,
+    199,
+    200,
+    201,
+    204,
+    206,
+    210,
+    213,
+    214,
+    215,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    253,
+    256,
+    257,
+    258,
+    259,
+    260,
+    263,
+    267,
+    269,
+    271,
+    274,
+    275
+  ],
+  "cases": [
+    {
+      "task_id": 1,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_10",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 20,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_table_9",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 23,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_18",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 25,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_20",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 26,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_21",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 27,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_tb_22",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 33,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_1",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 36,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_13",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 39,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_16",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 42,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_19",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 43,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_2",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 49,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_26",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 50,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_27",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 52,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_3",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 53,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_4",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 54,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_table_5",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 57,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_10",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 65,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_18",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 71,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_3",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 73,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_5",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 74,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_6",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 75,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_7",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 76,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_tb_8",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 80,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_15",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 82,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_19",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 86,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_24",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 97,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_table_9",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 113,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_19",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 115,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_21",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 118,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_24",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 119,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_27",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 120,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_table_28",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 153,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_tb_19",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 193,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_1",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 194,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_10",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 199,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_16",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 200,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_17",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 201,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_18",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 204,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_22",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 206,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_24",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 210,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_28",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 213,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_6",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 214,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_7",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 215,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_table_8",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 218,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_10",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 219,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_11",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 220,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_12",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 221,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_13",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 222,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_14",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 223,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_15",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 224,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_16",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 225,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_17",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 231,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_3",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 232,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_4",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 233,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_5",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 234,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_6",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 235,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_8",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 236,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_tb_9",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 253,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_5",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 256,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_table_9",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 257,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_1",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 258,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_10",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 259,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_11",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 260,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_12",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 263,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_18",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 267,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_21",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 269,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_3",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 271,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_5",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 274,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_8",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 275,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_tb_9",
+      "group": "background_textures",
+      "baseline_success": false,
+      "in_training": true
+    }
+  ]
+}

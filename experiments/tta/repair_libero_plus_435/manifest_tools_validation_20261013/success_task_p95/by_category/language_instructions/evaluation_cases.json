@@ -1,0 +1,127 @@
+{
+  "evaluation_scope": "baseline-failures",
+  "task_ids": [
+    1149,
+    1156,
+    1157,
+    1162,
+    1165,
+    1191,
+    1415,
+    1416,
+    1421,
+    1423,
+    1432,
+    1434,
+    1437,
+    1440,
+    1483
+  ],
+  "cases": [
+    {
+      "task_id": 1149,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1156,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1157,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_28_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1162,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_41_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1165,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1191,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_language_31_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1415,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_6_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1416,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_7_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1421,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_16_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1423,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_18_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1432,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_33_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1434,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_37_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1437,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_43_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1440,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_language_49_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1483,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_language_50_view_0_0_100_0_0_initstate_0",
+      "group": "language_instructions",
+      "baseline_success": false,
+      "in_training": true
+    }
+  ]
+}

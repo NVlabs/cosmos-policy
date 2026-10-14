@@ -1,0 +1,175 @@
+{
+  "evaluation_scope": "baseline-failures",
+  "task_ids": [
+    1953,
+    1958,
+    1976,
+    2007,
+    2022,
+    2032,
+    2037,
+    2041,
+    2042,
+    2043,
+    2044,
+    2045,
+    2048,
+    2054,
+    2112,
+    2143,
+    2172,
+    2207,
+    2209,
+    2213,
+    2215
+  ],
+  "cases": [
+    {
+      "task_id": 1953,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level4_sample3",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1958,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_level5_sample4",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1976,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_level4_sample1",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2007,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level2_sample1",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2022,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_14",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2032,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_add_29",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2037,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level3_sample2",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2041,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level4_sample3",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2042,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level4_sample4",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2043,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level5_sample1",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2044,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level5_sample2",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2045,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_level5_sample3",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2048,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_add_28",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2054,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_level4_sample2",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2112,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_add_9",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2143,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_add_28",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2172,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_add_24",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2207,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_19",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2209,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_20",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2213,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_24",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2215,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_add_26",
+      "group": "objects_layout",
+      "baseline_success": false,
+      "in_training": false
+    }
+  ]
+}

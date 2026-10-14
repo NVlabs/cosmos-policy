@@ -1,0 +1,71 @@
+{
+  "task_id": 1778,
+  "case_id": "task1778",
+  "group": "sensor_noise",
+  "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_29",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/sensor_noise/episodes/task1778/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/sensor_noise/episodes/task1778/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 163,
+  "phase": {
+    "phase_index": 2,
+    "planner_step_id": 3,
+    "skill": "Pick",
+    "arguments": {
+      "item": "chocolate_pudding_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 163,
+    "phase": {
+      "phase_index": 2,
+      "planner_step_id": 3,
+      "skill": "Pick",
+      "arguments": {
+        "item": "chocolate_pudding_1"
+      }
+    },
+    "demos": [
+      "demo_3",
+      "demo_7",
+      "demo_8"
+    ],
+    "target": [
+      -0.037749312818050385,
+      0.11112555116415024,
+      0.5349634289741516,
+      -3.108724355697632,
+      0.2323249876499176,
+      -0.11937718093395233
+    ],
+    "similarity": 0.3527408838272095,
+    "final_ee": [
+      -0.041194088757038116,
+      0.11249089241027832,
+      0.5324685573577881,
+      -3.107357978820801,
+      0.23362469673156738,
+      -0.13074460625648499
+    ],
+    "duration_steps": 15,
+    "finish_status": "unknown",
+    "task_success": true
+  },
+  "action_steps": 228,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/sensor_noise/task1778/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/sensor_noise/task1778/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/sensor_noise/task1778/rollout_data/episode_data--task1778--suite=libero_10--2026_10_03-15_30_06--task=1778--ep=1--success=True--task1778.hdf5",
+  "elapsed_seconds": 64.579
+}

@@ -1,0 +1,223 @@
+{
+  "evaluation_scope": "sensor-noise-failures",
+  "task_ids": [
+    1497,
+    1542,
+    1543,
+    1544,
+    1545,
+    1549,
+    1556,
+    1580,
+    1630,
+    1631,
+    1650,
+    1677,
+    1678,
+    1696,
+    1698,
+    1771,
+    1777,
+    1778,
+    1779,
+    1813,
+    1819,
+    1820,
+    1821,
+    1822,
+    1854,
+    1856,
+    1874
+  ],
+  "cases": [
+    {
+      "task_id": 1497,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_0_noise_15",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1542,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_17",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1543,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_18",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1544,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_19",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1545,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_20",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1549,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_29",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1556,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_0_noise_40",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1580,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_0_noise_18",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1630,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_18",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1631,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_19",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1650,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_0_noise_39",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1677,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_19",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1678,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_20",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1696,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_38",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1698,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_0_noise_40",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1771,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_20",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1777,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_28",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1778,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_29",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1779,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_0_noise_30",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1813,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_19",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1819,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_27",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1820,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_28",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1821,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_29",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1822,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_0_noise_30",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 1854,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_18",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1856,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_20",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 1874,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_0_noise_40",
+      "group": "sensor_noise",
+      "baseline_success": false,
+      "in_training": false
+    }
+  ]
+}

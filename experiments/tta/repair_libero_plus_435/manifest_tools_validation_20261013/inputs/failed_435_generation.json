@@ -1,0 +1,13 @@
+{
+  "source_run": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims",
+  "source_config_sha256": "0df8f8ae22075839a79bcd701d05cd6c0aa5c070a7ea33eae7cff1962508f30e",
+  "base_tasks": "/data1/liu/exp/counterfactual/external/cosmos-policy/configs/libero10_experiment_tasks.json",
+  "base_tasks_sha256": "a74dac075d1f86838e888bac6c07a1ae5077b6ce8ce8d97b9e94943ca5819666",
+  "planned_cases": 2519,
+  "completed_cases": 2519,
+  "successes": 2084,
+  "failures": 435,
+  "complete": true,
+  "incomplete_cases": [],
+  "rule": "status == completed and success is false; runtime errors are not failures"
+}

@@ -1,0 +1,71 @@
+{
+  "task_id": 948,
+  "case_id": "task0948",
+  "group": "camera_viewpoints",
+  "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_305_0_100_0_0_initstate_0",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/camera_viewpoints/episodes/task0948/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/camera_viewpoints/episodes/task0948/actions.npy",
+  "status": "completed",
+  "success": false,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "Pick",
+    "arguments": {
+      "item": "porcelain_mug_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 1.1175870895385742e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "porcelain_mug_1"
+      }
+    },
+    "demos": [
+      "demo_3",
+      "demo_4",
+      "demo_8"
+    ],
+    "target": [
+      -0.13446153700351715,
+      -0.12389872968196869,
+      0.5511021018028259,
+      -3.0906267166137695,
+      -0.11283321678638458,
+      -0.021157044917345047
+    ],
+    "similarity": 0.3115798532962799,
+    "final_ee": [
+      -0.13348421454429626,
+      -0.12492437660694122,
+      0.5742205381393433,
+      -3.0907766819000244,
+      -0.11617627739906311,
+      -0.028962545096874237
+    ],
+    "duration_steps": 42,
+    "finish_status": "CONVERGED",
+    "task_success": false
+  },
+  "action_steps": 700,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/camera_viewpoints/task0948/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/camera_viewpoints/task0948/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/camera_viewpoints/task0948/rollout_data/episode_data--task0948--suite=libero_10--2026_10_03-15_30_05--task=948--ep=1--success=False--task0948.hdf5",
+  "elapsed_seconds": 115.607
+}

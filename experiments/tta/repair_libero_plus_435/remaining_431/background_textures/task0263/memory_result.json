@@ -1,0 +1,36 @@
+{
+  "status": "reached",
+  "t_star": 191,
+  "phase": {
+    "phase_index": 3,
+    "planner_step_id": 4,
+    "skill": "PlaceOn",
+    "arguments": {
+      "item": "chocolate_pudding_1",
+      "target": "living_room_table_plate_right_region"
+    }
+  },
+  "demos": [
+    "demo_11"
+  ],
+  "target": [
+    -0.011897367425262928,
+    0.08995773643255234,
+    0.5127842426300049,
+    3.127699851989746,
+    -0.025488778948783875,
+    0.4730938673019409
+  ],
+  "similarity": 0.22123998403549194,
+  "final_ee": [
+    -0.013695228844881058,
+    0.0903344601392746,
+    0.5106708407402039,
+    -3.078408718109131,
+    0.016764329746365547,
+    -0.46587806940078735
+  ],
+  "duration_steps": 12,
+  "finish_status": "unknown",
+  "task_success": true
+}

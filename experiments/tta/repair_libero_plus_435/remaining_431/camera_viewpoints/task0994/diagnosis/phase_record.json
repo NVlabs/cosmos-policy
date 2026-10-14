@@ -1,0 +1,3173 @@
+{
+  "task_success": false,
+  "total_action_steps": 700,
+  "gripper_cmd_convention": {
+    "close": "action[-1] >= 0.5",
+    "open": "action[-1] <= -0.5",
+    "neutral": "otherwise; preserves previous state"
+  },
+  "recording_contract": {
+    "action_index": "action[k] is the k-th executed pending action",
+    "proprio_index": "proprio[k] is the state before action[k]",
+    "replay": "reset, settle, then actions[:k]",
+    "cut_in_window_steps": 16
+  },
+  "phases": [
+    {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "alphabet_soup_1"
+      },
+      "start_step": 0,
+      "end_step": 143,
+      "holding_before": false,
+      "holding_after": false,
+      "first_flip_step": 49,
+      "flip_direction": "0->1",
+      "first_close_event_step": 49,
+      "first_open_event_step": 115,
+      "close_event_gap": 0.0781634605217357,
+      "close_event_confirmed_step": 49,
+      "inherited_close_event_step": null,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "alphabet_soup_1",
+        "distance": 0.09781488188458326,
+        "point_count": 1090,
+        "center": [
+          0.05575374879115083,
+          -0.10945819048493707,
+          0.5079783249560726
+        ],
+        "aliases": [
+          "alphabet_soup_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "alphabet_soup_1",
+          "distance": 0.09781488188458326,
+          "point_count": 1090,
+          "center": [
+            0.05575374879115083,
+            -0.10945819048493707,
+            0.5079783249560726
+          ],
+          "aliases": [
+            "alphabet_soup_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "memory_phase_index_at_event": 0,
+      "decisions": [
+        {
+          "step": 0,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 1,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 2,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 3,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 4,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 5,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 6,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 7,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 8,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 9,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 10,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 11,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 12,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 13,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 14,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 15,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 15,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 16,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 17,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 18,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 19,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 20,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 21,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 22,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 23,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 24,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 25,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 26,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 27,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 28,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 29,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 30,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 31,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 31,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 32,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 33,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 34,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 35,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 36,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 37,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 38,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 39,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 40,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 41,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 42,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 43,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 44,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 45,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 46,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 47,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 47,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 48,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 49,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 50,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 51,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 52,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 53,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 54,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 55,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 56,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 57,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 58,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 59,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 60,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 61,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 62,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 63,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 63,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 64,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 65,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 66,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 67,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 68,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 69,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 70,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 71,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 72,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 73,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 74,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 75,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 76,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 77,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 78,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 79,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 79,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 80,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 81,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 82,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 83,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 84,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 85,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 86,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 87,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 88,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 89,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 90,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 91,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 92,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 93,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 94,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 95,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 95,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 96,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 97,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 98,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 99,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 100,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 101,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 102,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 103,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 104,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 105,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 106,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 107,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 108,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 109,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 110,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 111,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 111,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 112,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 113,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 114,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 115,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 116,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 117,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 118,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 119,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 120,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 121,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 122,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 123,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 124,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 125,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 126,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 127,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 127,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 128,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 129,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 130,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 131,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 132,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 133,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 134,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 135,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 136,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 137,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 138,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 139,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 140,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 141,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 142,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 143,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 143,
+          "advance": true,
+          "reason": "timeout",
+          "semantic_completed": false,
+          "action_chunks": 9
+        }
+      ]
+    },
+    {
+      "phase_index": 1,
+      "planner_step_id": 2,
+      "skill": "PlaceIn",
+      "arguments": {
+        "item": "alphabet_soup_1",
+        "target": "basket_1_contain_region"
+      },
+      "start_step": 144,
+      "end_step": 191,
+      "holding_before": false,
+      "holding_after": false,
+      "first_flip_step": 144,
+      "flip_direction": "0->1",
+      "first_close_event_step": 144,
+      "first_open_event_step": 162,
+      "close_event_gap": 0.07614025400036836,
+      "close_event_confirmed_step": null,
+      "inherited_close_event_step": null,
+      "object_status": "not_checked",
+      "object_match": null,
+      "actual_object": null,
+      "object_candidates": [],
+      "memory_phase_index_at_event": null,
+      "decisions": [
+        {
+          "step": 144,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 145,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 146,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 147,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 148,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 149,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 150,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 151,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 152,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 153,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 154,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 155,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 156,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 157,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 158,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 159,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 159,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 160,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 161,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 162,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 163,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 164,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 165,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 166,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 167,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 168,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 169,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 170,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 171,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 172,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 173,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 174,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 175,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 175,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 176,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 177,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 178,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 179,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 180,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 181,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 182,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 183,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 184,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 185,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 186,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 187,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 188,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 189,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 190,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 191,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 191,
+          "advance": true,
+          "reason": "timeout",
+          "semantic_completed": false,
+          "action_chunks": 3
+        }
+      ]
+    },
+    {
+      "phase_index": 2,
+      "planner_step_id": 3,
+      "skill": "Pick",
+      "arguments": {
+        "item": "cream_cheese_1"
+      },
+      "start_step": 192,
+      "end_step": 335,
+      "holding_before": false,
+      "holding_after": false,
+      "first_flip_step": 192,
+      "flip_direction": "0->1",
+      "first_close_event_step": 192,
+      "first_open_event_step": 306,
+      "close_event_gap": 0.07719238907620792,
+      "close_event_confirmed_step": null,
+      "inherited_close_event_step": null,
+      "object_status": "not_checked",
+      "object_match": null,
+      "actual_object": null,
+      "object_candidates": [],
+      "memory_phase_index_at_event": null,
+      "decisions": [
+        {
+          "step": 192,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 193,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 194,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 195,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 196,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 197,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 198,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 199,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 200,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 201,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 202,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 203,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 204,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 205,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 206,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 207,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 207,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 208,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 209,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 210,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 211,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 212,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 213,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 214,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 215,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 216,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 217,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 218,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 219,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 220,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 221,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 222,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 223,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 223,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 224,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 225,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 226,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 227,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 228,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 229,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 230,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 231,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 232,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 233,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 234,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 235,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 236,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 237,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 238,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 239,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 239,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 240,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 241,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 242,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 243,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 244,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 245,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 246,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 247,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 248,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 249,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 250,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 251,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 252,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 253,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 254,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 255,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 3
+        },
+        {
+          "step": 255,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 256,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 257,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 258,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 259,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 260,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 261,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 262,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 263,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 264,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 265,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 266,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 267,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 268,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 269,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 270,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 271,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 4
+        },
+        {
+          "step": 271,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 272,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 273,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 274,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 275,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 276,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 277,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 278,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 279,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 280,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 281,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 282,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 283,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 284,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 285,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 286,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 287,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 5
+        },
+        {
+          "step": 287,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 288,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 289,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 290,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 291,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 292,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 293,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 294,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 295,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 296,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 297,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 298,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 299,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 300,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 301,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 302,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 303,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 6
+        },
+        {
+          "step": 303,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 304,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 305,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 306,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 307,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 308,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 309,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 310,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 311,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 312,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 313,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 314,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 315,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 316,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 317,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 318,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 319,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 7
+        },
+        {
+          "step": 319,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 320,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 321,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 322,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 323,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 324,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 325,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 326,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 327,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 328,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 329,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 330,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 331,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 332,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 333,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 334,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 335,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 8
+        },
+        {
+          "step": 335,
+          "advance": true,
+          "reason": "timeout",
+          "semantic_completed": false,
+          "action_chunks": 9
+        }
+      ]
+    },
+    {
+      "phase_index": 3,
+      "planner_step_id": 4,
+      "skill": "PlaceIn",
+      "arguments": {
+        "item": "cream_cheese_1",
+        "target": "basket_1_contain_region"
+      },
+      "start_step": 336,
+      "end_step": 383,
+      "holding_before": false,
+      "holding_after": false,
+      "first_flip_step": 336,
+      "flip_direction": "0->1",
+      "first_close_event_step": 336,
+      "first_open_event_step": 357,
+      "close_event_gap": 0.07674875413699062,
+      "close_event_confirmed_step": null,
+      "inherited_close_event_step": null,
+      "object_status": "not_checked",
+      "object_match": null,
+      "actual_object": null,
+      "object_candidates": [],
+      "memory_phase_index_at_event": null,
+      "decisions": [
+        {
+          "step": 336,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 337,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 338,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 339,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 340,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 341,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 342,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 343,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 344,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 345,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 346,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 347,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 348,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 349,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 350,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 351,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 0
+        },
+        {
+          "step": 351,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 352,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 353,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 354,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 355,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 356,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 357,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 358,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 359,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 360,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 361,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 362,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 363,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 364,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 365,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 366,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 367,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 1
+        },
+        {
+          "step": 367,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 368,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 369,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 370,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 371,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 372,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 373,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 374,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 375,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 376,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 377,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 378,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 379,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 380,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 381,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 382,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 383,
+          "advance": false,
+          "reason": "running",
+          "semantic_completed": false,
+          "action_chunks": 2
+        },
+        {
+          "step": 383,
+          "advance": true,
+          "reason": "timeout",
+          "semantic_completed": false,
+          "action_chunks": 3
+        }
+      ]
+    }
+  ],
+  "memory_phases": [
+    {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "alphabet_soup_1"
+      },
+      "start_step": 0,
+      "end_step": 143,
+      "first_close_event_step": 49,
+      "first_open_event_step": null,
+      "first_interaction_event_step": 49,
+      "interaction_direction": "0->1",
+      "close_event_gap": 0.002638407860471058,
+      "close_event_confirmed_step": 114,
+      "object_status": "match",
+      "object_match": true,
+      "actual_object": {
+        "name": "alphabet_soup_1",
+        "distance": 0.09781488188458326,
+        "point_count": 1090,
+        "center": [
+          0.05575374879115083,
+          -0.10945819048493707,
+          0.5079783249560726
+        ],
+        "aliases": [
+          "alphabet_soup_1"
+        ],
+        "source": "agentview_segmentation_rgbd"
+      },
+      "object_candidates": [
+        {
+          "name": "alphabet_soup_1",
+          "distance": 0.09781488188458326,
+          "point_count": 1090,
+          "center": [
+            0.05575374879115083,
+            -0.10945819048493707,
+            0.5079783249560726
+          ],
+          "aliases": [
+            "alphabet_soup_1"
+          ],
+          "source": "agentview_segmentation_rgbd"
+        }
+      ],
+      "runtime_phase_index_at_event": 0,
+      "runtime_phase": {
+        "phase_index": 0,
+        "planner_step_id": 1,
+        "skill": "Pick",
+        "arguments": {
+          "item": "alphabet_soup_1"
+        }
+      },
+      "semantic_completed": false,
+      "completion_reason": "timeout",
+      "completion_step": 143
+    },
+    {
+      "phase_index": 1,
+      "planner_step_id": 2,
+      "skill": "PlaceIn",
+      "arguments": {
+        "item": "alphabet_soup_1",
+        "target": "basket_1_contain_region"
+      },
+      "start_step": null,
+      "end_step": null,
+      "first_close_event_step": null,
+      "first_open_event_step": null,
+      "first_interaction_event_step": null,
+      "interaction_direction": null,
+      "close_event_gap": null,
+      "close_event_confirmed_step": null,
+      "object_status": "not_checked",
+      "object_match": null,
+      "actual_object": null,
+      "object_candidates": [],
+      "runtime_phase_index_at_event": null,
+      "runtime_phase": null,
+      "semantic_completed": null,
+      "completion_reason": null,
+      "completion_step": null
+    },
+    {
+      "phase_index": 2,
+      "planner_step_id": 3,
+      "skill": "Pick",
+      "arguments": {
+        "item": "cream_cheese_1"
+      },
+      "start_step": null,
+      "end_step": null,
+      "first_close_event_step": null,
+      "first_open_event_step": null,
+      "first_interaction_event_step": null,
+      "interaction_direction": null,
+      "close_event_gap": null,
+      "close_event_confirmed_step": null,
+      "object_status": "not_checked",
+      "object_match": null,
+      "actual_object": null,
+      "object_candidates": [],
+      "runtime_phase_index_at_event": null,
+      "runtime_phase": null,
+      "semantic_completed": null,
+      "completion_reason": null,
+      "completion_step": null
+    },
+    {
+      "phase_index": 3,
+      "planner_step_id": 4,
+      "skill": "PlaceIn",
+      "arguments": {
+        "item": "cream_cheese_1",
+        "target": "basket_1_contain_region"
+      },
+      "start_step": null,
+      "end_step": null,
+      "first_close_event_step": null,
+      "first_open_event_step": null,
+      "first_interaction_event_step": null,
+      "interaction_direction": null,
+      "close_event_gap": null,
+      "close_event_confirmed_step": null,
+      "object_status": "not_checked",
+      "object_match": null,
+      "actual_object": null,
+      "object_candidates": [],
+      "runtime_phase_index_at_event": null,
+      "runtime_phase": null,
+      "semantic_completed": null,
+      "completion_reason": null,
+      "completion_step": null
+    }
+  ],
+  "diagnosis_stopped": true,
+  "candidate": {
+    "span": {
+      "phase_index": 0,
+      "memory_phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "Pick",
+      "arguments": {
+        "item": "alphabet_soup_1"
+      },
+      "start_step": 0
+    },
+    "status": "grasp_failed",
+    "reason": "execution_failure",
+    "event_step": 49,
+    "close_event_step": 49
+  },
+  "pending": null,
+  "census_abs_init": 0,
+  "task_name_perturbed": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_318_0_100_0_0_initstate_0",
+  "suite_task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_318_0_100_0_0_initstate_0",
+  "base_task": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket",
+  "suite": "libero_10",
+  "perturbation_category": "Camera Viewpoints",
+  "t_star": 33,
+  "numeric_t_star": 33,
+  "event_step": 49
+}

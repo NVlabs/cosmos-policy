@@ -1,0 +1,959 @@
+{
+  "evaluation_scope": "robotinit-failures",
+  "task_ids": [
+    302,
+    304,
+    305,
+    310,
+    311,
+    312,
+    313,
+    317,
+    318,
+    319,
+    320,
+    321,
+    323,
+    327,
+    329,
+    340,
+    345,
+    346,
+    347,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    360,
+    361,
+    389,
+    390,
+    393,
+    397,
+    400,
+    401,
+    402,
+    407,
+    408,
+    413,
+    425,
+    426,
+    429,
+    431,
+    436,
+    437,
+    442,
+    443,
+    445,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    459,
+    463,
+    468,
+    469,
+    471,
+    472,
+    476,
+    477,
+    478,
+    479,
+    480,
+    482,
+    486,
+    487,
+    489,
+    490,
+    506,
+    508,
+    510,
+    512,
+    514,
+    516,
+    518,
+    523,
+    542,
+    543,
+    549,
+    550,
+    554,
+    558,
+    561,
+    562,
+    565,
+    566,
+    574,
+    579,
+    581,
+    589,
+    599,
+    600,
+    601,
+    605,
+    615,
+    618,
+    621,
+    622,
+    626,
+    627,
+    630,
+    631,
+    632,
+    633,
+    636,
+    639,
+    662,
+    663,
+    665,
+    667,
+    668,
+    670,
+    673,
+    675,
+    676,
+    677,
+    678,
+    679
+  ],
+  "cases": [
+    {
+      "task_id": 302,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_211",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 304,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_231",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 305,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_241",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 310,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_291",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 311,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_301",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 312,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_311",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 313,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_321",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 317,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_361",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 318,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_371",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 319,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_381",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 320,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_391",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 321,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_401",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 323,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_421",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 327,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_471",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 329,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_view_0_0_100_0_0_initstate_491",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 340,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_222",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 345,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_292",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 346,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_302",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 347,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_312",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 350,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_342",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 351,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_352",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 352,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_362",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 353,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_372",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 354,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_382",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 355,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_392",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 356,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_412",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 360,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_452",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 361,
+      "task_name": "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_view_0_0_100_0_0_initstate_462",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 389,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_283",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 390,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_293",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 393,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_323",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 397,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_363",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 400,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_393",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 401,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_403",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 402,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_413",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 407,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_483",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 408,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_493",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 413,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_54",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 425,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_204",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 426,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_224",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 429,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_254",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 431,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_274",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 436,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_324",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 437,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_334",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 442,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_384",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 443,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_394",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 445,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_414",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 447,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_434",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 448,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_444",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 449,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_454",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 450,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_464",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 451,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_484",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 452,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_view_0_0_100_0_0_initstate_494",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 459,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_135",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 463,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_185",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 468,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_235",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 469,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_245",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 471,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_265",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 472,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_285",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 476,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_335",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 477,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_345",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 478,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_355",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 479,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_365",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 480,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_375",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 482,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_395",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 486,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_455",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 487,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_465",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 489,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_485",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 490,
+      "task_name": "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_view_0_0_100_0_0_initstate_495",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 506,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_296",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 508,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_316",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 510,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_336",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 512,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_356",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 514,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_376",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 516,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_396",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 518,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_426",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 523,
+      "task_name": "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_view_0_0_100_0_0_initstate_486",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 542,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_237",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 543,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_247",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 549,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_327",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 550,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_337",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 554,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_377",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 558,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_417",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 561,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_447",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 562,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_457",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 565,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_487",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 566,
+      "task_name": "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_view_0_0_100_0_0_initstate_497",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 574,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_168",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 579,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_218",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 581,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_238",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 589,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_328",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 599,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_428",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 600,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_438",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 601,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_448",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 605,
+      "task_name": "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_view_0_0_100_0_0_initstate_498",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 615,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_249",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 618,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_279",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 621,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_309",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 622,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_319",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 626,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_369",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 627,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_379",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 630,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_409",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 631,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_419",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 632,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_429",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 633,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_439",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 636,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_469",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 639,
+      "task_name": "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_view_0_0_100_0_0_initstate_499",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 662,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_310",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 663,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_320",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 665,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_340",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 667,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_360",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 668,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_370",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 670,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_390",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 673,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_420",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 675,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_440",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 676,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_450",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 677,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_460",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 678,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_470",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 679,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_view_0_0_100_0_0_initstate_480",
+      "group": "robot_initial_states",
+      "baseline_success": false,
+      "in_training": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "task_id": 2007,
+  "case_id": "task2007",
+  "group": "objects_layout",
+  "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_level2_sample1",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/objects_layout/episodes/task2007/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/objects_layout/episodes/task2007/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 150,
+  "phase": {
+    "phase_index": 1,
+    "planner_step_id": 3,
+    "skill": "PlaceIn",
+    "arguments": {
+      "item": "white_yellow_mug_1",
+      "target": "microwave_1_heating_region"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.9802322387695312e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 150,
+    "phase": {
+      "phase_index": 1,
+      "planner_step_id": 3,
+      "skill": "PlaceIn",
+      "arguments": {
+        "item": "white_yellow_mug_1",
+        "target": "microwave_1_heating_region"
+      }
+    },
+    "demos": [
+      "demo_9"
+    ],
+    "target": [
+      -0.029122963547706604,
+      0.14635507762432098,
+      1.050216794013977,
+      2.5134477615356445,
+      -2.108882427215576,
+      -0.9026628136634827
+    ],
+    "similarity": -0.06278123706579208,
+    "final_ee": [
+      -0.029916785657405853,
+      0.14811918139457703,
+      1.0504302978515625,
+      -2.1218066215515137,
+      1.790228247642517,
+      0.7561346888542175
+    ],
+    "duration_steps": 12,
+    "finish_status": "unknown",
+    "task_success": true
+  },
+  "action_steps": 322,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/objects_layout/task2007/rollout_data/episode_data--task2007--suite=libero_10--2026_10_03-15_30_05--task=2007--ep=1--success=True--task2007.hdf5",
+  "elapsed_seconds": 80.638
+}

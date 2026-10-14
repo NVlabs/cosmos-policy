@@ -1,0 +1,71 @@
+{
+  "task_id": 2342,
+  "case_id": "task2342",
+  "group": "light_conditions",
+  "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_15",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/light_conditions/episodes/task2342/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/light_conditions/episodes/task2342/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 62,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 2,
+    "skill": "Pick",
+    "arguments": {
+      "item": "white_yellow_mug_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 2.2351741790771484e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 62,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 2,
+      "skill": "Pick",
+      "arguments": {
+        "item": "white_yellow_mug_1"
+      }
+    },
+    "demos": [
+      "demo_5",
+      "demo_10",
+      "demo_2"
+    ],
+    "target": [
+      -0.009464710019528866,
+      -0.07277001440525055,
+      1.0096137523651123,
+      -1.906550645828247,
+      1.6923495531082153,
+      0.7293144464492798
+    ],
+    "similarity": -0.03173600137233734,
+    "final_ee": [
+      -0.007392046973109245,
+      -0.07193611562252045,
+      1.0117926597595215,
+      -1.9016362428665161,
+      1.6977757215499878,
+      0.726558268070221
+    ],
+    "duration_steps": 10,
+    "finish_status": "unknown",
+    "task_success": true
+  },
+  "action_steps": 248,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/light_conditions/task2342/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/light_conditions/task2342/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/light_conditions/task2342/rollout_data/episode_data--task2342--suite=libero_10--2026_10_03-15_30_06--task=2342--ep=1--success=True--task2342.hdf5",
+  "elapsed_seconds": 73.278
+}

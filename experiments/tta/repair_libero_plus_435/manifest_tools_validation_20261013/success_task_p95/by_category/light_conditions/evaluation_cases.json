@@ -1,0 +1,135 @@
+{
+  "evaluation_scope": "light-failures",
+  "task_ids": [
+    2245,
+    2298,
+    2300,
+    2301,
+    2312,
+    2313,
+    2318,
+    2321,
+    2322,
+    2330,
+    2340,
+    2342,
+    2345,
+    2346,
+    2356,
+    2360
+  ],
+  "cases": [
+    {
+      "task_id": 2245,
+      "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_1",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2298,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_2",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2300,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_21",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2301,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_23",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": false
+    },
+    {
+      "task_id": 2312,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_33",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2313,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_34",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2318,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_39",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2321,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_41",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2322,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_42",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2330,
+      "task_name": "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_light_5",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2340,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_13",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2342,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_15",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2345,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_18",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2346,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_19",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2356,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_35",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": true
+    },
+    {
+      "task_id": 2360,
+      "task_name": "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_light_39",
+      "group": "light_conditions",
+      "baseline_success": false,
+      "in_training": false
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "task_id": 400,
+  "case_id": "task0400",
+  "group": "robot_initial_states",
+  "task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_view_0_0_100_0_0_initstate_393",
+  "baseline_success": false,
+  "baseline_video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0400/video.mp4",
+  "baseline_actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/libero_plus/cosmospolicy_full_7dims/robot_initial_states/episodes/task0400/actions.npy",
+  "status": "completed",
+  "success": true,
+  "protocol": {
+    "action_seed": 42,
+    "environment_seed": 10000,
+    "settle_steps": 30,
+    "max_steps": 700,
+    "rng_mode": "openwam"
+  },
+  "t_star": 10,
+  "phase": {
+    "phase_index": 0,
+    "planner_step_id": 1,
+    "skill": "TurnOn",
+    "arguments": {
+      "target": "flat_stove_1"
+    }
+  },
+  "baseline_prefix_max_precision_delta": 1.4901161193847656e-08,
+  "memory_status": "reached",
+  "memory_result": {
+    "status": "reached",
+    "t_star": 10,
+    "phase": {
+      "phase_index": 0,
+      "planner_step_id": 1,
+      "skill": "TurnOn",
+      "arguments": {
+        "target": "flat_stove_1"
+      }
+    },
+    "demos": [
+      "demo_12"
+    ],
+    "target": [
+      -0.21339932084083557,
+      0.2073095589876175,
+      0.9489229321479797,
+      3.1820826530456543,
+      -0.006300328765064478,
+      0.13829167187213898
+    ],
+    "similarity": 0.1652107685804367,
+    "final_ee": [
+      -0.21395108103752136,
+      0.20799840986728668,
+      0.9488881230354309,
+      -3.0960984230041504,
+      0.004141990561038256,
+      -0.13956023752689362
+    ],
+    "duration_steps": 57,
+    "finish_status": "CONVERGED",
+    "task_success": true
+  },
+  "action_steps": 254,
+  "video": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0400/video.mp4",
+  "actions": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0400/actions.npy",
+  "episode_hdf5": "/data1/liu/exp/counterfactual/external/cosmos-policy/experiments/tta/repair_libero_plus_435/remaining_431/robot_initial_states/task0400/rollout_data/episode_data--task0400--suite=libero_10--2026_10_03-15_30_05--task=400--ep=1--success=True--task0400.hdf5",
+  "elapsed_seconds": 60.663
+}
