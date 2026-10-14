@@ -1,0 +1,141 @@
+{
+  "rule": "completed and success == true and full action_steps <= P95 of regenerated success demonstrations for the same base task",
+  "percentile_method": "numpy linear",
+  "length_definition": "full saved actions; baseline prefix + Memory intervention + policy continuation; excludes 30 settling actions",
+  "training_data": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen",
+  "successful_before_filter": 229,
+  "kept": 190,
+  "excluded": 39,
+  "kept_fraction": 0.8296943231441049,
+  "mean_kept_steps": 253.35263157894738,
+  "median_kept_steps": 249.0,
+  "by_task": {
+    "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket": {
+      "successful_before_filter": 22,
+      "kept": 17,
+      "excluded": 5,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_demo.hdf5",
+      "training_episodes": 46,
+      "p95": 308.25,
+      "max_integer_steps": 308
+    },
+    "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate": {
+      "successful_before_filter": 23,
+      "kept": 20,
+      "excluded": 3,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate_demo.hdf5",
+      "training_episodes": 37,
+      "p95": 288.79999999999995,
+      "max_integer_steps": 288
+    },
+    "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate": {
+      "successful_before_filter": 30,
+      "kept": 26,
+      "excluded": 4,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate_demo.hdf5",
+      "training_episodes": 39,
+      "p95": 290.20000000000005,
+      "max_integer_steps": 290
+    },
+    "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it": {
+      "successful_before_filter": 53,
+      "kept": 45,
+      "excluded": 8,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it_demo.hdf5",
+      "training_episodes": 30,
+      "p95": 285.65,
+      "max_integer_steps": 285
+    },
+    "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket": {
+      "successful_before_filter": 15,
+      "kept": 15,
+      "excluded": 0,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket_demo.hdf5",
+      "training_episodes": 38,
+      "p95": 346.59999999999997,
+      "max_integer_steps": 346
+    },
+    "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it": {
+      "successful_before_filter": 20,
+      "kept": 20,
+      "excluded": 0,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it_demo.hdf5",
+      "training_episodes": 35,
+      "p95": 366.7,
+      "max_integer_steps": 366
+    },
+    "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it": {
+      "successful_before_filter": 12,
+      "kept": 12,
+      "excluded": 0,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_demo.hdf5",
+      "training_episodes": 39,
+      "p95": 307.5,
+      "max_integer_steps": 307
+    },
+    "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket": {
+      "successful_before_filter": 35,
+      "kept": 23,
+      "excluded": 12,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket_demo.hdf5",
+      "training_episodes": 45,
+      "p95": 304.4,
+      "max_integer_steps": 304
+    },
+    "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove": {
+      "successful_before_filter": 11,
+      "kept": 4,
+      "excluded": 7,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove_demo.hdf5",
+      "training_episodes": 31,
+      "p95": 462.0,
+      "max_integer_steps": 462
+    },
+    "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy": {
+      "successful_before_filter": 8,
+      "kept": 8,
+      "excluded": 0,
+      "training_file": "/data1/liu/exp/counterfactual/external/cosmos-policy/LIBERO-Cosmos-Policy/success_only/libero_10_regen/STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy_demo.hdf5",
+      "training_episodes": 36,
+      "p95": 236.5,
+      "max_integer_steps": 236
+    }
+  },
+  "by_category": {
+    "language_instructions": {
+      "successful_before_filter": 10,
+      "kept": 8,
+      "excluded": 2
+    },
+    "camera_viewpoints": {
+      "successful_before_filter": 51,
+      "kept": 24,
+      "excluded": 27
+    },
+    "robot_initial_states": {
+      "successful_before_filter": 96,
+      "kept": 90,
+      "excluded": 6
+    },
+    "background_textures": {
+      "successful_before_filter": 30,
+      "kept": 29,
+      "excluded": 1
+    },
+    "sensor_noise": {
+      "successful_before_filter": 23,
+      "kept": 22,
+      "excluded": 1
+    },
+    "objects_layout": {
+      "successful_before_filter": 5,
+      "kept": 3,
+      "excluded": 2
+    },
+    "light_conditions": {
+      "successful_before_filter": 14,
+      "kept": 14,
+      "excluded": 0
+    }
+  }
+}

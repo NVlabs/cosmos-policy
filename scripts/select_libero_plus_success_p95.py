@@ -2,7 +2,9 @@
 """Select complete successful Memory repairs using same-base-task demo P95.
 
 Lengths include the baseline prefix, Memory intervention and continuation, but
-exclude settling actions. Uses only saved metadata, NumPy and h5py; no GPU/model.
+exclude settling actions. Thresholds come from P95_RECORD (a committed
+summary.json) when it exists, otherwise from the demos in --demo-dir.
+Uses only saved metadata, NumPy and h5py; no GPU/model.
 """
 from __future__ import annotations
 
@@ -30,6 +32,24 @@ EVALUATION_SCOPES = {
     'sensor_noise': 'sensor-noise-failures', 'background_textures': 'background-failures',
     'light_conditions': 'light-failures',
 }
+
+
+P95_RECORD = REPO / 'experiments/tta/repair_libero_plus_435/success_task_p95/summary.json'
+THRESHOLD_FIELDS = ('training_file', 'training_episodes', 'p95', 'max_integer_steps')
+
+
+def recorded_thresholds(record_path, base_tasks):
+    """Per-base-task demo P95 thresholds from a committed selection record.
+
+    The record is written by an earlier run of this script. Only the fields
+    demo_threshold() returns are kept, so a selection driven by the record is
+    byte-identical to one driven by the demonstration files.
+    """
+    recorded = read_json(record_path)['by_task']
+    missing = [base for base in base_tasks if base not in recorded]
+    if missing:
+        raise ValueError(f'P95 record {record_path} lacks base tasks: {missing}')
+    return {base: {key: recorded[base][key] for key in THRESHOLD_FIELDS} for base in base_tasks}
 
 
 def demo_threshold(demo_dir, base_task):
@@ -137,7 +157,9 @@ def build_selection(failure_manifest, repair_runs, demo_dir, allow_incomplete=Fa
     if (incomplete or failures.get('incomplete')) and not allow_incomplete:
         raise ValueError(f'Correction inputs incomplete: {len(incomplete)} unfinished repairs; '
                          'finish the run or explicitly use --allow-incomplete')
-    thresholds = {base: demo_threshold(demo_dir, base) for base in sorted({row['base_task'] for row in cases.values()})}
+    bases = sorted({row['base_task'] for row in cases.values()})
+    thresholds = (recorded_thresholds(P95_RECORD, bases) if P95_RECORD.is_file()
+                  else {base: demo_threshold(demo_dir, base) for base in bases})
     selected, excluded, memory_failed = [], [], []
     for task_id, source in sorted(cases.items()):
         if task_id not in results or results[task_id][1].get('status') != 'completed':
