@@ -41,7 +41,7 @@
 |---|---|
 | `cosmos_policy/` | 原本cosmospolicy的框架，其中对于训练和评估有部分修改（e.g., LoRA） |
 | `memory_system/` | Memory 的构建、检索、规划与控制（`tta/`、`execute/`、`offline/`、`pointcloud_action/`） |
-| `memory/` | **原本实现libero-pro的memory guided correction，现在和libero-plus没有合并**。libero-pro的分支暂未迁移到当前fork....|
+| `memory/` | **原本实现libero-pro的memory guided correction，现在和libero-plus没有合并**。libero-pro的分支暂未迁移到当前fork...|
 | `scripts/` | 脚本（见第 6 节） |
 | `tests/tta/archived_lorafix/train_tta_sft_fixed.py` | 训练入口按字符串路径动态加载的 `mutate_config` |
 | `skill_memory_test/libero_10/` | 修复路径读取的 3 个 Memory 产物 |
@@ -56,15 +56,14 @@
 | **LIBERO-plus 代码** | 119 MB（不含 assets） | `git clone https://github.com/Constructor-Sun/LIBERO-plus.git` 到 `<repo>` **同级**。**不要用上游** `sylvestf/LIBERO-plus`：它缺 `benchmark/__init__.py` 里的 `get_ids_by_category()`，七个维度无法枚举。 |
 | **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
 | **基础 policy** | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir ../checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
-| **language T5 增量缓存** | 375 MB（374 条） | language 分支所需的 text embedding。可以通过仓库内脚本生成：`python bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`。它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383 个 task，去重后正好 374 条指令），用 `CosmosT5TextEncoder` 编码；需要 google/t5-11b，路径由 `--model-path` 额外指定。生成物是 `--extra-t5` 的默认输入。 |
-| **成功 demo（P95 参考）** | 3.6 GB | **可选**。P95 阈值已随 `experiments/tta/repair_libero_plus_435/success_task_p95/summary.json`（6 KB）提交，`select_libero_plus_success_p95.py` 直接读取。重算 P95（换 base task 或换 demo 集）时才需要 🤗 `nvidia/LIBERO-Cosmos-Policy` 的 `success_only/libero_10_regen/`（`--demo-dir` 的默认值）进行重算。同目录的 `dataset_statistics*.json` 在 SFT 阶段被链接 |
+| **language T5 增量缓存** | 375 MB（374 条） | language 分支所需的 text embedding。可以通过仓库内脚本生成：`python bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`。它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383个task，去重后374），用 `CosmosT5TextEncoder` 编码；需要 google/t5-11b，路径由 `--model-path` 额外指定。生成物是 `--extra-t5` 的默认输入。 |
+| **成功 demo（P95 参考）** | 3.6 GB | **可选**。P95 阈值已随 `experiments/tta/repair_libero_plus_435/success_task_p95/summary.json`（6 KB）提交。重算 P95（换 base task 或换 demo 集）时需要 🤗 `nvidia/LIBERO-Cosmos-Policy` 的 `success_only/libero_10_regen/`（`--demo-dir` 的默认值）进行重算。|
 | **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，迁移时需要重跑 |
 | **cuRobo** | — | 未列入 `pyproject.toml` / `uv.lock`，需单独安装到环境 |
 
 ### 目录约定
 
-先把本仓库 clone 到 `<A>/<B>/<repo>`（`<A>`、`<B>` 是你自己起的目录名；仓库同样是私有的，
-需要协作者权限）：
+将本仓库 clone 到 `<A>/<B>/<repo>`：
 
 ```bash
 git clone --branch memory_guided_ttt --single-branch \
@@ -85,28 +84,36 @@ git clone --branch memory_guided_ttt --single-branch \
     └── LIBERO-plus/                        clone 自 Constructor-Sun/LIBERO-plus，与仓库同级
 ```
 
-| 路径 | 由谁决定 | 怎么覆盖 |
+| 路径 | 由谁读取路径 | 调整路径时使用的参数 |
 |---|---|---|
 | `<A>/checkpoints/` | `Path(repo).parents[1]/checkpoints`（`run_libero_plus_batch.py:119`、`train_libero_plus_sft190.py:22`） | `--policy-dir`、`--ckpt` |
 | `<repo>` 与 `LIBERO-plus` 同级 | `run_libero_plus_batch.py:229`、`run_libero_smoke_test.sh:60` | `COSMOS_LIBERO_ROOT` |
 | `<A>/checkpoints/t5-11b/` | `get_t5_emb.py:26` | `COSMOS_T5_PATH` |
 
-## 5. 环境准备
+## 5. 环境
+
+三件事：**cosmospolicy 的 Python 依赖 + LIBERO-plus + cuRobo**。
 
 ```bash
-# 1) LIBERO-plus 及其 assets 就位后，生成 libero 配置。
-#    注意：config.yaml 缺失时 libero 会交互式提问，无人应答会 EOFError。
+# ① cosmos-policy 的 Python 依赖（上游文档给的命令）
+uv run --extra cu128 --group libero --python 3.10 python
+#   cu128 / cu130 二选一（互斥）；libero / aloha / robocasa 三组互斥
+
+# ② cuRobo —— 不在 pyproject.toml / uv.lock 里，只能单独装
+git clone https://github.com/NVlabs/curobo && cd curobo && pip install -e .
+
+# ③ LIBERO-plus 不安装，靠 PYTHONPATH 盖过 pip 装的那个 libero 0.1.1
+export COSMOS_LIBERO_ROOT=<B>/LIBERO-plus
+export PYTHONPATH=$COSMOS_LIBERO_ROOT:$PWD:$PWD/scripts
+
+# ④ libero 的路径配置 —— config.yaml 缺失时 libero 会交互式提问，没人答就 EOFError
 export LIBERO_CONFIG_PATH=$PWD/libero_config
 mkdir -p $LIBERO_CONFIG_PATH
-echo N | python -c "import libero.libero"     # 生成指向本机 LIBERO-plus 的绝对路径配置
-
-# 2) 环境变量
-export COSMOS_LIBERO_ROOT=$PWD/../LIBERO-plus
-export PYTHONPATH=$COSMOS_LIBERO_ROOT:$PWD:$PWD/scripts
+echo N | python -c "import libero.libero"
 ```
 
-`~/.libero/config.yaml` 可能被其他 LIBERO 分支的实验改写，**每次运行前显式设置 `LIBERO_CONFIG_PATH`**
-比依赖全局配置可靠。
+原作者的实跑环境是仓库外的一个 conda 环境 `cosmospolicy`（不是 `.venv`）。
+`~/.libero/config.yaml` 容易被别的 LIBERO 项目改写，每次运行前显式设 `LIBERO_CONFIG_PATH` 更可靠。
 
 ## 6. 运行
 
