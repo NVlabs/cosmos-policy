@@ -63,8 +63,15 @@
 
 ### 目录约定
 
-代码按**相对位置**找外部资源。把仓库放在 `<A>/<B>/<repo>`（`<A>`、`<B>` 是你自己起的目录名），
-配套资源的位置就唯一确定：
+先把本仓库 clone 到 `<A>/<B>/<repo>`（`<A>`、`<B>` 是你自己起的目录名；仓库同样是私有的，
+需要协作者权限）：
+
+```bash
+git clone --branch memory_guided_ttt --single-branch \
+    https://github.com/Constructor-Sun/cosmos-policy.git <A>/<B>/<repo>
+```
+
+代码全部按**相对位置**找外部资源，所以配套资源的位置由仓库位置唯一确定：
 
 ```
 <A>/
@@ -74,8 +81,8 @@
 │   ├── t5-11b/                             只在生成 language T5 缓存时用
 │   └── huggingface-hub/                    自动生成，不用手工建
 └── <B>/
-    ├── <repo>/                             本仓库
-    └── LIBERO-plus/                        与仓库同级
+    ├── <repo>/                             上面 clone 的本仓库（分支 memory_guided_ttt）
+    └── LIBERO-plus/                        clone 自 Constructor-Sun/LIBERO-plus，与仓库同级
 ```
 
 | 路径 | 由谁决定 | 怎么覆盖 |
