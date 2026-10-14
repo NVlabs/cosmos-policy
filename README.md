@@ -1,14 +1,10 @@
 # LIBERO-Plus 记忆引导修复 + 七维全参数 SFT
 
-本分支是 [NVIDIA Cosmos Policy](https://github.com/NVIDIA/cosmos-policy) 的一个 fork，在其上实现了一套在
-**LIBERO-Plus** 上运行的「记忆引导修复 → 全参数 SFT」流水线。
+本分支是原有实验的一个 fork，着重实现**LIBERO-Plus** 上运行的 “修复 → SFT” 流程。
 
-仓库存放**代码 + 少量固定的 Memory 产物 + 七维任务清单**。模型权重、仿真资源、运行数据都不在这里，
-获取方式见[第 4 节](#4-仓库外依赖)。
+仓库存放**代码 + 七类干扰的清单**。模型权重、仿真资源、运行数据，获取方式见[第 4 节](#4-仓库外依赖)。
 
----
-
-## 1. 流水线做什么
+## 1. 流水线的内容
 
 ```
 原始 policy 在 7 个扰动维度上跑基线        →  记录失败 case
@@ -21,9 +17,6 @@
         ↓
 全参数 SFT  →  导出单文件 policy  →  关闭 Memory 重新 rollout 评测
 ```
-
-Memory 只提供**选哪一段**和**目标位姿**；接管动作由规划器在线生成，不含 memory 中存储的动作块。
-因此 SFT 学到的是「修正之后如何继续」，而不是「复现控制器输出的动作」。
 
 ## 2. 七个扰动维度（suite = libero_10）
 
@@ -46,22 +39,15 @@ Memory 只提供**选哪一段**和**目标位姿**；接管动作由规划器�
 
 | 路径 | 内容 |
 |---|---|
-| `cosmos_policy/` | policy 模型、imaginaire 框架、数据集、训练器、eval 入口 |
+| `cosmos_policy/` | 原本cosmospolicy的框架，其中对于训练和评估有部分修改（e.g., LoRA） |
 | `memory_system/` | Memory 的构建、检索、规划与控制（`tta/`、`execute/`、`offline/`、`pointcloud_action/`） |
 | `memory/` | 仅 3 个文件：`libero_joint_control.py` 用到的 `densify_joint_path` 及其 `types.py` |
-| `scripts/` | 流水线入口（见第 6 节） |
+| `scripts/` | 脚本（见第 6 节） |
 | `tests/tta/archived_lorafix/train_tta_sft_fixed.py` | 训练入口按字符串路径动态加载的 `mutate_config` |
 | `skill_memory_test/libero_10/` | 修复路径读取的 3 个 Memory 产物 |
 | `experiments/libero_plus/task_lists/libero_10/` | 七维任务清单（`load_plan()` 的输入） |
 | `configs/libero10_experiment_tasks.json` | base task ↔ 合法扰动变体的映射 |
-| `docs/repair/` | 流水线的协议、失败清单与核对记录 |
-
-三条 `.gitignore` 规则会命中本仓库需要的文件，它们是用 `git add -f` 加进来的，**不要重新生成索引**：
-
-- `.gitignore:10` 的 `experiments/`（无锚点，误伤 `cosmos_policy/experiments/`）→ `libero_joint_control.py`
-- `.gitignore:13` 的 `skill_memory_test/` → 那 3 个 Memory 产物
-- `.gitignore` 末行 `tests/tta/archived_lorafix/` → `train_tta_sft_fixed.py`
-- `experiments/libero_plus/task_lists/` 同样被 `experiments/` 命中
+| `docs/repair/` | 各种记录 |
 
 ## 4. 仓库外依赖
 
@@ -69,8 +55,7 @@ Memory 只提供**选哪一段**和**目标位姿**；接管动作由规划器�
 |---|---:|---|
 | **LIBERO-plus 代码** | 119 MB（不含 assets） | 上游 `https://github.com/sylvestf/LIBERO-plus.git` |
 | **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
-| **基础 policy checkpoint** | 3.7 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`（见 `LIBERO.md`） |
-| **`libero_t5_embeddings.pkl`** + `libero_dataset_statistics.json` | 109 MB | 🤗 `nvidia/LIBERO-Cosmos-Policy`：`hf download nvidia/LIBERO-Cosmos-Policy --repo-type dataset --local-dir LIBERO-Cosmos-Policy` |
+| **基础 policy**（`.pt` + `libero_dataset_statistics.json` + `libero_t5_embeddings.pkl`） | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir <A>/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
 | **language T5 增量缓存** | 375 MB（374 条） | **无下载源**。这是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**后才完整（`run_libero_plus_batch.py:187-190`）。仓库里没有生成它的脚本；`scripts/libero_pro/precompute_t5.py` 是通用工具，可按 suite 枚举指令并补算缺失项（需加载 9 GB T5 编码器，未实测） |
 | **成功 demo（P95 参考）** | 3.6 GB | 🤗 `nvidia/LIBERO-Cosmos-Policy` 下的 `success_only/libero_10_regen/`（每个 base task 一个 `*_demo.hdf5`），即 `select_libero_plus_success_p95.py` 的 `--demo-dir` 默认值。同目录的 `dataset_statistics*.json` 也在 SFT 阶段被链接。整个数据集约 80 GB，但只需要这一部分 |
 | **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，均需自己重跑生成 |
@@ -98,9 +83,15 @@ Memory 只提供**选哪一段**和**目标位姿**；接管动作由规划器�
 代码按**相对位置**解析外部资源，仓库必须放在 `<A>/<B>/<repo>`，其中：
 
 ```
-<A>/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/     ← run_libero_plus_batch.py 用 root.parents[1]
+<A>/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/     ← run_libero_plus_batch.py:119、train_libero_plus_sft190.py:22
+<A>/checkpoints/Cosmos-Predict2-2B-Video2World/       ← run_libero_smoke_test.sh 检查 model-480p-16fps.pt 与 tokenizer/tokenizer.pth
 <B>/LIBERO-plus/                                       ← 或设置 COSMOS_LIBERO_ROOT 指向别处
 ```
+
+`<A>/checkpoints/` 同时是 SFT 的输出根目录（`IMAGINAIRE_OUTPUT_ROOT`，`train_libero_plus_sft190.py:227`），
+需要可写。`huggingface-hub/models--nvidia--Cosmos-Predict2-2B-Video2World` 不用手工建，
+`run_libero_smoke_test.sh:78-80` 会用软链接自行生成。checkpoint 路径可用 `--policy-dir` / `--ckpt`
+（batch）或 `SMOKE_POLICY_CKPT_PATH`（smoke）覆盖。
 
 `scripts/run_libero_smoke_test.sh` 另外用 `$REPO_ROOT/../../../checkpoints` 定位 checkpoint，
 `${COSMOS_LIBERO_ROOT:-../../LIBERO-plus}` 定位 LIBERO 包，两者都可用环境变量覆盖。
