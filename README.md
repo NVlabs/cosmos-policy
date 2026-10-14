@@ -56,9 +56,7 @@
 | **LIBERO-plus 代码** | 119 MB（不含 assets） | 上游 `https://github.com/sylvestf/LIBERO-plus.git` |
 | **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
 | **基础 policy** | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir ../checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
-| **language T5 增量缓存** | 375 MB（374 条） | language 分支所需的 text embedding。**不用下载，用仓库内脚本生成**：
-`python bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`
-它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383 个 task，去重后正好 374 条指令），用 `CosmosT5TextEncoder` 编码；需要 t5-11b，路径由 `--model-path` 指定（脚本里的默认值是原作者的本地路径，**必须改**）。生成物是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**（`run_libero_plus_batch.py:187-190`） |
+| **language T5 增量缓存** | 375 MB（374 条） | language 分支所需的 text embedding。**不用下载，用仓库内脚本生成**：<br>`python bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`<br>它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383 个 task，去重后正好 374 条指令），用 `CosmosT5TextEncoder` 编码；需要 t5-11b，路径由 `--model-path` 指定（脚本里的默认值是原作者的本地路径，**必须改**）。生成物是 `--extra-t5` 的默认输入，运行时与 checkpoint 目录下的基础缓存**合并**（`run_libero_plus_batch.py:187-190`） |
 | **成功 demo（P95 参考）** | 3.6 GB | 🤗 `nvidia/LIBERO-Cosmos-Policy` 下的 `success_only/libero_10_regen/`（每个 base task 一个 `*_demo.hdf5`），即 `select_libero_plus_success_p95.py` 的 `--demo-dir` 默认值。同目录的 `dataset_statistics*.json` 也在 SFT 阶段被链接。整个数据集约 80 GB，但只需要这一部分 |
 | **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，均需自己重跑生成 |
 | **cuRobo** | — | 未列入 `pyproject.toml` / `uv.lock`，需单独安装 |
