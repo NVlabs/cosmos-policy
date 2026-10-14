@@ -53,7 +53,7 @@
 
 | 依赖 | 大小 | 来源 |
 |---|---:|---|
-| **LIBERO-plus 代码** | 119 MB（不含 assets） | `git clone https://github.com/Constructor-Sun/LIBERO-plus.git` 到 `<repo>` **同级**（私有仓库，需要先被加为协作者）。**不要用上游** `sylvestf/LIBERO-plus`：它缺 `benchmark/__init__.py` 里的 `get_ids_by_category()`，七个维度无法枚举，会在 `run_libero_plus_batch.py:188` 报 `classification differs from the pinned task manifests` |
+| **LIBERO-plus 代码** | 119 MB（不含 assets） | `git clone https://github.com/Constructor-Sun/LIBERO-plus.git` 到 `<repo>` **同级**。**不要用上游** `sylvestf/LIBERO-plus`：它缺 `benchmark/__init__.py` 里的 `get_ids_by_category()`，七个维度无法枚举。 |
 | **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
 | **基础 policy** | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir ../checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
 | **language T5 增量缓存** | 375 MB（374 条） | language 分支所需的 text embedding。可以通过仓库内脚本生成：`python bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`。它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383 个 task，去重后正好 374 条指令），用 `CosmosT5TextEncoder` 编码；需要 google/t5-11b，路径由 `--model-path` 额外指定。生成物是 `--extra-t5` 的默认输入。 |
@@ -63,21 +63,26 @@
 
 ### 目录约定
 
-代码按**相对位置**解析外部资源，仓库必须放在 `<A>/<B>/<repo>`，其中：
+代码按**相对位置**找外部资源。把仓库放在 `<A>/<B>/<repo>`（`<A>`、`<B>` 是你自己起的目录名），
+配套资源的位置就唯一确定：
 
 ```
-<A>/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/     ← run_libero_plus_batch.py:119、train_libero_plus_sft190.py:22
-<A>/checkpoints/Cosmos-Predict2-2B-Video2World/       ← run_libero_smoke_test.sh 检查 model-480p-16fps.pt 与 tokenizer/tokenizer.pth
-<B>/LIBERO-plus/                                       ← 或设置 COSMOS_LIBERO_ROOT 指向别处
+<A>/
+├── checkpoints/                            同时是 SFT 的输出根目录，必须可写
+│   ├── Cosmos-Policy-LIBERO-Predict2-2B/   基础 policy：.pt + libero_dataset_statistics.json + libero_t5_embeddings.pkl
+│   ├── Cosmos-Predict2-2B-Video2World/     model-480p-16fps.pt + tokenizer/tokenizer.pth
+│   ├── t5-11b/                             只在生成 language T5 缓存时用
+│   └── huggingface-hub/                    自动生成，不用手工建
+└── <B>/
+    ├── <repo>/                             本仓库
+    └── LIBERO-plus/                        与仓库同级
 ```
 
-`<A>/checkpoints/` 同时是 SFT 的输出根目录（`IMAGINAIRE_OUTPUT_ROOT`，`train_libero_plus_sft190.py:227`），
-需要可写。`huggingface-hub/models--nvidia--Cosmos-Predict2-2B-Video2World` 不用手工建，
-`run_libero_smoke_test.sh:78-80` 会用软链接自行生成。checkpoint 路径可用 `--policy-dir` / `--ckpt`
-（batch）或 `SMOKE_POLICY_CKPT_PATH`（smoke）覆盖。
-
-`scripts/run_libero_smoke_test.sh` 另外用 `$REPO_ROOT/../../../checkpoints` 定位 checkpoint，
-`${COSMOS_LIBERO_ROOT:-../../LIBERO-plus}` 定位 LIBERO 包，两者都可用环境变量覆盖。
+| 路径 | 由谁决定 | 怎么覆盖 |
+|---|---|---|
+| `<A>/checkpoints/` | `Path(repo).parents[1]/checkpoints`（`run_libero_plus_batch.py:119`、`train_libero_plus_sft190.py:22`） | `--policy-dir`、`--ckpt` |
+| `<repo>` 与 `LIBERO-plus` 同级 | `run_libero_plus_batch.py:229`、`run_libero_smoke_test.sh:60` | `COSMOS_LIBERO_ROOT` |
+| `<A>/checkpoints/t5-11b/` | `get_t5_emb.py:26` | `COSMOS_T5_PATH` |
 
 ## 5. 环境准备
 
