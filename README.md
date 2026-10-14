@@ -158,7 +158,7 @@ python scripts/run_libero_plus_sft190_pipeline.py \
 | `init_state_index` | 0 |
 | `rng_mode` | `openwam` |
 
-轨迹长度定义为完整的 `actions`，不含前 30 步全 0的settling。
+轨迹长度定义为完整的 `actions`，不含前 30 步全 0 的settling。
 
 ## 8. 不在仓库里的东西
 
@@ -167,17 +167,16 @@ python scripts/run_libero_plus_sft190_pipeline.py \
 - **SFT 训练集**：`training/`。注意其中的 HDF5 用 `h5py.ExternalLink` **以绝对路径**指向原始修复产物，
   只拷贝 `training/<data_dir>` 不会得到独立可用的数据。
 - **导出权重**：`training/<job>_iter<N>_full.pt`
-- **未包含的模块**：`scripts_memory/`、`memory/` 重构树的其余部分、`scripts/libero_pro/` 的其余部分
-  （只保留了 `precompute_t5.py`）。
 - **包含但本流水线走不到的模块**：`memory_system/` 是**整个保留**的（116 个文件），
-  其中 `pointcloud_action/`（42 个）、`offline/`（11 个）、`execute/planner/`（14 个）属于另外的实验分支。
+  其中 `pointcloud_action/`（42 个）、`offline/`（11 个）、`execute/planner/`（14 个）属于libero-pro分支。
   它们唯一的静态入口是 `scripts/libero_pro/oracle_ready_eval.py`，而该模块只在
   `run_libero_eval.py:390` 的一个环境变量门（`COSMOS_SKILL_READY_MEMORY`）之后被导入，
   本流水线不设这个变量，因此这些代码不会执行。它们保留是为了不破坏 `memory_system` 包内的相互引用。
 
 ## 9. 已有的实验结果
 
-五个已训维度统一取 epoch 2，评测集为该维度全部基线失败 case，Language 与 Objects 未训练：
+五个已训维度统一取 epoch 2，评测集为该维度全部基线失败 case，Language 与 Objects 未训练。
+训练后的在全2519的测试还未测量。
 
 | 维度 | 训练轨迹 | 训练集（模型见过） | heldout（没见过） | 合计 |
 |---|---:|---|---|---|
