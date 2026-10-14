@@ -57,7 +57,7 @@
 | **LIBERO-plus assets** | 9.5 GB | 🤗 `Sylvest/LIBERO-plus` → 下载 `assets.zip`，解压到 `LIBERO-plus/libero/libero/` |
 | **基础 policy** | 3.8 GB | 🤗 `nvidia/Cosmos-Policy-LIBERO-Predict2-2B`，三个文件都在同一个 repo：`hf download nvidia/Cosmos-Policy-LIBERO-Predict2-2B --local-dir ../checkpoints/Cosmos-Policy-LIBERO-Predict2-2B` |
 | **language T5 增量缓存** | 375 MB（374 条） | language 分支所需的 text embedding。可以通过仓库内脚本生成：`python bin/make_libero_plus_t5_embeddings.py --suite libero_10 --all-base-tasks --device cuda --output experiments/cache/libero_plus_language_t5_libero10.pkl`。它取 LIBERO-plus `libero_10` 的 `Language Instructions` 类（383 个 task，去重后正好 374 条指令），用 `CosmosT5TextEncoder` 编码；需要 google/t5-11b，路径由 `--model-path` 额外指定。生成物是 `--extra-t5` 的默认输入。 |
-| **成功 demo（P95 参考）** | 3.6 GB | **可选**。P95 阈值已随 `experiments/tta/repair_libero_plus_435/success_task_p95/summary.json`（6 KB）提交，`select_libero_plus_success_p95.py` 直接读它，不需要这几个 demo。只有想重算 P95（换 base task 或换 demo 集）时才需要 🤗 `nvidia/LIBERO-Cosmos-Policy` 的 `success_only/libero_10_regen/`（`--demo-dir` 的默认值）。同目录的 `dataset_statistics*.json` 在 SFT 阶段被链接 |
+| **成功 demo（P95 参考）** | 3.6 GB | **可选**。P95 阈值已随 `experiments/tta/repair_libero_plus_435/success_task_p95/summary.json`（6 KB）提交，`select_libero_plus_success_p95.py` 直接读取。重算 P95（换 base task 或换 demo 集）时才需要 🤗 `nvidia/LIBERO-Cosmos-Policy` 的 `success_only/libero_10_regen/`（`--demo-dir` 的默认值）进行重算。同目录的 `dataset_statistics*.json` 在 SFT 阶段被链接 |
 | **运行数据** | — | 基线 rollout、修复产物、SFT 训练集，迁移时需要重跑 |
 | **cuRobo** | — | 未列入 `pyproject.toml` / `uv.lock`，需单独安装到环境 |
 
@@ -70,13 +70,20 @@
 ```
 
 对不上会报 `LIBERO-plus classification differs from the pinned task manifests`。
-本流水线使用的 LIBERO-plus 相对上游还有三处本地修改，需从配套分支获取：
+上游 `sylvestf/LIBERO-plus` 缺两处改动，本流水线依赖它们，已提交在配套 fork 上：
 
 ```
- M libero/libero/benchmark/__init__.py      (+90 行)
- M libero/libero/envs/env_wrapper.py        (+30 行)
- ?? libero/libero/bddl_files/libero_10/counterfactual_plusonly_*.bddl   (10 个)
+Constructor-Sun/LIBERO-plus @ 68e23ae
+  libero/libero/benchmark/__init__.py   +90  新增 get_ids_by_category()：
+                                             按 task_classification.json 的 category 分组，
+                                             七个维度的划分完全靠它
+  libero/libero/envs/env_wrapper.py     +30  wand(ImageMagick) 的 import 改为可选，
+                                             没装也能 import，只在 sensor-noise 的
+                                             motion blur 处报错
 ```
+
+注意 `index.json` 里记的 `reference_commit: 4976dc300` 是 `68e23ae` 的**父提交**，本身不含这两处改动。
+`reference_commit` 会参与 `run_config` 的 fingerprint 计算，**不要改它**，以新提交为准即可。
 
 ### 目录约定
 
