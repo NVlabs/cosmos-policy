@@ -20,7 +20,7 @@ sys.path.insert(0, str(REPO / 'scripts'))
 import run_libero_plus_batch as batch
 from run_lrscene5_sft_only_pipeline import verify_checkpoint, verify_merge
 
-PYTHON = '/data1/liu/miniconda3/envs/cosmospolicy/bin/python'
+PYTHON = sys.executable
 BASE = REPO.parents[1] / 'checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/Cosmos-Policy-LIBERO-Predict2-2B.pt'
 SELECTION = REPO / 'experiments/tta/repair_libero_plus_435/success_task_p95/selected_manifest.json'
 DATA = REPO / 'training/tta_sft_libero_plus_190_p95'

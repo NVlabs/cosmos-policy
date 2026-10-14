@@ -164,7 +164,7 @@ def main():
     os.environ['TTA_REPAIR_SFT_ROLLOUT_DIR'] = str(subset)
     os.environ.pop('TTA_REPAIR_SFT_DROP_TAIL',None)
     os.environ.pop('DETERMINISTIC',None)
-    os.environ.setdefault('IMAGINAIRE_OUTPUT_ROOT','/data1/liu/exp/counterfactual/checkpoints')
+    os.environ.setdefault('IMAGINAIRE_OUTPUT_ROOT', str(REPO.parents[1] / 'checkpoints'))
     with distributed_init(): distributed.init()
     manifest = prepare_subset(subset, REPO/'experiments/tta/mask_view/latest/manifest.json')
     spec = importlib.util.spec_from_file_location('archived_fixed_sft',

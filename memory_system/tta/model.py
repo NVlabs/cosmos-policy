@@ -35,7 +35,8 @@ def setup_offline_hf_cache() -> None:
     snapshot). Must run before anything imports huggingface_hub."""
     os.environ.setdefault("HF_HUB_OFFLINE", "1")
     revision = "f50c09f5d8ab133a90cac3f4886a6471e9ba3f18"
-    base = Path("/data1/liu/exp/counterfactual/checkpoints/Cosmos-Predict2-2B-Video2World")
+    repo_root = Path(__file__).resolve().parents[2]
+    base = repo_root.parents[1] / "checkpoints/Cosmos-Predict2-2B-Video2World"
     cache = Path("/tmp/tta_hf_cache/huggingface-hub")
     repo = cache / "models--nvidia--Cosmos-Predict2-2B-Video2World"
     snap = repo / "snapshots" / revision

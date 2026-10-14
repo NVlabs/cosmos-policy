@@ -13,8 +13,8 @@ import time
 import traceback
 
 REPO = Path(__file__).resolve().parents[1]
-PYTHON = '/data1/liu/miniconda3/envs/cosmospolicy/bin/python'
-BASE = Path('/data1/liu/exp/counterfactual/checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/Cosmos-Policy-LIBERO-Predict2-2B.pt')
+PYTHON = sys.executable
+BASE = REPO.parents[1] / 'checkpoints/Cosmos-Policy-LIBERO-Predict2-2B/Cosmos-Policy-LIBERO-Predict2-2B.pt'
 
 
 def collect_evaluation(work, meta, checkpoint, training_tags):

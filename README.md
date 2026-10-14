@@ -95,9 +95,11 @@ git clone --branch memory_guided_ttt --single-branch \
 三件事：**cosmospolicy 的 Python 依赖 + LIBERO-plus + cuRobo**。
 
 ```bash
-# ① cosmos-policy 的 Python 依赖（上游文档给的命令）
-uv run --extra cu128 --group libero --python 3.10 python
-#   cu128 / cu130 二选一（互斥）；libero / aloha / robocasa 三组互斥
+# ① 装 cosmos-policy 的依赖（Python >= 3.10）
+uv sync --extra cu128 --group libero
+#   cu128 / cu130 二选一（互斥）；libero / aloha / robocasa 三组互斥。
+#   之后激活该环境即可 —— 流水线用裸 `python` 起子进程（run_libero_smoke_test.sh:136），
+#   所以 `python` 必须指向它。
 
 # ② cuRobo —— 不在 pyproject.toml / uv.lock 里，只能单独装
 git clone https://github.com/NVlabs/curobo && cd curobo && pip install -e .
